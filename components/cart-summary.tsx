@@ -20,9 +20,11 @@ export function CartSummary() {
       body: JSON.stringify(cartDetails)
     })
     const data = await response.json()
+    console.log(`no error - ${data}`)
     const result = await redirectToCheckout(data.id)
     if (result?.error) {
       console.error(result)
+      console.log(`error - ${data}`)
     }
     setLoading(false)
   }

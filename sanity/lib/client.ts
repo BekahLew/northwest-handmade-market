@@ -7,5 +7,4 @@ export const client = createClient({
   dataset,
   projectId,
   useCdn,
-  token: "skQWrpYluvRFCDwmdqLOYpDF5injRxi0A6gGt3GO7URcIXLoKJPWPTd9rkzB7QppggEpvBbmBUR0iTF80bozrNSAaURpCbkWBqtx3nA9AeJqQuOXm53j6ZAC6CW9ZD3uhAr0Yi8rP0EDAV4T3PIsUJOPc2siAbHKl6HYXSjwNggTUofgPLtc",
 })

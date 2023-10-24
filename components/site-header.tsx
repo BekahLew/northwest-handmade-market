@@ -30,7 +30,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 w-full border-b bg-background">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between space-x-4 px-6 sm:space-x-0">
         <MainNav />
-        <form onSubmit={onSubmit} className="hidden items-center lg:inline-flex">
+        {/* <form onSubmit={onSubmit} className="hidden items-center lg:inline-flex">
           <Input
             id="search"
             name="search"
@@ -40,15 +40,15 @@ export function SiteHeader() {
             className="h-9 lg:w-[300px]"
             defaultValue={defaultSearchQuery}
           />
-        </form>
+        </form> */}
         <div className="flex items-center space-x-1">
-          <Link href="/cart">
+          {/* <Link href="/cart">
             <Button size="sm" variant="ghost">
               <ShoppingBag className="h-5 w-5" />
               <span className="ml-2 text-sm font-bold">{cartCount}</span>
               <span className="sr-only">Cart</span>
             </Button>
-          </Link>
+          </Link> */}
           <ThemeToggle />
           {process.env.NODE_ENV === 'development' && (
             <Link href='/studio'>

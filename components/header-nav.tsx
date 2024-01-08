@@ -116,22 +116,19 @@ export function HeaderNav() {
   if (pathname.startsWith("/studio")) return null
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [windowDimension, setWindowDimension] = useState(null)
+  const [width, setWidth] = useState<number>(window.innerWidth);
 
+  function handleWindowSizeChange() {
+      setWidth(window.innerWidth);
+  }
   useEffect(() => {
-    setWindowDimension(window.innerWidth)
-  }, [])
-
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimension(window.innerWidth)
-    }
-
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
-
-  const isMobile = windowDimension <= 640
+      window.addEventListener('resize', handleWindowSizeChange);
+      return () => {
+          window.removeEventListener('resize', handleWindowSizeChange);
+      }
+  }, []);
+  
+  const isMobile = width <= 640;
 
   return (
     <>

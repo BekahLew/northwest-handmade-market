@@ -48,7 +48,9 @@ const HeaderMenu = styled.div`
     .cart,
     .toggle-theme,
     .editor {
-      display: none;
+    //   display: none;
+    display: flex;
+    flex-direction: row;
     }
 
     &.active .social,
@@ -115,100 +117,112 @@ export function HeaderNav() {
 
   if (pathname.startsWith("/studio")) return null
 
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [width, setWidth] = useState<number>(window.innerWidth);
+//   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+//   const [width, setWidth] = useState<number>(window.innerWidth);
 
-  function handleWindowSizeChange() {
-      setWidth(window.innerWidth);
-  }
-  useEffect(() => {
-      window.addEventListener('resize', handleWindowSizeChange);
-      return () => {
-          window.removeEventListener('resize', handleWindowSizeChange);
-      }
-  }, []);
+//   function handleWindowSizeChange() {
+//       setWidth(window.innerWidth);
+//   }
+//   useEffect(() => {
+//       window.addEventListener('resize', handleWindowSizeChange);
+//       return () => {
+//           window.removeEventListener('resize', handleWindowSizeChange);
+//       }
+//   }, []);
   
-  const isMobile = width <= 640;
+//   const isMobile = width <= 640;
 
   return (
-    <>
-      {isMobile ? (
-        <HeaderMenu
-          className={
-            "flex items-center space-x-1 headerNav " +
-            (mobileMenuOpen ? "active" : "")
-          }
-        >
-          <div className="mobile-nav bg-white dark:bg-black">
-            <HeaderIcons>
-              {/* <Link href="/cart" className="cart">
-                <Button size="sm" variant="ghost">
-                  <ShoppingBag className="h-5 w-5" />
-                  <span className="ml-2 text-sm font-bold">{cartCount}</span>
-                  <span className="sr-only">Cart</span>
-                </Button>
-              </Link> */}
-              <ThemeToggle />
-              {process.env.NODE_ENV === "development" && (
-                <Link href="/studio" className="editor">
-                  <Button size="sm" variant="ghost">
-                    <Edit className="h-5 w-5" />
-                  </Button>
-                </Link>
-              )}
-              <Button size="sm" variant="ghost">
-                <Link
-                  href="https://www.facebook.com/northwesthandmademarket"
-                  className="social"
-                  target="_blank"
-                >
-                  <Facebook />
-                </Link>
-              </Button>
-            </HeaderIcons>
-            {/* <HeaderLinks>
-              <Link href="#">Find a Show</Link>
-              <Link href="#">About Us</Link>
-              <Link href="#">For Vendors</Link>
-            </HeaderLinks> */}
-          </div>
-          <Hamburger
-            type="button"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            <Line className="line dark:bg-white bg-black"></Line>
-            <Line className="line dark:bg-white bg-black"></Line>
-            <Line className="line dark:bg-white bg-black"></Line>
-          </Hamburger>
-        </HeaderMenu>
-      ) : (
-        <HeaderMenu>
-          {/* <Link href="/cart" className="cart">
-            <Button size="sm" variant="ghost">
-              <ShoppingBag className="h-5 w-5" />
-              <span className="ml-2 text-sm font-bold">{cartCount}</span>
-              <span className="sr-only">Cart</span>
-            </Button>
-          </Link> */}
-          <ThemeToggle />
-          {process.env.NODE_ENV === "development" && (
-            <Link href="/studio" className="editor">
-              <Button size="sm" variant="ghost">
-                <Edit className="h-5 w-5" />
-              </Button>
-            </Link>
-          )}
-          <Button size="sm" variant="ghost">
-            <Link
-              href="https://www.facebook.com/northwesthandmademarket"
-              className="social"
-              target="_blank"
-            >
-              <Facebook />
-            </Link>
-          </Button>
-        </HeaderMenu>
-      )}
-    </>
+    <HeaderMenu className="flex">
+    <ThemeToggle />
+    <Button size="sm" variant="ghost">
+      <Link
+        href="https://www.facebook.com/northwesthandmademarket"
+        className="social"
+        target="_blank"
+      >
+        <Facebook />
+      </Link>
+    </Button>
+  </HeaderMenu>
+    // <>
+    //   {isMobile ? (
+    //     <HeaderMenu
+    //       className={
+    //         "flex items-center space-x-1 headerNav " +
+    //         (mobileMenuOpen ? "active" : "")
+    //       }
+    //     >
+    //       <div className="mobile-nav bg-white dark:bg-black">
+    //         <HeaderIcons>
+    //           {/* <Link href="/cart" className="cart">
+    //             <Button size="sm" variant="ghost">
+    //               <ShoppingBag className="h-5 w-5" />
+    //               <span className="ml-2 text-sm font-bold">{cartCount}</span>
+    //               <span className="sr-only">Cart</span>
+    //             </Button>
+    //           </Link> */}
+    //           <ThemeToggle />
+    //           {process.env.NODE_ENV === "development" && (
+    //             <Link href="/studio" className="editor">
+    //               <Button size="sm" variant="ghost">
+    //                 <Edit className="h-5 w-5" />
+    //               </Button>
+    //             </Link>
+    //           )}
+    //           <Button size="sm" variant="ghost">
+    //             <Link
+    //               href="https://www.facebook.com/northwesthandmademarket"
+    //               className="social"
+    //               target="_blank"
+    //             >
+    //               <Facebook />
+    //             </Link>
+    //           </Button>
+    //         </HeaderIcons>
+    //         {/* <HeaderLinks>
+    //           <Link href="#">Find a Show</Link>
+    //           <Link href="#">About Us</Link>
+    //           <Link href="#">For Vendors</Link>
+    //         </HeaderLinks> */}
+    //       </div>
+    //       <Hamburger
+    //         type="button"
+    //         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+    //       >
+    //         <Line className="line dark:bg-white bg-black"></Line>
+    //         <Line className="line dark:bg-white bg-black"></Line>
+    //         <Line className="line dark:bg-white bg-black"></Line>
+    //       </Hamburger>
+    //     </HeaderMenu>
+    //   ) : (
+    //     <HeaderMenu>
+    //       {/* <Link href="/cart" className="cart">
+    //         <Button size="sm" variant="ghost">
+    //           <ShoppingBag className="h-5 w-5" />
+    //           <span className="ml-2 text-sm font-bold">{cartCount}</span>
+    //           <span className="sr-only">Cart</span>
+    //         </Button>
+    //       </Link> */}
+    //       <ThemeToggle />
+    //       {process.env.NODE_ENV === "development" && (
+    //         <Link href="/studio" className="editor">
+    //           <Button size="sm" variant="ghost">
+    //             <Edit className="h-5 w-5" />
+    //           </Button>
+    //         </Link>
+    //       )}
+    //       <Button size="sm" variant="ghost">
+    //         <Link
+    //           href="https://www.facebook.com/northwesthandmademarket"
+    //           className="social"
+    //           target="_blank"
+    //         >
+    //           <Facebook />
+    //         </Link>
+    //       </Button>
+    //     </HeaderMenu>
+    //   )}
+    // </>
   )
 }

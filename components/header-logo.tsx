@@ -18,7 +18,7 @@ export function HeaderLogo() {
             shimmer(45, 45)
           )}"`}
         />
-        <span className="inline-block text-xl font-bold">
+        <span className="inline-block text-xl font-bold leading-none">
           {siteConfig.name}
         </span>
       </Link>

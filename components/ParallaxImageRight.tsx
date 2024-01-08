@@ -4,7 +4,7 @@ import { shimmer, toBase64 } from "@/lib/image"
 import Rellax from "rellax";
 
 export function ParallaxImageRight() {
-    function handleImageLoad(e) {
+    function handleImageLoad(e: any) {
         const scrollingImageRight = document.querySelectorAll(".scrollingImageRight")[0];
         new Rellax(scrollingImageRight, {
           horizontal: true,
@@ -18,7 +18,7 @@ export function ParallaxImageRight() {
   return (
     <div className="justify-end absolute right-0 top-[42rem] hidden sm:block">
         <Image
-          onLoadingComplete={(e) => {
+          onLoadingComplete={(e: any) => {
             handleImageLoad(e);
           }}
           src="/images/flower-right.png"
@@ -26,6 +26,7 @@ export function ParallaxImageRight() {
           width={250}
           className="scrollingImageRight rellax"
           data-rellax-speed="2"
+          alt="rustic brown and orange flower bouquet"
         />
     </div>
   )

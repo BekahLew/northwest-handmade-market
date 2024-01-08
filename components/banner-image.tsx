@@ -4,10 +4,10 @@ import Image from "next/image"
 
 import { shimmer, toBase64 } from "@/lib/image"
 
-export function BannerImage({ src }) {
+export function BannerImage({ src, alt }: { src: string, alt:string }) {
   let banner = document.getElementById("banner-image")
-console.log(banner)
-  function fadeOutOnScroll(element) {
+  console.log(banner)
+  function fadeOutOnScroll(element: any) {
     if (!element) {
       return
     }
@@ -36,10 +36,10 @@ console.log(banner)
   return (
     <div className="mx-auto max-w-[1400px]" id="banner-image">
       <Image
+        alt={alt}
         src={src}
         height={300}
         width={1200}
-        className=""
         placeholder="blur"
         blurDataURL={`data:image/svg+xml;base64,${toBase64(
           shimmer(300, 1200)

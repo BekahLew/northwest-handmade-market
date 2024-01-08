@@ -8,6 +8,7 @@ export function Spacer() {
           height={40}
           width={250}
           className="spacer m-auto"
+          alt="delicate lines swirling on each side"
         />
   )
 }

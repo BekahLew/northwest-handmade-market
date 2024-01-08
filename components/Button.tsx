@@ -52,7 +52,7 @@ border: 1px solid #BC5738;
 }
 `
 
-export function CustomButton({ text, link }) {
+export function CustomButton({ text, link } : { text: string, link: string }) {
     return (
         <CTA href={ link }>{ text }</CTA>
     );

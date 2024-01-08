@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Forum&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,7 +39,8 @@
   }
 
   .dark {
-    --background: 224 71% 4%;
+    --background: 0, 0%, 21%;
+    /* --background: 224 71% 4%; */
     --foreground: 213 31% 91%;
 
     --muted: 223 47% 11%;
@@ -74,8 +77,30 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    font-family: "Arapey", system-ui, sans-serif;
+  }
+
+  p, li {
+    font-size: 1.4rem;
+  }
+
+  p {
+    line-height: 1.2;
+  }
+
+  li {
+    line-height: 1.8;
+    padding-left: 2px;
+  }
+
+  ul {
+    list-style: url("/images/logo-sm.png");
   }
 }

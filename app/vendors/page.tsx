@@ -53,7 +53,7 @@ export default async function Page({ searchParams}: Props) {
         <p className="mx-auto mt-4 max-w-3xl text-base">{siteConfig.description }</p>
       </div>
       <div>
-        <main className="mx-auto max-w-6xl px-6">
+        <main className="mx-auto px-6">
           <div className="flex items-center justify-between border-b border-gray-200 pb-4 pt-24 dark:border-gray-800">
             <h1 className="text-xl font-bold tracking-tight sm:text-2xl">
               {products.length} show{products.length === 1 ? "" : "s"} coming up!

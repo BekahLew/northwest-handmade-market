@@ -14,6 +14,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        burntOrange: 'var(--burntOrange, #B35436)',
+        lightBrown: 'var(--lightBrown, #c0ab9d)',
+        darkBrown: 'var(--darkBrown, #3c2c16)',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -55,6 +58,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        Forum: ['Forum', ...fontFamily.sans],
+        Arapey: ['Arapey', ...fontFamily.sans],
       },
       keyframes: {
         "accordion-down": {

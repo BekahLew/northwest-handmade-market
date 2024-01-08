@@ -5,7 +5,7 @@ import { siteConfig } from "@/config/site"
 export function SiteFooter() {
   return (
     <footer>
-      <div className="mx-auto max-w-[1400px] overflow-hidden px-6 py-12 sm:py-20 lg:px-8">
+      <div className="mx-auto max-w-[2000px] overflow-hidden px-6 py-12 sm:py-20 lg:px-8">
         {/* <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"

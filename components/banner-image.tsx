@@ -34,7 +34,7 @@ export function BannerImage({ src, alt }: { src: string, alt:string }) {
   window.addEventListener("scroll", scrollHandler)
 
   return (
-    <div className="mx-auto max-w-[1400px]" id="banner-image">
+    <div className="mx-auto max-w-[2000px]" id="banner-image">
       <Image
         alt={alt}
         src={src}

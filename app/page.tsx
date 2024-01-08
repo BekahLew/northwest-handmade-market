@@ -10,7 +10,7 @@ export default async function Page() {
   return (
     <>
       <BannerImage src="/images/homepage-hero.jpg" alt="image of canned jams with a rustic look at a sunny outdoor market" />
-      <div className="pl-[1rem] pr-[1rem] sm:pr-20 sm:pl-20 w-full mx-auto max-w-[1400px]">
+      <div className="pl-[1rem] pr-[1rem] sm:pr-20 sm:pl-20 w-full mx-auto max-w-[2000px]">
         <p className="font-Forum text-[2.5rem] sm:text-6xl pt-6 text-center sm:text-left">OUR GOAL</p>
         <h1 className="font-bold text-2xl sm:text-3xl pt-8 sm:pr-[8rem] pb-[2rem] sm:pb-[1rem]">The Northwest Handmade Market aims to provide amazing handmade goods as close to home as possible.</h1>
         <div className="sm:pt-6 sm:pr-[8rem] sm:pl-20 pb-[2rem] flex items-center flex-col">

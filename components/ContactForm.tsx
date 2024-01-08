@@ -1,6 +1,6 @@
 export function ContactForm() {
   return (
-    <div className="flex bg-lightBrown dark:bg-darkBrown pl-[1rem] pr-[1rem] sm:pt-[4rem] sm:pb-[4rem] sm:pr-[15rem] sm:pl-[15rem] w-full mx-auto max-w-[1400px]">
+    <div className="flex bg-lightBrown dark:bg-darkBrown pl-[1rem] pr-[1rem] sm:pt-[4rem] sm:pb-[4rem] sm:pr-[15rem] sm:pl-[15rem] w-full mx-auto max-w-[2000px]">
       {/* <form className="">
         <formGroup>
           <label htmlFor="name">Name</label>

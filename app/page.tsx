@@ -27,7 +27,7 @@ export default async function Page() {
 
             <ParallaxImageRight />
             <div className="flex items-center flex-col">
-              <h2 className="text-center md:text-left font-Forum text-[2.5rem] md:text-6xl pl-[0] md:pl-[8rem] pl-0 md:pt-[4rem] pt-[0]">{page.secondaryTitle}</h2>
+              <h2 className="text-center md:text-left font-Forum text-[2.5rem] md:text-6xl md:pl-[8rem] pl-0 md:pt-[4rem] pt-[0]">{page.secondaryTitle}</h2>
               <div className="2xl:pl-0 md:pl-[7rem] md:pb-[2rem] pt-[2rem] pl-[2rem]">
                 <PortableText value={page.secondaryText}/>
               </div>

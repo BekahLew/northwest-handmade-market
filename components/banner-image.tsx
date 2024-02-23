@@ -6,7 +6,6 @@ import { shimmer, toBase64 } from "@/lib/image"
 
 export function BannerImage({ src, alt }: { src: string, alt:string }) {
   let banner = document.getElementById("banner-image")
-  console.log(banner)
   function fadeOutOnScroll(element: any) {
     if (!element) {
       return
@@ -36,8 +35,8 @@ export function BannerImage({ src, alt }: { src: string, alt:string }) {
   return (
     <div className="mx-auto max-w-[2000px]" id="banner-image">
       <Image
-        alt={alt}
         src={src}
+        alt={alt}
         height={300}
         width={1200}
         placeholder="blur"

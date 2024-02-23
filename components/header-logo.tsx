@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site"
 
 export function HeaderLogo() {
   return (
-    <div className="flex gap-6 md:gap-10">
+    <div className="flex gap-6 md:gap-10 items-center">
       <Link href="/" className="flex items-center space-x-2">
       <Image
           src="/images/logo3.png"
@@ -18,7 +18,7 @@ export function HeaderLogo() {
             shimmer(45, 45)
           )}"`}
         />
-        <span className="inline-block text-xl font-bold leading-none">
+        <span className="inline-block text-xl font-bold leading-none hidden lg:block">
           {siteConfig.name}
         </span>
       </Link>

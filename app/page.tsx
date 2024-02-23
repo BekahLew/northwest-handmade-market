@@ -4,37 +4,41 @@ import { ParallaxImageBottomRight } from "@/components/ParallaxImageBottomRight"
 import { Spacer } from "@/components/spacer"
 import { CustomButton } from "@/components/Button"
 import { BannerImage } from "@/components/banner-image"
-import { ContactForm } from "@/components/ContactForm"
+import Contact from "@/components/contact"
+import { getPages } from "@/sanity/schemas/sanity-utils"
+import { PortableText } from "@portabletext/react"
 
 export default async function Page() {
+  const homepages = await getPages();
+
   return (
     <>
-      <BannerImage src="/images/homepage-hero.jpg" alt="image of canned jams with a rustic look at a sunny outdoor market" />
-      <div className="pl-[1rem] pr-[1rem] sm:pr-20 sm:pl-20 w-full mx-auto max-w-[2000px]">
-        <p className="font-Forum text-[2.5rem] sm:text-6xl pt-6 text-center sm:text-left">OUR GOAL</p>
-        <h1 className="font-bold text-2xl sm:text-3xl pt-8 sm:pr-[8rem] pb-[2rem] sm:pb-[1rem]">The Northwest Handmade Market aims to provide amazing handmade goods as close to home as possible.</h1>
-        <div className="sm:pt-6 sm:pr-[8rem] sm:pl-20 pb-[2rem] flex items-center flex-col">
-          <p>We&apos;ve hand-selected vendors from your neighborhood in order to provide you with the opportunity to directly support your community. Products at our shows include pottery, baked goods, quilts, macrame, jewelry, soaps, honey, candles, art, freeze-dried goodies and so much more!</p>
-          {/* <CustomButton link='#' text="EXPLORE VENDORS" /> */}
-          <div className="sm:pt-[4rem] pt-[2rem]"><Spacer /></div>
-        </div>
+      {homepages.map((page) => (        
+        <div key={page._id}>
+          <BannerImage src={page.heroImage} alt={page.heroImageAltText}/>
+          <div className="pl-[1rem] pr-[1rem] md:pr-20 md:pl-20 w-full mx-auto max-w-[2000px]">
+            <p className="font-Forum text-[2.5rem] md:text-6xl pt-6 text-center md:text-left">{page.mainTitle}</p>
+            <h1 className="font-bold text-2xl md:text-3xl pt-8 md:pr-[8rem] pb-[2rem] md:pb-[1rem]"><PortableText value={page.snippet}/></h1>
+            <div className="md:pt-6 md:pr-[8rem] md:pl-20 pb-[2rem] flex items-center flex-col">
+              <p><PortableText value={page.mainText}/></p>
+              {/* <CustomButton link={page.bottomButtonLink} text={page.bottomButtonText} /> */}
+              <div className="md:pt-[4rem] pt-[2rem]"><Spacer /></div>
+            </div>
 
-        <ParallaxImageRight />
-        <div className="flex items-center flex-col">
-          <h2 className="text-center sm:text-left font-Forum text-[2.5rem] sm:text-6xl sm:pt-[4rem] sm:pl-[8rem] pt-[0]">WHY BUY LOCAL?</h2>
-          <ul className="sm:pl-[7rem] sm:pb-[4rem] pt-[2rem] pl-[2rem]">
-            <li>You can gain a personal connection with the items you buy directly from the maker.</li>
-            <li>The community prospers when the money stays local and more jobs are created close to home.</li>
-            <li>Reduces the environmental cost of transportation and emissions from fossil fuels.</li>
-            <li>It reduces the amount of packaging that ends up in the landfill.</li>
-            <li>You&apos;re supporting a person and their dreams.</li>
-          </ul>
-          {/* <CustomButton link='#' text="FIND A SHOW" /> */}
+            <ParallaxImageRight />
+            <div className="flex items-center flex-col">
+              <h2 className="text-center md:text-left font-Forum text-[2.5rem] md:text-6xl pl-[0] md:pl-[8rem] md:pl-0 md:pt-[4rem] pt-[0]">{page.secondaryTitle}</h2>
+              <div className="2xl:pl-0 md:pl-[7rem] md:pb-[2rem] pt-[2rem] pl-[2rem]">
+                <PortableText value={page.secondaryText}/>
+              </div>
+              {/* <CustomButton link={page.buttonLink} text={page.buttonText} /> */}
+            </div>
+            <ParallaxImageLeft />
+            <ParallaxImageBottomRight />
+          </div>
+          <Contact />
         </div>
-        <ParallaxImageLeft />
-      </div>
-      {/* <ParallaxImageBottomRight /> */}
-      {/* <ContactForm /> */}
+      ))}
     </>
   )
 }

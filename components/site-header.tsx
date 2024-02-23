@@ -19,7 +19,7 @@ export function SiteHeader() {
   
   return (
     <header className="sticky top-0 z-40 w-full shadow-md bg-background">
-      <div className="max-w-[2000px] mx-auto flex h-16 items-center justify-between space-x-4 px-6 sm:space-x-0">
+      <div className="max-w-[2000px] mx-auto flex items-center justify-between space-x-4 px-6 sm:space-x-0 pt-[.5rem] pb-[.5rem]">
         <HeaderLogo />
         {/* <form onSubmit={onSubmit} className="hidden items-center lg:inline-flex">
           <Input

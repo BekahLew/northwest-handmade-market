@@ -16,14 +16,14 @@ export function ParallaxImageRight() {
       }
       
   return (
-    <div className="justify-end absolute right-0 top-[42rem] hidden sm:block">
+    <div className="justify-end absolute right-0 2xl:top-[60rem] top-[34rem] hidden md:block z-[1]">
         <Image
           onLoadingComplete={(e: any) => {
             handleImageLoad(e);
           }}
           src="/images/flower-right.png"
-          height={500}
-          width={250}
+          height={400}
+          width={220}
           className="scrollingImageRight rellax"
           data-rellax-speed="2"
           alt="rustic brown and orange flower bouquet"

@@ -1,6 +1,5 @@
 "use client"
 import Image from 'next/image'
-import { shimmer, toBase64 } from "@/lib/image"
 import Rellax from "rellax";
 
 export function ParallaxImageBottomRight() {
@@ -10,20 +9,20 @@ export function ParallaxImageBottomRight() {
           horizontal: true,
           callback: function (position) {
             // callback every position change
-            console.log(position);
+            // console.log(position);
           }
         });
       }
       
   return (
-    <div className="justify-end absolute right-0 bottom-[0] hidden sm:block">
+    <div className="justify-end absolute right-0 bottom-[10rem] hidden md:block z-[1]">
         <Image
           onLoadingComplete={(e: any) => {
             handleImageLoad(e);
           }}
           src="/images/flower-bottom-right.png"
-          height={500}
-          width={250}
+          height={250}
+          width={200}
           className="scrollingImageBottomRight rellax"
           data-rellax-speed="2"
           alt="rustic brown and orange flower bouquet"

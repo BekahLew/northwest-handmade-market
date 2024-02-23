@@ -15,7 +15,7 @@ module.exports = {
     extend: {
       colors: {
         burntOrange: 'var(--burntOrange, #B35436)',
-        lightBrown: 'var(--lightBrown, #c0ab9d)',
+        lightBrown: 'var(--lightBrown, #e6d4c1)',
         darkBrown: 'var(--darkBrown, #3c2c16)',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

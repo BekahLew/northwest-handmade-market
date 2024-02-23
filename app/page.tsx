@@ -18,7 +18,7 @@ export default async function Page() {
         <p className="font-Forum text-[2.5rem] md:text-6xl pt-6 text-center md:text-left">Our Goal</p>
         <h1 className="font-bold text-2xl md:text-3xl pt-8 md:pr-[8rem] pb-[2rem] md:pb-[1rem]">The Northwest Handmade Market aims to provide amazing handmade goods as close to home as possible.</h1>
         <div className="md:pt-6 md:pr-[8rem] md:pl-20 pb-[2rem] flex items-center flex-col">
-          <p>We've hand-selected vendors from your neighborhood in order to provide you with the opportunity to directly support your community. Products at our shows include pottery, baked goods, quilts, macrame, jewelry, soaps, honey, candles, art, freeze-dried goodies and so much more!</p>
+          <p>We&apos;ve hand-selected vendors from your neighborhood in order to provide you with the opportunity to directly support your community. Products at our shows include pottery, baked goods, quilts, macrame, jewelry, soaps, honey, candles, art, freeze-dried goodies and so much more!</p>
           {/* <CustomButton link={page.bottomButtonLink} text={page.bottomButtonText} /> */}
           <div className="md:pt-[4rem] pt-[2rem]"><Spacer /></div>
         </div>
@@ -31,7 +31,7 @@ export default async function Page() {
             <li>The community prospers when the money stays local and more jobs are created close to home.</li>
             <li>It decreases the environmental cost of transportation and emissions from fossil fuels.</li>
             <li>It reduces the amount of packaging that ends up in the landfill.</li>
-            <li>You're supporting a person and their dreams.</li>
+            <li>You&apos;re supporting a person and their dreams.</li>
           </ul>
           {/* <CustomButton link={page.buttonLink} text={page.buttonText} /> */}
         </div>

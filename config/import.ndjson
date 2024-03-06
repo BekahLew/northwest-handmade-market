@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "2q",
+    "_type": "product",
+    "title": "June 15th Show - Spot 5",
+    "description": "Spot 5 for the 06/15/2024 Show at the Edmonds Masonic Center. Please be sure to review the Vendor Policies and Sign the Vendor Agreement prior to purchasing.",
+    "price": 7000,
+    "boothSize": ["large"],
+    "showDate": ["may"],
+    "location": ["edmondsMasonic"],
+    "currency": "USD",
+    "image": {
+      "_type": "image",
+      "_sanityAsset": "image@file:///public/products/June-5.png"
+    }
+  }
+]

@@ -28,24 +28,24 @@ export function ProductGrid({ products }: Props) {
   }
 
   return (
-    <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-3 lg:col-span-3 lg:gap-x-8">
+    <div id="product-grid" className="grid grid-cols-2 gap-x-6 gap-y-5 lg:grid-cols-4 xl:grid-cols-6 lg:col-span-6 lg:gap-x-8">
       {products.map((product) => (
         <Link key={product._id} href={`/products/${product.slug}`} className="group text-sm">
           <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg border-2 border-gray-200 bg-gray-100 group-hover:opacity-75 dark:border-gray-800">
             <Image
               placeholder="blur"
               blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                shimmer(225, 280)
+                shimmer(100, 100)
                 )}"`}
               src={urlForImage(product.images[0]).url()}
               alt={product.name}
-              width={225}
-              height={280}
+              width={100}
+              height={100}
               className="h-full w-full object-cover object-center"
             />
           </div>
-          <h3 className="mt-4 font-medium">{product.name}</h3>
-          <p className="mt-2 font-medium">{formatCurrencyString({ 
+          <h3 className="mt-2 text-lg">{product.name}</h3>
+          <p className="font-medium">{formatCurrencyString({ 
             currency: product.currency, 
             value: product.price 
           })}</p>

@@ -16,7 +16,7 @@ export function ParallaxImageRight() {
       }
       
   return (
-    <div className="justify-end absolute right-0 2xl:top-[60rem] top-[34rem] hidden md:block z-[1]">
+    <div className="justify-end absolute right-0 top-[34rem] hidden md:block z-[1]">
         <Image
           onLoadingComplete={(e: any) => {
             handleImageLoad(e);

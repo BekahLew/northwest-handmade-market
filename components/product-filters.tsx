@@ -1,6 +1,7 @@
 "use client"
 
 import { useRouter, useSearchParams } from "next/navigation"
+import styled from "styled-components"
 
 import {
   Accordion,
@@ -12,40 +13,40 @@ import { Checkbox } from "@/components/ui/checkbox"
 
 const filters = [
   {
-    id: "category",
-    name: "Category",
+    id: "showDate",
+    name: "Show Date",
     options: [
-      { value: "bags", label: "Bags" },
-      { value: "belts", label: "Belts" },
-      { value: "gloves", label: "Gloves" },
-      { value: "scarves", label: "Scarves" },
-      { value: "wallets", label: "Wallets" },
+      { value: "may", label: "May 25th, 2024" },
+      { value: "june", label: "June 15th, 2024" },
+      { value: "july", label: "July 6th, 2024" },
+      { value: "august", label: "August 3rd, 2024" },
+      { value: "september", label: "September 7th, 2024" },
+      { value: "october", label: "October 5th, 2024" },
+      { value: "november", label: "November 2nd, 2024" },
     ],
   },
   {
-    id: "size",
-    name: "Size",
+    id: "boothSize",
+    name: "Booth Size",
     options: [
-      { value: "xs", label: "X-Small" },
-      { value: "s", label: "Small" },
-      { value: "m", label: "Medium" },
-      { value: "l", label: "Large" },
-      { value: "xl", label: "X-Large" },
-      { value: "one-size", label: "One Size" },
+      { value: "small", label: "6' x 5' booth" },
+      { value: "large", label: "6' x 8.5' booth" },
     ],
   },
   {
-    id: "color",
-    name: "Color",
+    id: "location",
+    name: "Location",
     options: [
-      { value: "black", label: "Black" },
-      { value: "blue", label: "Blue" },
-      { value: "brown", label: "Brown" },
-      { value: "green", label: "Green" },
-      { value: "yellow", label: "Yellow" },
+      { value: "edmondsMasonic", label: "Edmonds Masonic Center" },
     ],
   },
 ]
+
+const AccordionForm = styled.form`
+  div button {
+    justify-content: flex-start;
+  }
+`
 
 export function ProductFilters() {
   const router = useRouter()
@@ -54,15 +55,15 @@ export function ProductFilters() {
 
 
   return (
-    <form className="sticky top-20">
-      <h3 className="sr-only">Categories</h3>
+    <AccordionForm className="sticky top-20 sm:grid sm:grid-cols-3 lg:block">
+      <h3 className="sr-only">Show Dates</h3>
 
       {filters.map((section, i) => (
         <Accordion key={i} type="single" collapsible>
           <AccordionItem value={`item-${i}`}>
             <AccordionTrigger>
               <span>
-                Section{" "}
+                {section.name}
                 <span className="ml-1 text-xs font-extrabold uppercase text-gray-400">
                   {searchParams.get(section.id) ? `(${searchParams.get(section.id)})` : ""}
                 </span>
@@ -85,7 +86,8 @@ export function ProductFilters() {
                         checked
                           ? params.delete(section.id)
                           : params.set(section.id, option.value)
-                        router.replace(`/?${params.toString()}`)
+                        router.replace(`/purchase-booths?${params.toString()}`)
+                        setTimeout(() => { document.getElementById('product-grid')?.scrollIntoView({ behavior: 'smooth' })}, 500)
                       }}
                     />
                     <label
@@ -101,6 +103,6 @@ export function ProductFilters() {
           </AccordionItem>
         </Accordion>
       ))}
-    </form>
+    </AccordionForm>
   )
 }

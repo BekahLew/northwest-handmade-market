@@ -34,7 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Providers>
             <div className="relative flex min-h-screen flex-col overflow-hidden">
               <SiteHeader />
-              <div className="flex-1">{children}</div>
+              <div className="flex-1 pt-[4rem]">{children}</div>
               <SiteFooter />
             </div>
           </Providers>

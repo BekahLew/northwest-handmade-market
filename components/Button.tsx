@@ -1,5 +1,6 @@
 
 "use client"
+
 import styled from "styled-components"
 
 const CTA = styled.a`

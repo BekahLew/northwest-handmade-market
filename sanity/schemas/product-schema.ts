@@ -25,31 +25,26 @@ export const product = defineType({
             of: [{ type: "image" }]
         },
         {
-            name: "categories",
-            title: "Categories",
+            name: "showDate",
+            title: "Show Date",
             type: "array",
             of: [{ type: "string" }]
         },
         {
-            name: "sizes",
-            title: "Sizes",
+            name: "boothSize",
+            title: "Booth Size",
             type: "array",
             of: [{ type: "string" }]
         },
         {
-            name: "colors",
-            title: "Colors",
+            name: "location",
+            title: "Location",
             type: "array",
             of: [{ type: "string" }]
         },
         {
             name: "description",
             title: "Description",
-            type: "string"
-        },
-        {
-            name: "sku",
-            title: "SKU",
             type: "string"
         },
         {

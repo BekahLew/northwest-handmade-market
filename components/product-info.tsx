@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { formatCurrencyString, useShoppingCart } from "use-shopping-cart"
+import styled from "styled-components"
 
 import { SanityProduct } from "@/config/inventory"
 import { getSizeName } from "@/lib/utils"
@@ -14,8 +15,58 @@ interface Props {
   product: SanityProduct
 }
 
+const CTA = styled.button`
+position: relative;
+font-size: 1.6rem;
+margin-bottom: 1.3rem;
+margin-top: 1rem;
+padding: .2rem .4rem;
+border-radius: 2px;
+border: 1px solid #BC5738;
+
+&:hover {
+    transition: all .3s ease;
+    &::before {
+        top: 2.8rem;
+    }
+
+    &::after {
+        height: 45px;
+        transition: all .3s ease;
+    }
+}
+
+&::before {
+    content: '';
+    position: absolute;
+    top: 2.2rem;
+    width: 160px;
+    height: 33px;
+    background: url('/images/decoration.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s ease;
+}
+
+&::after {
+    content: '';
+    position: absolute;
+    background: #BC5738;
+    border-radius: 2px;
+    width: 101%;
+    height: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    transition: all .3s ease;
+}
+`
+
 export function ProductInfo({ product}: Props) {
-  const [selectedSize, setSelectedSize] = useState(product.sizes[0])
+  const [selectedSize, setSelectedSize] = useState(product.boothSize[0])
   const { addItem, incrementItem, cartDetails } = useShoppingCart()
   const { toast } = useToast()
   const isInCart = !!cartDetails?.[product._id]
@@ -24,7 +75,7 @@ export function ProductInfo({ product}: Props) {
     const item = {
       ...product,
       product_data: {
-        size: selectedSize
+        boothSize: selectedSize
       }
     }
     isInCart ? incrementItem(item._id) : addItem(item)
@@ -58,24 +109,24 @@ export function ProductInfo({ product}: Props) {
 
       <div className="mt-4">
         <p>
-          Size: <strong>{getSizeName(selectedSize)}</strong>
+          Booth Size: <strong>{selectedSize === "large" ? "6' x 8.5'" : "6' x 5'"}</strong>
         </p>
-        {product.sizes.map((size) => (
-          <Button onClick={() => setSelectedSize(size)} key={size} variant={selectedSize === size ? "default" : "outline"} className="mr-2 mt-4">
-            {getSizeName(size)}
+        {/* {product.boothSize.map((boothSize) => (
+          <Button onClick={() => setSelectedSize(boothSize)} key={boothSize} variant={selectedSize === boothSize ? "default" : "outline"} className="mr-2 mt-4">
+            {getSizeName(boothSize)}
           </Button>
-        ))}
+        ))} */}
       </div>
 
       <form className="mt-6">
-        <div className="mt-4 flex">
-          <Button
+        <div className="mt-4 flex justify-center">
+          <CTA
             type="button"
             onClick={addToCart}
-            className="w-full bg-violet-600 py-6 text-base font-medium text-white hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-500"
+            className="w-[60%]"
           >
-            Add to cart
-          </Button>
+            Add to Cart
+          </CTA>
         </div>
       </form>
     </div>

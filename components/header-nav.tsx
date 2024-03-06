@@ -124,10 +124,7 @@ const HeaderLinksDesktop = styled.div`
     font-size: 1.1rem;
     margin: .4rem;
     min-width: 100px;
-  }
-
-  a:hover {
-    font-weight: 800;
+    white-space: nowrap;
   }
 
   a::before {
@@ -224,14 +221,14 @@ export function HeaderNav() {
                 </Link>
               </Button>
             </HeaderIconsMobile>
-            {/* <HeaderLinksMobile>
+            <HeaderLinksMobile>
               <Link href="/" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Home</Link>
               <Link href="/events" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Find a Show</Link>
-              <Link href="/vendors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Our Vendors</Link>
+              <Link href="/our-vendors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Our Vendors</Link>
               <Link href="/raffle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Monthly Raffle</Link>
-              <Link href="/about-us" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>About Us</Link>
+              {/* <Link href="/about-us" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>About Us</Link> */}
               <Link href="/vendor-info" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>For Vendors</Link>
-            </HeaderLinksMobile> */}
+            </HeaderLinksMobile>
           </div>
           <Hamburger
             type="button"
@@ -244,14 +241,14 @@ export function HeaderNav() {
         </HeaderMenu>
       ) : (
         <HeaderMenu>
-          {/* <HeaderLinksDesktop>
+          <HeaderLinksDesktop>
             <Link href="/" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Home</Link>
             <Link href="/events" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Shows</Link>
-            <Link href="/vendors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Our Vendors</Link>
+            <Link href="/our-vendors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Our Vendors</Link>
             <Link href="/raffle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Raffle</Link>
-            <Link href="/about-us" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>About</Link>
+            {/* <Link href="/about-us" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>About</Link> */}
             <Link href="/vendor-info" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>For Vendors</Link>
-          </HeaderLinksDesktop> */}
+          </HeaderLinksDesktop>
           <HeaderIconsDesktop>
             <Link href="/cart" className="cart">
               <Button size="sm" variant="ghost">

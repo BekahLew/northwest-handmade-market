@@ -156,7 +156,7 @@ export function HeaderNav() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="relative h-[3rem] before:content-[''] top-0 left-[0] h-[3rem] w-[3rem] absolute"
+            className="relative h-[3rem] before:content-[''] top-0 left-[0] h-[3rem] w-[3rem]"
           >
             <span className={styles.line + " dark:bg-white bg-black relative flex w-[2rem] h-[2px] transition-all mb-[.6rem]"}></span>
             <span className={styles.line + " dark:bg-white bg-black relative flex w-[2rem] h-[2px] transition-all"}></span>

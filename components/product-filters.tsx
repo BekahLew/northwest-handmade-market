@@ -1,7 +1,6 @@
 "use client"
 
 import { useRouter, useSearchParams } from "next/navigation"
-import styled from "styled-components"
 
 import {
   Accordion,
@@ -42,12 +41,6 @@ const filters = [
   },
 ]
 
-const AccordionForm = styled.form`
-  div button {
-    justify-content: flex-start;
-  }
-`
-
 export function ProductFilters() {
   const router = useRouter()
   const searchParams = useSearchParams() as unknown as URLSearchParams
@@ -55,7 +48,7 @@ export function ProductFilters() {
 
 
   return (
-    <AccordionForm className="sticky top-20 sm:grid sm:grid-cols-3 lg:block">
+    <form className="sticky top-20 sm:grid sm:grid-cols-3 lg:block justify-start">
       <h3 className="sr-only">Show Dates</h3>
 
       {filters.map((section, i) => (
@@ -103,6 +96,6 @@ export function ProductFilters() {
           </AccordionItem>
         </Accordion>
       ))}
-    </AccordionForm>
+    </form>
   )
 }

@@ -2,13 +2,6 @@
 
 import { Facebook, CalendarHeart } from "lucide-react"
 import Link from "next/link"
-import styled from "styled-components"
-
-const Download = styled.a`
-  font-size: 1.3rem;
-  border: 1px solid #ff8f6d;
-  padding: .5rem;
-`
 
 export default async function Page() {
     return (
@@ -17,7 +10,7 @@ export default async function Page() {
           <div>
             <h1 className="text-[2rem]">Mark your Calendar!</h1>
             <p className="mb-[1.3rem]">The Northwest Handmade market is something you don&apos;t want to miss. Each show will feature artists from your town. Come by and sample some delicious food, find a gift or a special keepsake. You could also <Link href="/raffle" className="dark:text-[#ff8f6d] text-[#a12701]" target="_blank">win a $50 gift card</Link> to Crow at each show!</p>
-            <Download href="https://drive.google.com/file/d/1BzuDPLxsMRCRhYXMwX0uEygsmsIPFHwn/view?usp=drive_link" target="_blank"> Download Calendar File for All Shows</Download>
+            <a className="text-[1.3rem] border border-color-[#ff8f6d] p-[.5rem]" href="https://drive.google.com/file/d/1BzuDPLxsMRCRhYXMwX0uEygsmsIPFHwn/view?usp=drive_link" target="_blank"> Download Calendar File for All Shows</a>
           </div>
           <div>
             <h2 className="text-[2rem]">Directions</h2>

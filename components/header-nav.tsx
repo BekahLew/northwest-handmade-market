@@ -3,72 +3,11 @@ import Link from "next/link"
 // import { usePathname, useRouter } from "next/navigation"
 import { Edit, Facebook, ShoppingBag } from "lucide-react"
 import styled from "styled-components"
+import styles from 'styles/Header.module.css';
 import { useShoppingCart } from "use-shopping-cart"
 
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
-
-const HeaderMenu = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  &.active .line {
-    transition: all 0.3s ease;
-  }
-
-  &.active .line:first-child {
-    transform: rotate(45deg);
-    margin-bottom: 0;
-    top: 2px;
-  }
-
-  &.active .line:nth-child(2) {
-    opacity: 0;
-  }
-
-  &.active .line:last-child {
-    transform: rotate(-45deg);
-    margin-top: 0;
-    bottom: 2px;
-  }
-
-  .mobile-nav {
-    position: absolute;
-    top: 0;
-    right: -16rem;
-    padding-top: 5rem;
-  }
-
-  &.active .mobile-nav {
-    transition: all 0.5s ease;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-  }
-
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  @media (max-width: 640px) {
-    .social,
-    .cart,
-    .toggle-theme,
-    .editor {
-      display: flex;
-      flex-direction: row;
-    }
-
-    &.active .social,
-    &.active .cart,
-    &.active .toggle-theme,
-    &.active .editor {
-      display: flex;
-    }
-  }
-`
 
 const Hamburger = styled.button`
   position: relative;
@@ -80,22 +19,6 @@ const Hamburger = styled.button`
     height: 3rem;
     width: 3rem;
     position: absolute;
-  }
-`
-
-const Line = styled.span`
-  position: relative;
-  display: flex;
-  width: 2rem;
-  height: 2px;
-  transition: all 0.3s ease;
-
-  &:first-child {
-    margin-bottom: 0.6rem;
-  }
-
-  &:last-child {
-    margin-top: 0.6rem;
   }
 `
 
@@ -178,7 +101,7 @@ export function HeaderNav() {
   //   <Button size="sm" variant="ghost">
   //     <Link
   //       href="https://www.facebook.com/northwesthandmademarket"
-  //       className="social"
+  //       className={styles.social}
   //       target="_blank"
   //     >
   //       <Facebook />
@@ -187,15 +110,15 @@ export function HeaderNav() {
   // </HeaderMenu>
     <>
       {isMobile ? (
-        <HeaderMenu
+        <div
           className={
-            "flex items-center space-x-1 headerNav " +
-            (mobileMenuOpen ? "active" : "")
+            styles.menu + " flex items-center space-x-1 headerNav " +
+            (mobileMenuOpen ? styles.active : "")
           }
         >
-          <div className="mobile-nav bg-white dark:bg-black">
+          <div className={styles.mobile + " bg-white dark:bg-black"}>
             <HeaderIconsMobile>
-              <Link href="/cart" className="cart" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+              <Link href="/cart" className={styles.cart} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
                 <Button size="sm" variant="ghost">
                   <ShoppingBag className="h-5 w-5" />
                   <span className="ml-2 text-sm font-bold">{cartCount}</span>
@@ -204,7 +127,7 @@ export function HeaderNav() {
               </Link>
               <ThemeToggle />
               {/* {process.env.NODE_ENV === "development" && (
-                <Link href="/studio" className="editor">
+                <Link href="/studio" className={styles.editor}>
                   <Button size="sm" variant="ghost">
                     <Edit className="h-5 w-5" />
                   </Button>
@@ -213,7 +136,7 @@ export function HeaderNav() {
               <Button size="sm" variant="ghost">
                 <Link
                   href="https://www.facebook.com/northwesthandmademarket"
-                  className="social"
+                  className={styles.social}
                   target="_blank"
                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
@@ -230,17 +153,18 @@ export function HeaderNav() {
               <Link href="/vendor-info" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>For Vendors</Link>
             </HeaderLinksMobile>
           </div>
-          <Hamburger
+          <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="relative h-[3rem] before:content-[''] top-0 left-[0] h-[3rem] w-[3rem] absolute"
           >
-            <Line className="line dark:bg-white bg-black"></Line>
-            <Line className="line dark:bg-white bg-black"></Line>
-            <Line className="line dark:bg-white bg-black"></Line>
-          </Hamburger>
-        </HeaderMenu>
+            <span className={styles.line + " dark:bg-white bg-black relative flex w-[2rem] h-[2px] transition-all mb-[.6rem]"}></span>
+            <span className={styles.line + " dark:bg-white bg-black relative flex w-[2rem] h-[2px] transition-all"}></span>
+            <span className={styles.line + " dark:bg-white bg-black relative flex w-[2rem] h-[2px] transition-all mt-[.6rem]"}></span>
+          </button>
+        </div>
       ) : (
-        <HeaderMenu>
+        <div>
           <HeaderLinksDesktop>
             <Link href="/" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Home</Link>
             <Link href="/events" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Shows</Link>
@@ -250,7 +174,7 @@ export function HeaderNav() {
             <Link href="/vendor-info" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>For Vendors</Link>
           </HeaderLinksDesktop>
           <HeaderIconsDesktop>
-            <Link href="/cart" className="cart">
+            <Link href="/cart" className={styles.cart}>
               <Button size="sm" variant="ghost">
                 <ShoppingBag className="h-5 w-5" />
                 <span className="ml-2 text-sm font-bold">{cartCount}</span>
@@ -259,7 +183,7 @@ export function HeaderNav() {
             </Link>
             <ThemeToggle />
             {/* {process.env.NODE_ENV === "development" && (
-              <Link href="/studio" className="editor">
+              <Link href="/studio" className={styles.editor}>
                 <Button size="sm" variant="ghost">
                   <Edit className="h-5 w-5" />
                 </Button>
@@ -268,14 +192,14 @@ export function HeaderNav() {
             <Button size="sm" variant="ghost">
               <Link
                 href="https://www.facebook.com/northwesthandmademarket"
-                className="social"
+                className={styles.social}
                 target="_blank"
               >
                 <Facebook />
               </Link>
             </Button>
           </HeaderIconsDesktop>
-        </HeaderMenu>
+        </div>
       )}
     </>
   )

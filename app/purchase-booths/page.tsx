@@ -79,11 +79,11 @@ export default async function Page() {
             <h2 id="products-heading" className="sr-only">
               Products
             </h2>
-            <div className={cn("grid grid-cols-1 gap-x-8 gap-y-10", products.length > 0 ? 
+            {/* <div className={cn("grid grid-cols-1 gap-x-8 gap-y-10", products.length > 0 ? 
             "lg:grid-cols-7" : "lg:grid-cols-[1fr_3fr]")}>
-              {/* <ProductFilters /> */}
-              {/* <ProductGrid products={products} /> */}
-            </div>
+              <ProductFilters />
+              <ProductGrid products={products} />
+            </div> */}
           </section>
         </main>
       </div>

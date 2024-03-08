@@ -1,25 +1,25 @@
-// import { client } from "@/sanity/lib/client"
-// import { groq } from "next-sanity"
+import { client } from "@/sanity/lib/client"
+import { groq } from "next-sanity"
 
-// import { SanityProduct } from "@/config/inventory"
-// import { siteConfig } from "@/config/site"
-// // import { seedSanityData } from "@/lib/seed"
-// import { cn } from "@/lib/utils"
-// import { ProductFilters } from "@/components/product-filters"
-// import { ProductGrid } from "@/components/product-grid"
-// import { ProductSort } from "@/components/product-sort"
-// import { ZoomImage } from "@/components/image-zoom"
+import { SanityProduct } from "@/config/inventory"
+import { siteConfig } from "@/config/site"
+// import { seedSanityData } from "@/lib/seed"
+import { cn } from "@/lib/utils"
+import { ProductFilters } from "@/components/product-filters"
+import { ProductGrid } from "@/components/product-grid"
+import { ProductSort } from "@/components/product-sort"
+import { ZoomImage } from "@/components/image-zoom"
 
-// interface Props {
-//   searchParams: {
-//     date?: string
-//     price?: string
-//     location?: string
-//     showDate?: string
-//     boothSize?: string
-//     search?: string
-//   }
-// }
+interface Props {
+  searchParams: {
+    date?: string
+    price?: string
+    location?: string
+    showDate?: string
+    boothSize?: string
+    search?: string
+  }
+}
 
 // export default async function Page({ searchParams }: Props) {
 //   const {date = "desc", price, location, showDate, boothSize, search} = searchParams

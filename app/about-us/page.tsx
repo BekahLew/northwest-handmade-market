@@ -2,7 +2,7 @@ export default async function Page() {
   
     return (
       <>
-        About Us
+        About Us - test
       </>
     )
   }

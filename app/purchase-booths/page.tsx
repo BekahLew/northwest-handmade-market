@@ -105,9 +105,25 @@ export default async function Page({ searchParams }: Props) {
   const searchFilter = search ? `&& name match "${search}"` : ""
   const filter = `*[${productFilter}${colorFilter}${showDateFilter}${boothSizeFilter}${searchFilter}]`
 
+
+  const products = await client.fetch<SanityProduct[]>(
+    groq`${filter} ${order} {
+      _id,
+      _createdAt,
+      name,
+      images,
+      currency,
+      price,
+      description,
+      boothSize,
+      showDate,
+      locations,
+      "slug": slug.current
+  }`)
+
   return (
     <>
-      Purchase
+      Purchase test
     </>
   )
 }

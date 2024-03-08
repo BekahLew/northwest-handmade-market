@@ -92,11 +92,22 @@ interface Props {
 // }
 
 
-export default async function Page() {
-  
+export default async function Page({ searchParams }: Props) {
+  const {date = "desc", price, location, showDate, boothSize, search} = searchParams
+  const priceOrder = price ? `| order(price ${price})` : ""
+  const dateOrder = price ? `| order(_createdAt ${price})` : ""
+  const order = `${priceOrder}${dateOrder}`
+
+  const productFilter = `_type == "product"`
+  const colorFilter = location ? `&& "${location}" in location` : ""
+  const showDateFilter = showDate ? `&& "${showDate}" in showDate` : ""
+  const boothSizeFilter = boothSize ? `&& "${boothSize}" in boothSize` : ""
+  const searchFilter = search ? `&& name match "${search}"` : ""
+  const filter = `*[${productFilter}${colorFilter}${showDateFilter}${boothSizeFilter}${searchFilter}]`
+
   return (
     <>
-      Purchase page
+      Purchase
     </>
   )
 }

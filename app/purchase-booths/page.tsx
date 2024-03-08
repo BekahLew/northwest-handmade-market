@@ -107,7 +107,7 @@ export default async function Page({ searchParams }: Props) {
 
 
   const products = await client.fetch<SanityProduct[]>(
-    groq`${filter} ${order} {
+    groq`${order} {
       _id,
       _createdAt,
       name,
@@ -123,7 +123,7 @@ export default async function Page({ searchParams }: Props) {
 
   return (
     <>
-      Purchase test
+      Purchase tester
     </>
   )
 }

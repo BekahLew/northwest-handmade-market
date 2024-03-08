@@ -60,12 +60,12 @@ export default async function Page({ searchParams }: Props) {
         <div className="flex justify-evenly gap-2">
           <div>
             <span>Numbered Map</span>
-            <ZoomImage src="/images/vendor-map-numbers.png" alt="graphical image of vendor spots and associated numbers" />
+            {/* <ZoomImage src="/images/vendor-map-numbers.png" alt="graphical image of vendor spots and associated numbers" /> */}
           </div>
           
           <div>
             <span>Booth Measurements</span>
-            <ZoomImage src="/images/vendor-map-sizes.png" alt="graphical image of vendor spots and associated measurements" />
+            {/* <ZoomImage src="/images/vendor-map-sizes.png" alt="graphical image of vendor spots and associated measurements" /> */}
           </div>
         </div>
       </div>

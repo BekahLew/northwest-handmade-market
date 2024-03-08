@@ -10,32 +10,32 @@ import { ProductGrid } from "@/components/product-grid"
 // import { ProductSort } from "@/components/product-sort"
 import { ZoomImage } from "@/components/image-zoom"
 
-interface Props {
-  searchParams: {
-    date?: string
-    price?: string
-    location?: string
-    showDate?: string
-    boothSize?: string
-    search?: string
-  }
-}
+// interface Props {
+//   searchParams: {
+//     date?: string
+//     price?: string
+//     location?: string
+//     showDate?: string
+//     boothSize?: string
+//     search?: string
+//   }
+// }
 
-export default async function Page({ searchParams }: Props) {
-  const {date = "desc", price, location, showDate, boothSize, search} = searchParams
-  const priceOrder = price ? `| order(price ${price})` : ""
-  const dateOrder = price ? `| order(_createdAt ${price})` : ""
-  const order = `${priceOrder}${dateOrder}`
+export default async function Page() {
+  // const {date = "desc", price, location, showDate, boothSize, search} = searchParams
+  // const priceOrder = price ? `| order(price ${price})` : ""
+  // const dateOrder = price ? `| order(_createdAt ${price})` : ""
+  // const order = `${priceOrder}${dateOrder}`
 
-  const productFilter = `_type == "product"`
-  const colorFilter = location ? `&& "${location}" in location` : ""
-  const showDateFilter = showDate ? `&& "${showDate}" in showDate` : ""
-  const boothSizeFilter = boothSize ? `&& "${boothSize}" in boothSize` : ""
-  const searchFilter = search ? `&& name match "${search}"` : ""
-  const filter = `*[${productFilter}${colorFilter}${showDateFilter}${boothSizeFilter}${searchFilter}]`
+  // const productFilter = `_type == "product"`
+  // const colorFilter = location ? `&& "${location}" in location` : ""
+  // const showDateFilter = showDate ? `&& "${showDate}" in showDate` : ""
+  // const boothSizeFilter = boothSize ? `&& "${boothSize}" in boothSize` : ""
+  // const searchFilter = search ? `&& name match "${search}"` : ""
+  // const filter = `*[${productFilter}${colorFilter}${showDateFilter}${boothSizeFilter}${searchFilter}]`
 
   const products = await client.fetch<SanityProduct[]>(
-    groq`${filter} ${order} {
+    groq` {
       _id,
       _createdAt,
       name,

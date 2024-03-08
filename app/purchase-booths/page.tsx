@@ -52,7 +52,7 @@ export default async function Page({ searchParams }: Props) {
   return (
     <div className="max-w-[2000px] mx-auto">
       <div className="px-4 pt-8 text-center grid grid-cols-1 md:grid-cols-2 gap-2 max-w-[1000px] mx-auto">
-        {/* <div className="max-w-[400px] mx-auto mt-[2rem]">
+        <div className="max-w-[400px] mx-auto mt-[2rem]">
           <h1 className="text-[2rem]">Purchase Vendor Booths</h1>
           <p>Click on the maps to view the vendor booth layout. The 6&apos; x 8.5&apos; booths do not include the 2 foot benches behind some of them.</p>
         </div>
@@ -68,7 +68,7 @@ export default async function Page({ searchParams }: Props) {
             <ZoomImage src="/images/vendor-map-sizes.png" alt="graphical image of vendor spots and associated measurements" />
           </div>
         </div>
-      </div> */}
+      </div>
       <div>
         <main className="mx-auto px-6 pt-[3rem]">
           {/* <div className="flex items-center justify-between flex-col sm:flex-row border-b border-gray-200 pb-4 pt-[2rem] dark:border-gray-800">
@@ -81,7 +81,7 @@ export default async function Page({ searchParams }: Props) {
             </h2>
             <div className={cn("grid grid-cols-1 gap-x-8 gap-y-10", products.length > 0 ? 
             "lg:grid-cols-7" : "lg:grid-cols-[1fr_3fr]")}>
-              <ProductFilters />
+              {/* <ProductFilters /> */}
               <ProductGrid products={products} />
             </div>
           </section>

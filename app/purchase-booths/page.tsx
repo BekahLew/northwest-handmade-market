@@ -54,7 +54,7 @@ export default async function Page({ searchParams }: Props) {
       <div className="px-4 pt-8 text-center grid grid-cols-1 md:grid-cols-2 gap-2 max-w-[1000px] mx-auto">
         <div className="max-w-[400px] mx-auto mt-[2rem]">
           <h1 className="text-[2rem]">Purchase Vendor Booths</h1>
-          <p>Click on the maps to view the vendor booth layout. The 6&apos; x 8.5&apos; booths do not include the 2 foot benches behind some of them.</p>
+          <p>Click on the maps to view the vendor booth layout. Some of the 6&apos; x 8.5&apos; booths will also have 2 foot benches behind them (see map).</p>
         </div>
         
         <div className="flex justify-evenly gap-2">

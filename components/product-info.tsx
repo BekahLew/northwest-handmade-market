@@ -30,7 +30,7 @@ export function ProductInfo({ product}: Props) {
     }
     isInCart ? incrementItem(item._id) : addItem(item)
     toast({
-      title: `${item.name} (${getSizeName(selectedSize)})`,
+      title: `${item.name}`,
       description: "Product added to cart",
       action: (
         <Link href="/cart">
@@ -50,11 +50,6 @@ export function ProductInfo({ product}: Props) {
       <div className="mt-3">
         <h2 className="sr-only">Product information</h2>
         <p className="text-3xl tracking-tight">{formatCurrencyString({ value: product.price, currency: product.currency })}</p>
-      </div>
-
-      <div className="mt-6">
-        <h3 className="sr-only">Description</h3>
-        <div className="space-y-6 text-base">{product.description}</div>
       </div>
 
       <div className="mt-4">

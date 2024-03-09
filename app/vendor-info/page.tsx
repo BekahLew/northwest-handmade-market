@@ -11,20 +11,20 @@ export default async function Page() {
       </p>
       <div className="flex flex-col">
           <div className="flex justify-between items-center border border-[#bc5738]">
-            <p className="p-[.5rem] min-w-[10%] text-center">Step 1</p>
-            <span className="min-w-[90%] text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Read through the vendor guidelines below to see if Northwest Handmade Market is a good fit for you.</span>
+            <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 1</p>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Read through the vendor guidelines below to see if Northwest Handmade Market is a good fit for you.</span>
           </div>
           <div className="flex justify-between items-center border border-[#bc5738] mt-[-1px] mb-[-1px]">
-            <p className="p-[.5rem] min-w-[10%] text-center">Step 2</p>
-            <span className="min-w-[90%] text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Download the vendor contract. Review, initial and sign it and send it back to northwesthandmademarket@gmail.com. It doesn&apos;t need to be scanned if you don&apos;t have a scanner. A photo works just fine.</span>
+            <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 2</p>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Download the vendor contract. Review, initial and sign it and send it back to <a href="mailto:northwesthandmademarket@gmail.com">northwesthandmademarket@gmail.com</a>. It doesn&apos;t need to be scanned if you don&apos;t have a scanner. A photo works just fine.</span>
           </div>
           <div className="flex justify-between items-center border border-[#bc5738]">
-            <p className="p-[.5rem] min-w-[10%] text-center">Step 3</p>
-            <span className="min-w-[90%] text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">You&apos;ll receive the go-ahead from either Becky or Zack letting you know you&apos;ve been approved. We don&apos;t charge for applications and this is not a juried show. We just want to make sure you will be a good fit for the market we are trying to create.</span>
+            <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 3</p>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">You&apos;ll receive the go-ahead from either Becky or Zack letting you know you&apos;ve been approved. We don&apos;t charge for applications and this is not a juried show. We just want to make sure you will be a good fit for the market we are trying to create.</span>
           </div>
           <div className="flex justify-between items-center border border-[#bc5738]">
-            <p className="p-[.5rem] min-w-[10%] text-center">Step 4</p>
-            <span className="min-w-[90%] text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">After purchasing a space we will ask you to send photos that will help represent your business on our website.</span>
+            <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 4</p>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">After purchasing a space we will ask you to send photos that will help represent your business on our website.</span>
           </div>
         </div>
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>

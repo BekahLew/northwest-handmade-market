@@ -41,12 +41,12 @@ export function CartItems() {
             <Image
               src={urlForImage(product.images[0]).url()}
               alt={product.name}
-              width={200}
-              height={200}
-              className="h-24 w-24 rounded-md border-2 border-gray-200 object-cover object-center dark:border-gray-800 sm:h-48 sm:w-48"
+              width={100}
+              height={100}
+              className="h-24 w-24 rounded-md border-2 border-gray-200 object-cover object-center dark:border-gray-800 sm:h-[100px] sm:w-[100px]"
               placeholder="blur"
               blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                shimmer(200, 200)
+                shimmer(100, 100)
               )}"`}
             />
           </div>
@@ -55,17 +55,13 @@ export function CartItems() {
             <div className="relative justify-between pr-9 sm:flex sm:gap-x-6 sm:pr-0">
               <div>
                 <div className="flex justify-between">
-                  <h3 className="text-sm">
+                  <h3 className="text-xl">
                     <Link href={`/products/${product.slug}`} className="font-medium">
                       {product.name}
                     </Link>
                   </h3>
                 </div>
-                <p className="mt-1 text-sm font-medium">{formatCurrencyString({ value: product.price, currency: product.currency })}</p>
-                <p className="mt-1 text-sm font-medium">
-                  Size: {/* @ts-ignore */}
-                  <strong>{getSizeName(product.product_data?.size)}</strong>
-                </p>
+                <p className="mt-1 text-xl font-medium">{formatCurrencyString({ value: product.price, currency: product.currency })}</p>
               </div>
 
               <div className="mt-4 sm:mt-0 sm:pr-9">
@@ -95,11 +91,6 @@ export function CartItems() {
                 </div>
               </div>
             </div>
-
-            <p className="mt-4 flex space-x-2 text-sm">
-              <Clock className="h-5 w-5 shrink-0" aria-hidden="true" />
-              <span>Ships in 1 week</span>
-            </p>
           </div>
         </li>
       ))}

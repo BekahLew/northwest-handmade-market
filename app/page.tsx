@@ -27,14 +27,14 @@ export default async function Page() {
         <ParallaxImageRight />
         <div className="flex items-center flex-col">
           <h2 className="text-center md:text-left font-Forum text-[2.5rem] md:text-6xl md:pt-[4rem] pt-[0]">Why Buy Local?</h2>
-          <ul className="max-w-[95%] md:max-w-[65%] md:pb-[2rem] pt-[2rem]">
+          <ul className="max-w-[95%] md:max-w-[65%] md:pb-[2rem] pt-[2rem] pl-[2rem]">
             <li className="mb-[1rem] leading-tight">You can gain a personal connection with the items you buy directly from the maker.</li>
             <li className="mb-[1rem] leading-tight">The community prospers when the money stays local and more jobs are created close to home.</li>
             <li className="mb-[1rem] leading-tight">It decreases the environmental cost of transportation and emissions from fossil fuels.</li>
             <li className="mb-[1rem] leading-tight">It reduces the amount of packaging that ends up in the landfill.</li>
             <li className="mb-[1rem] leading-tight">You&apos;re supporting a person and their dreams.</li>
           </ul>
-          <CustomButton link="/vendors" text="Explore Vendors"  />
+          <CustomButton link="/our-vendors" text="Explore Vendors"  />
         </div>
         <ParallaxImageLeft />
         <ParallaxImageBottomRight />

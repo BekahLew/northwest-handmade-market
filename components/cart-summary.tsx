@@ -22,10 +22,28 @@ export function CartSummary() {
     console.log(`no error - ${data}`)
     const result = await redirectToCheckout(data.id)
     if (result?.error) {
+      console.log("TESTDHDJDFJ");
       console.error(result)
       console.log(`error - ${data}`)
     }
     setLoading(false)
+
+
+    //     let responseClone: Response; // 1
+    // fetch('/api/checkout')
+    // .then(function (response) {
+    //     responseClone = response.clone(); // 2
+    //     return response.json();
+    // })
+    // .then(function (data) {
+    //     // Do something with data
+    // }, function (rejectionReason) { // 3
+    //     console.log('Error parsing JSON from response:', rejectionReason, responseClone); // 4
+    //     responseClone.text() // 5
+    //     .then(function (bodyText) {
+    //         console.log('Received the following instead of valid JSON:', bodyText); // 6
+    //     });
+    // });
   }
 
   return (

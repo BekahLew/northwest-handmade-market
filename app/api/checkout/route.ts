@@ -14,14 +14,6 @@ export async function POST(request: Request) {
         mode: "payment",
         payment_method_types: ['card'],
         line_items: lineItems,
-        shipping_address_collection: {
-            allowed_countries: ['US']
-        },
-        shipping_options: [
-            {
-                shipping_rate: "shr_1O2nZOKETk7l5ie38fitcPC1"
-            }
-        ],
         billing_address_collection: "auto",
         success_url: `${origin}/success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${origin}/cart`

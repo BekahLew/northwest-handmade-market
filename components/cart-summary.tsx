@@ -10,8 +10,7 @@ export function CartSummary() {
   const { formattedTotalPrice, totalPrice, cartDetails, cartCount, redirectToCheckout } = useShoppingCart()
   const [isLoading, setLoading] = useState(false)
   const isDisabled = isLoading || cartCount! === 0
-  const shippingAmount = cartCount! > 0 ? 500 : 0
-  const totalAmount = totalPrice! + shippingAmount 
+  const totalAmount = totalPrice! 
 
   async function onCheckout() {
     setLoading(true)
@@ -42,12 +41,6 @@ export function CartSummary() {
         <div className="flex items-center justify-between">
           <dt className="text-sm">Subtotal</dt>
           <dd className="text-sm font-medium">{formattedTotalPrice}</dd>
-        </div>
-        <div className="flex items-center justify-between border-t border-gray-200 pt-4 dark:border-gray-600">
-          <dt className="flex items-center text-sm">
-            <span>Shipping Estimate</span>
-          </dt>
-          <dd className="text-sm font-medium">{formatCurrencyString({ value: shippingAmount, currency: "USD" })}</dd>
         </div>
         <div className="flex items-center justify-between border-t border-gray-200 pt-4 dark:border-gray-600">
           <dt className="text-base font-medium">Order total</dt>

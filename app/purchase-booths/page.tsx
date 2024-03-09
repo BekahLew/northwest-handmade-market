@@ -77,7 +77,7 @@ export default async function Page({ searchParams }: Props) {
 
           <section aria-labelledby="products-heading" className="pb-24">
             <h2 id="products-heading" className="sr-only">
-              Products
+              Booth Space
             </h2>
             <div className={cn("grid grid-cols-1 gap-x-8 gap-y-10", products.length > 0 ? 
             "lg:grid-cols-7" : "lg:grid-cols-[1fr_3fr]")}>

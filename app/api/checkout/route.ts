@@ -18,7 +18,7 @@ export async function POST(request: Request) {
         success_url: `${origin}/success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${origin}/cart`
     })
-    console.log(cartDetails);
+    console.log(lineItems);
     
     return NextResponse.json(session)
 }

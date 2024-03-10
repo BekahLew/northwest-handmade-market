@@ -22,13 +22,10 @@ export default async function Page({ searchParams }: Props) {
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Link
             href="/"
-            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="rounded-md bg-orange-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Go back home
           </Link>
-          <a href="#" className="text-sm font-semibold">
-            Contact support <span aria-hidden="true">&rarr;</span>
-          </a>
         </div>
       </div>
     </main>

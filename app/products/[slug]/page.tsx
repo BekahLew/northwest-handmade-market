@@ -24,7 +24,7 @@ export default async function Page({ params }: Props) {
     description,
     boothSize,
     showDate,
-    locations,
+    location,
     "slug": slug.current
   }`)
   return (

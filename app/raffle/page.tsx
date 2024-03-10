@@ -5,7 +5,7 @@ export default async function Page() {
       <div className="pr-[1rem] pl-[1rem] sm:pr-20 sm:pl-20 max-w-[1000px] mx-auto mt-[2rem]">
         <h1 className="text-center text-[2.5rem] leading-9 mb-[1rem]">Northwest Handmade Market Raffle</h1>
         <h2 className="text-[2rem]">Ways to enter:</h2>
-        <div className="flex flex-col">
+        <div className="flex flex-col max-w-[1000px] mx-auto">
           <div className="flex justify-between items-center border border-[#bc5738]">
             <p className="p-[.5rem] min-w-[78%] border-r border-[#bc5738]">RSVP (interested or going) to our facebook event for the date of the show</p>
             <span className="min-w-[22%] text-[1.5rem] text-center leading-6">1 entry</span>

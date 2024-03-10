@@ -45,7 +45,7 @@ export default async function Page({ searchParams }: Props) {
       description,
       boothSize,
       showDate,
-      locations,
+      location,
       "slug": slug.current
   }`)
   

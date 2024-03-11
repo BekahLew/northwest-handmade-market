@@ -14,11 +14,11 @@ export function CartSummary() {
 
   async function onCheckout() {
     setLoading(true)
-    const response = await fetch('api/checkout', {
+    const response = await fetch('/api/checkout', {
       method: "POST",
       body: JSON.stringify(cartDetails || {})
     })
-    console.log("I made", response);
+    console.log("I made it to here", response);
     
     const data = await response.json()
     console.log(`no error - ${data}`)

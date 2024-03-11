@@ -18,9 +18,9 @@ export function CartSummary() {
       method: "POST",
       body: JSON.stringify(cartDetails || {})
     })
+    console.log("I made it", response.body);
     
     const data = await response.json()
-    console.log("I made it", data);
     console.log(`no error - ${data}`)
     const result = await redirectToCheckout(data.id)
     if (result?.error) {

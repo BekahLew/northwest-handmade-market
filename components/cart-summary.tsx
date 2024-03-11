@@ -18,15 +18,15 @@ export function CartSummary() {
       method: "POST",
       body: JSON.stringify(cartDetails || {})
     })
-    console.log("I made it to here", response);
+    console.log("I made it to here", await response.json());
     
-    const data = await response.json()
-    console.log(`no error - ${data}`)
-    const result = await redirectToCheckout(data.id)
-    if (result?.error) {
-      console.error(result)
-      console.log(`error - ${data}`)
-    }
+    // const data = await response.json()
+    // console.log(`no error - ${data}`)
+    // const result = await redirectToCheckout(data.id)
+    // if (result?.error) {
+    //   console.error(result)
+    //   console.log(`error - ${data}`)
+    // }
     setLoading(false)
   }
 

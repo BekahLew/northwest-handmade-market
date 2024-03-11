@@ -18,6 +18,10 @@ export function CartSummary() {
       method: "POST",
       body: JSON.stringify(cartDetails)
     })
+    if (response.status === 500) {
+      console.error(response.statusText);
+      return;
+    }
     const data = await response.json()
     console.log(`no error - ${data}`)
     const result = await redirectToCheckout(data.id)

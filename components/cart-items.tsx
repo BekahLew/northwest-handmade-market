@@ -37,6 +37,7 @@ export function CartItems() {
     >
       {cartItems.map((product, productIdx) => (
         <li key={product._id} className="flex py-6 sm:py-10">
+          {product.price}
           <div className="shrink-0">
             <Image
               src={urlForImage(product.images[0]).url()}

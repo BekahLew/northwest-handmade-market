@@ -14,23 +14,19 @@ export function CartSummary() {
 
   async function onCheckout() {
     setLoading(true)
-    const response = await fetch('/api/checkout', {
-      headers: {
-        "Content-Type": "application/json",
-      },
+    const response = await fetch('api/checkout', {
       method: "POST",
-      body: JSON.stringify(cartDetails)
-    });
+      body: JSON.stringify(cartDetails || {})
+    })
+    console.log("I made it", response);
     
-    console.log("I made it to here", await response.json());
-    
-    // const data = await response.json()
-    // console.log(`no error - ${data}`)
-    // const result = await redirectToCheckout(data.id)
-    // if (result?.error) {
-    //   console.error(result)
-    //   console.log(`error - ${data}`)
-    // }
+    const data = await response.json()
+    console.log(`no error - ${data}`)
+    const result = await redirectToCheckout(data.id)
+    if (result?.error) {
+      console.error(result)
+      console.log(`error - ${data}`)
+    }
     setLoading(false)
   }
 
@@ -40,7 +36,7 @@ export function CartSummary() {
       className="mt-16 rounded-lg border-2 border-gray-200 bg-gray-50 px-4 py-6 shadow-md dark:border-gray-900 dark:bg-black sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8"
     >
       <h2 id="summary-heading" className="text-lg font-medium">
-        Order summary - working on it
+        Order summary - tester
       </h2>
 
       <dl className="mt-6 space-y-4">

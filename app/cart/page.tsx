@@ -8,7 +8,7 @@ export default function Page() {
       <main className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 lg:max-w-7xl lg:px-8">
       <Link href="/purchase-booths" className="relative text-lg top-[-2rem] text-[#c65524]">↞ Back to booth selection</Link>
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          Shopping Cart - TEST
+          Shopping Cart
         </h1>
 
         <form className="mt-12 lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16">

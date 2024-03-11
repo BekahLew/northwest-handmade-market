@@ -18,6 +18,8 @@ export function CartSummary() {
       method: "POST",
       body: JSON.stringify(cartDetails)
     })
+    console.log(response.body);
+    
     const data = await response.json()
     console.log({data});
     console.log(`no error - ${data}`)

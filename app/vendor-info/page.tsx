@@ -50,7 +50,7 @@ export default async function Page() {
           </div>
           <div className="flex flex-col justify-start items-center">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Purchase Space</h2>
-            <Link className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="/purchase-booths">Purchase Booths</Link>
+            <Link className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://northwest-handmade-market.square.site/" target="_blank">Purchase Booths</Link>
           </div>
         </div>
         <div className="flex justify-center gap-6">

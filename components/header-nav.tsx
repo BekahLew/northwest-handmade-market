@@ -118,13 +118,13 @@ export function HeaderNav() {
         >
           <div className={styles.mobile + " bg-white dark:bg-black"}>
             <HeaderIconsMobile>
-              <Link href="/cart" className={styles.cart} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+              {/* <Link href="/cart" className={styles.cart} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
                 <Button size="sm" variant="ghost">
                   <ShoppingBag className="h-5 w-5" />
                   <span className="ml-2 text-sm font-bold">{cartCount}</span>
                   <span className="sr-only">Cart</span>
                 </Button>
-              </Link>
+              </Link> */}
               <ThemeToggle />
               {/* {process.env.NODE_ENV === "development" && (
                 <Link href="/studio" className={styles.editor}>
@@ -174,13 +174,13 @@ export function HeaderNav() {
             <Link href="/vendor-info" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>For Vendors</Link>
           </HeaderLinksDesktop>
           <HeaderIconsDesktop>
-            <Link href="/cart" className={styles.cart}>
+            {/* <Link href="/cart" className={styles.cart}>
               <Button size="sm" variant="ghost">
                 <ShoppingBag className="h-5 w-5" />
                 <span className="ml-2 text-sm font-bold">{cartCount}</span>
                 <span className="sr-only">Cart</span>
               </Button>
-            </Link>
+            </Link> */}
             <ThemeToggle />
             {/* {process.env.NODE_ENV === "development" && (
               <Link href="/studio" className={styles.editor}>

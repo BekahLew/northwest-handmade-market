@@ -41,7 +41,7 @@ export default async function Page() {
         <div className="grid grid-cols-1 md:grid-cols-3 mb-[2rem]">
           <div className="flex flex-col justify-start items-center">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Vendor Contract</h2>
-            <Link className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://drive.google.com/file/d/1Tto0xRNIQtW5IEb-PZyYgQpKklNO2Vd9/view?usp=drive_link" target="_blank">Download Contract</Link>
+            <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://drive.google.com/file/d/1Tto0xRNIQtW5IEb-PZyYgQpKklNO2Vd9/view?usp=drive_link" target="_blank">Download Contract</a>
           </div>
           <div className="flex flex-col justify-start items-center my-[1rem] md:my-0">
             <h2 className="text-[2rem] text-center">Booth Fees 2024</h2>
@@ -50,7 +50,7 @@ export default async function Page() {
           </div>
           <div className="flex flex-col justify-start items-center">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Purchase Space</h2>
-            <Link className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://northwest-handmade-market.square.site/" target="_blank">Purchase Booths</Link>
+            <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://northwest-handmade-market.square.site/" target="_blank">Purchase Booths</a>
           </div>
         </div>
         <div className="flex justify-center gap-6">

@@ -134,14 +134,14 @@ export function HeaderNav() {
                 </Link>
               )} */}
               <Button size="sm" variant="ghost">
-                <Link
+                <a
                   href="https://www.facebook.com/northwesthandmademarket"
                   className={styles.social}
                   target="_blank"
                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
                   <Facebook />
-                </Link>
+                </a>
               </Button>
             </HeaderIconsMobile>
             <HeaderLinksMobile>
@@ -190,13 +190,13 @@ export function HeaderNav() {
               </Link>
             )} */}
             <Button size="sm" variant="ghost">
-              <Link
+              <a
                 href="https://www.facebook.com/northwesthandmademarket"
                 className={styles.social}
                 target="_blank"
               >
                 <Facebook />
-              </Link>
+              </a>
             </Button>
           </HeaderIconsDesktop>
         </div>

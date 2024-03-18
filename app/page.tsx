@@ -19,7 +19,7 @@ export default async function Page() {
           <h1 className="font-bold text-2xl md:text-3xl pt-8 pb-[2rem] md:pb-[1rem]">The Northwest Handmade Market aims to provide amazing handmade goods as close to home as possible.</h1>
           <div className="md:pt-6 pb-[2rem] flex items-center flex-col">
             <p>We&apos;ve hand-selected vendors from your neighborhood in order to provide you with the opportunity to directly support your community. Products at our shows include pottery, baked goods, quilts, macrame, jewelry, soaps, honey, candles, art, freeze-dried goodies and so much more!</p>
-            <CustomButton link="/events" text="Find Shows" />
+            {/* <CustomButton link="/events" text="Find Shows" /> */}
             <div className="md:pt-[4rem] pt-[2rem]"><Spacer /></div>
           </div>
         </div>

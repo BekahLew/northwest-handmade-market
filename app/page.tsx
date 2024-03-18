@@ -39,7 +39,7 @@ export default async function Page() {
         <ParallaxImageLeft />
         <ParallaxImageBottomRight />
       </div>
-      <Contact />
+      {/* <Contact /> */}
     </>
   )
 }

@@ -89,7 +89,7 @@ export default async function Page() {
               <li className="mb-[1rem] ml-[2rem] leading-tight">We&apos;re making flyers and magnets to hand out and post at local establishments.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We have a free raffle with each show. The most entries are given to people who come in and enter. The prize is a $50 gift card to Crow (a shop that sells goods from local artists that is just down the road from our show).</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We plan to have a banner hung at the Masonic Lodge advertising a week in advance as well as a bi-fold outside the day of the show.</li>
-            </ul>
+            </ul> 
           </div>
 
           <div className="font-bold">Are you monitoring how much of a particular item is sold at an event?</div>

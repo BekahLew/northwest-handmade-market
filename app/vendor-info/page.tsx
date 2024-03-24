@@ -90,7 +90,7 @@ export default async function Page() {
               <li className="mb-[1rem] ml-[2rem] leading-tight">We have a free raffle with each show. The most entries are given to people who come in and enter. The prize is a $50 gift card to Crow (a shop that sells goods from local artists that is just down the road from our show).</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We plan to have a banner hung at the Masonic Lodge advertising a week in advance as well as a bi-fold outside the day of the show.</li>
             </ul> 
-          </div>
+          </div> 
 
           <div className="font-bold">Are you monitoring how much of a particular item is sold at an event?</div>
           <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it on the group page so please check there prior to signing up.</div>

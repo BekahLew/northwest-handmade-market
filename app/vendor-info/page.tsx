@@ -1,5 +1,4 @@
 import { Spacer } from "@/components/spacer"
-import Link from "next/link"
 import { ZoomImage } from "@/components/image-zoom"
 
 export default async function Page() {

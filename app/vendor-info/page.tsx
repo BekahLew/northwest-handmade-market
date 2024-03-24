@@ -70,7 +70,7 @@ export default async function Page() {
           <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://www.facebook.com/groups/1488742601671338" target="_blank">Facebook Vendor Group</a>
         </div>
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
-        <h2 className="text-[2rem]">FAQ</h2>
+        <h2 className="text-[2rem]">FAQ</h2> 
         <div className="text-[1.4rem] text-left">
           <div className="font-bold">What can I expect in regards to parking?</div>
           <div className="pl-[1rem] pb-[1rem]">There is a parking lot right next to the lodge with about 10-15 spots for $2/ hour. In the early morning I imagine there will be ample street parking available as well. If you&apos;re able we would ask that once you are unloaded please move your vehicle a block or two to give customers more parking near the lodge.</div>

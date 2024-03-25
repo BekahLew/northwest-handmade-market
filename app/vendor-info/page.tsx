@@ -1,5 +1,4 @@
 import { Spacer } from "@/components/spacer"
-import Link from "next/link"
 import { ZoomImage } from "@/components/image-zoom"
 
 export default async function Page() {
@@ -63,6 +62,50 @@ export default async function Page() {
             <span>Booth Measurements</span>
             <ZoomImage src="/images/vendor-map-sizes.png" alt="graphical image of vendor spots and associated measurements" />
           </div>
+        </div>
+        <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
+        <h2 className="text-[2rem]">Join the Group!</h2>
+        <p className="pb-[1rem]">Most of the communication for vendors as a group will be done through the Facebook vendors page. Please join the group if you are a vendor or interested in becoming a vendor.</p>
+        <div className="flex flex-col items-center">
+          <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://www.facebook.com/groups/1488742601671338" target="_blank">Facebook Vendor Group</a>
+        </div>
+        <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
+        <h2 className="text-[2rem]">FAQ</h2>
+        <div className="text-[1.4rem] text-left">
+          <div className="font-bold">What can I expect in regards to parking?</div>
+          <div className="pl-[1rem] pb-[1rem]">There is a parking lot right next to the lodge with about 10-15 spots for $2/ hour. In the early morning I imagine there will be ample street parking available as well. If you&apos;re able we would ask that once you are unloaded please move your vehicle a block or two to give customers more parking near the lodge.</div>
+
+          <div className="font-bold">Is electricity available?</div>
+          <div className="pl-[1rem] pb-[1rem]">There are four outlets toward the center of each wall. If you would like to use electricity you would need to purchase one of the larger booths toward the center of the wall. We want to be sure that no tripping hazards are created so please work carefully not to leave loose chords or impede on another vendor&apos;s area.</div>
+          
+          <div className="font-bold">What kind of traffic do you anticipate?</div>
+          <div className="pl-[1rem] pb-[1rem]">Since this is our very first year we aren&apos;t able to know for sure but I can tell you what we will be doing to get people in the door. The lodge is in downtown Edmonds which gets a ton of foot traffic but we are also doing our best to market the event. Here&apos;s what we&apos;re doing:
+            <ul>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">Adding the event to at least 30 online spots (including local online papers, Nextdoor, Craigslist, and event websites like Edmonds Downtown Alliance, and Best Things WA).</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">I am a part of local groups where I&apos;ll be sharing each show.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">Paid Facebook ads will run 6 weeks prior to each show.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">The Edmonds Masonic Lodge has offered to also feature our show on their website.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We are posting lawn signs around the area advertising the show.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We&apos;re making flyers and magnets to hand out and post at local establishments.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We have a free raffle with each show. The most entries are given to people who come in and enter. The prize is a $50 gift card to Crow (a shop that sells goods from local artists that is just down the road from our show).</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We plan to have a banner hung at the Masonic Lodge advertising a week in advance as well as a bi-fold outside the day of the show.</li>
+            </ul> 
+          </div>
+
+          <div className="font-bold">Are you monitoring how much of a particular item is sold at an event?</div>
+          <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it on the group page so please check there prior to signing up.</div>
+
+          <div className="font-bold">How long will it take to get approved?</div>
+          <div className="pl-[1rem] pb-[1rem]">Approvals will typically happen on the same day. Zack and I work Monday - Friday so on those days it will likely be in the afternoons.</div>
+
+          <div className="font-bold">What is considered handmade?</div>
+          <div className="pl-[1rem] pb-[1rem]">Anything you make using your own two hands. It could be beaded jewelry or food or digital art. I love Scentsy, Color Street, and other vendors like that, but we are just going for a handmade vibe for now.</div>
+
+          <div className="font-bold">How much time will we have for setup and take-down?</div>
+          <div className="pl-[1rem] pb-[1rem]">We have the space from 8am to 6pm. The show runs from 10am - 4pm. Zack and I need some time to tape off the spots in the morning so we ask that you start setting up at 8:30am. You&apos;re welcome to get a head start and haul your stuff in as long as it&apos;s out of the way of where we are putting tape.</div>
+
+          <div className="font-bold">Can I sign up for more than one show?</div>
+          <div className="pl-[1rem] pb-[1rem]">Yes! You can sign up for one show or every show. You can also purchase multiple spots if you need more room.</div>
         </div>
     </div>
   )

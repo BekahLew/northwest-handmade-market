@@ -72,6 +72,17 @@ export default async function Page() {
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
         <h2 className="text-[2rem]">FAQ</h2>
         <div className="text-[1.4rem] text-left">
+        <div className="font-bold">What are the show dates for 2024?</div>
+          <div className="pl-[1rem] pb-[1rem]">
+          <p>05/25/2024</p>
+          <p>06/15/2024</p>
+          <p>07/06/2024</p>
+          <p>08/03/2024</p>
+          <p>09/07/2024</p>
+          <p>10/05/2024</p>
+          <p>11/02/2024</p>
+          </div>
+
           <div className="font-bold">What can I expect in regards to parking?</div>
           <div className="pl-[1rem] pb-[1rem]">There is a parking lot right next to the lodge with about 10-15 spots for $2/ hour. In the early morning I imagine there will be ample street parking available as well. If you&apos;re able we would ask that once you are unloaded please move your vehicle a block or two to give customers more parking near the lodge.</div>
 

@@ -117,6 +117,9 @@ export default async function Page() {
 
           <div className="font-bold">Can I sign up for more than one show?</div>
           <div className="pl-[1rem] pb-[1rem]">Yes! You can sign up for one show or every show. You can also purchase multiple spots if you need more room.</div>
+
+          <div className="font-bold">Will we need to bring our own tables and chairs?</div>
+          <div className="pl-[1rem] pb-[1rem]">Yes, we ask that you bring your own.</div>
         </div>
     </div>
   )

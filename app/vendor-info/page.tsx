@@ -44,8 +44,8 @@ export default async function Page() {
           </div>
           <div className="flex flex-col justify-start items-center my-[1rem] md:my-0">
             <h2 className="text-[2rem] text-center">Booth Fees 2024</h2>
-            <p className="text-center">6&apos; x 5&apos; -- $50</p>
-            <p className="text-center">6&apos; x 8.5&apos; -- $70</p>
+            <p className="text-center">7&apos; x 5&apos; -- $50</p>
+            <p className="text-center">8&apos; x 8.5&apos; -- $70</p>
           </div>
           <div className="flex flex-col justify-start items-center">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Purchase Space</h2>
@@ -55,12 +55,12 @@ export default async function Page() {
         <div className="flex justify-center gap-6">
           <div>
             <span>Numbered Map</span>
-            <ZoomImage src="/images/vendor-map-numbers.png" alt="graphical image of vendor spots and associated numbers" />
+            <ZoomImage src="/images/upgraded-numbered.png" alt="graphical image of vendor spots and associated numbers" />
           </div>
           
           <div>
             <span>Booth Measurements</span>
-            <ZoomImage src="/images/vendor-map-sizes.png" alt="graphical image of vendor spots and associated measurements" />
+            <ZoomImage src="/images/upgraded-measured.png" alt="graphical image of vendor spots and associated measurements" />
           </div>
         </div>
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>

@@ -72,15 +72,21 @@ export default async function Page() {
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
         <h2 className="text-[2rem]">FAQ</h2>
         <div className="text-[1.4rem] text-left">
-        <div className="font-bold">What are the show dates for 2024?</div>
+          <div className="font-bold">Is WiFi available?</div>
+          <div className="pl-[1rem] pb-[1rem]">Yes, they have WiFi avaiable. Details will be provided to vendors the day of the show.</div>
+
+          <div className="font-bold">Do I need a business license?</div>
+          <div className="pl-[1rem] pb-[1rem]">You can find out more here: <a className="text-[#bc5738]" href="https://www.edmondswa.gov/government/departments/administrative_services/business_licenses" target="_blank">https://www.edmondswa.gov/government/departments/administrative_services/business_licenses</a>. We don't check or police licenses but we expect you to have what you need to sell and collect sales tax.</div>
+
+          <div className="font-bold">What are the show dates for 2024?</div>
           <div className="pl-[1rem] pb-[1rem]">
-          <p>05/25/2024</p>
-          <p>06/15/2024</p>
-          <p>07/06/2024</p>
-          <p>08/03/2024</p>
-          <p>09/07/2024</p>
-          <p>10/05/2024</p>
-          <p>11/02/2024</p>
+            <p>05/25/2024</p>
+            <p>06/15/2024</p>
+            <p>07/06/2024</p>
+            <p>08/03/2024</p>
+            <p>09/07/2024</p>
+            <p>10/05/2024</p>
+            <p>11/02/2024</p>
           </div>
 
           <div className="font-bold">What can I expect in regards to parking?</div>
@@ -104,7 +110,7 @@ export default async function Page() {
           </div>
 
           <div className="font-bold">Are you monitoring how much of a particular item is sold at an event?</div>
-          <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it on the group page so please check there prior to signing up.</div>
+          <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 (3 if unique enough) of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it on the group page so please check there prior to signing up.</div>
 
           <div className="font-bold">How long will it take to get approved?</div>
           <div className="pl-[1rem] pb-[1rem]">Approvals will typically happen on the same day. Zack and I work Monday - Friday so on those days it will likely be in the afternoons.</div>

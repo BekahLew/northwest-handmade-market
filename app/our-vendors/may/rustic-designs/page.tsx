@@ -53,7 +53,6 @@ export default async function Page() {
           </div>
         </div>
         <div>
-          {/* @ts-expect-error Server Component */}
           <Slider
             imgSrc1={"/images/vendors/rustic-designs/rustic-designs-1.jpeg"}
             img1Alt={"wood mountain art by rustic designs"}

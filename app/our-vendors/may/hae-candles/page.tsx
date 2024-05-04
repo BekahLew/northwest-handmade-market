@@ -49,7 +49,6 @@ export default async function Page() {
           </div>
         </div>
         <div>
-          {/* @ts-expect-error Server Component */}
           <Slider
             imgSrc1={"/images/vendors/hae-candles/hae-candles-1.jpeg"}
             img1Alt={"custom candles by HAE candles"}

@@ -3,14 +3,12 @@
 import Image from "next/image"
 import styles from 'styles/Slider.module.css'
 
-export default async function Slider({ imgSrc1, img1Alt, imgSrc2, img2Alt, imgSrc3, img3Alt, imgSrc4, img4Alt, imgSrc5, img5Alt, imgSrc6, img6Alt, imgSrc7, img7Alt, imgSrc8, img8Alt, imgSrc9, img9Alt, imgSrc10, img10Alt } : { imgSrc1: string, img1Alt: string, imgSrc2: string, img2Alt: string, imgSrc3: string, img3Alt: string,  imgSrc4: string, img4Alt: string,  imgSrc5: string, img5Alt: string,  imgSrc6: string, img6Alt: string,  imgSrc7: string, img7Alt: string,  imgSrc8: string, img8Alt: string,  imgSrc9: string, img9Alt: string,  imgSrc10: string, img10Alt: string,  }) {
+function Slider({ imgSrc1, img1Alt, imgSrc2, img2Alt, imgSrc3, img3Alt, imgSrc4, img4Alt, imgSrc5, img5Alt, imgSrc6, img6Alt, imgSrc7, img7Alt, imgSrc8, img8Alt, imgSrc9, img9Alt, imgSrc10, img10Alt } : { imgSrc1: string, img1Alt: string, imgSrc2: string, img2Alt: string, imgSrc3: string, img3Alt: string,  imgSrc4: string, img4Alt: string,  imgSrc5: string, img5Alt: string,  imgSrc6: string, img6Alt: string,  imgSrc7: string, img7Alt: string,  imgSrc8: string, img8Alt: string,  imgSrc9: string, img9Alt: string,  imgSrc10: string, img10Alt: string,  }) {
     function handleClick(event: any) {
         let clickedImage = event.target
         const activeImage = document.querySelector('.active-image')
         console.log(activeImage)
         let clickedImageSrc = clickedImage?.getAttribute('src')
-
-        console.log(clickedImage.attributes);
 
         activeImage?.setAttribute("src", clickedImageSrc)
         activeImage?.setAttribute("srcset", clickedImageSrc)
@@ -144,3 +142,5 @@ export default async function Slider({ imgSrc1, img1Alt, imgSrc2, img2Alt, imgSr
 function renderToStaticMarkup(arg0: any) {
     throw new Error("Function not implemented.")
 }
+
+export default Slider

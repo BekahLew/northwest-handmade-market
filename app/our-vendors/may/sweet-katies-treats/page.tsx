@@ -46,7 +46,6 @@ I got started with making chocolate chip cookies, all the time. I then perfect m
           </div>
         </div>
         <div>
-          {/* @ts-expect-error Server Component */}
           <Slider
             imgSrc1={"/images/vendors/sweet-katies-treats/sweet-katies-treats-1.jpeg"}
             img1Alt={"homemade goods by sweet katie&apos;s treats"}

@@ -48,7 +48,6 @@ So, here I am, blending my Oklahoma roots with the artistic vibe of Seattle and 
           </div>
         </div>
         <div>
-          {/* @ts-expect-error Server Component */}
           <Slider
             imgSrc1={"/images/vendors/little-okie-studio/little-okie-studio-1.jpeg"}
             img1Alt={"pottery by little okie studio"}

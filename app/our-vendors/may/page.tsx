@@ -163,12 +163,12 @@ export default async function Page() {
               />
             </Link>
             <Link href="/our-vendors/may/m-and-ms-vintage-crafts" className={styles.vendor + " bg-[#bc5738]"}><p>M&M&apos;s Vintage Crafts and Decor</p></Link>
-            <Link href="/our-vendors/may/2-pouch-people" className={styles.vendor + " bg-[#bc5738]"}><p>2 Pouch People</p></Link>
+            {/* <Link href="/our-vendors/may/2-pouch-people" className={styles.vendor + " bg-[#bc5738]"}><p>2 Pouch People</p></Link> */}
         </div>
 
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
 
-        <div className="bg-orange-100 dark:text-black rounded flex mx-auto md:max-w-[800px] xl:max-w-[100%] xl:w-[100%] mt-[1rem] mb-[1rem]">
+        <div className="bg-orange-100 dark:text-black rounded flex mx-auto xl:w-[100%] mt-[1rem] mb-[1rem] max-w-[800px]">
             <div className="w-[6.5rem] flex flex-col justify-center bg-[#BC5738] text-center pt-[.5rem] px-[.5rem] sm:px-[1.5rem] pb-[1rem] rounded-l-sm">
               <p className="text-[1.5rem] leading-8">May</p>
               <p className="text-[3rem] leading-8">25</p>

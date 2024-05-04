@@ -14,7 +14,7 @@ export default async function Page() {
           <p className="mt-[.5rem] mb-[1rem]">Coming soon! We&apos;re getting vendors signed up for the show.</p>
           <p className="mt-[.5rem] mb-[1rem]">In the meantime, please RSVP to the event so you don&apos;t miss it.</p>
           
-          <div className="bg-orange-100 dark:text-black rounded flex mx-auto md:max-w-[800px] lg:xl:max-w-[100%] xl:w-[100%] mt-[1rem] mb-[1rem]">
+          <div className="bg-orange-100 dark:text-black rounded flex mx-auto xl:w-[100%] mt-[1rem] mb-[1rem] max-w-[800px]">
             <div className="w-[6.5rem] flex flex-col justify-center bg-[#BC5738] text-center pt-[.5rem] px-[.5rem] sm:px-[1.5rem] pb-[1rem] rounded-l-sm">
               <p className="text-[1.5rem] leading-8">July</p>
               <p className="text-[3rem] leading-8">06</p>

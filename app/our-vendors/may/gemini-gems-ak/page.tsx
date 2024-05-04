@@ -18,7 +18,7 @@ export default async function Page() {
       <div className={styles.vendor}>
         <div className={styles.vendorInfo}>
           <Image
-            src="/images/vendors/gemini-gems-ak/gemini-gems-ak-bio.jpg"
+            src="/images/vendors/gemini-gems-ak/gemini-gems-ak-bio-pic.jpg"
             height={200}
             width={200}
             className={styles.bioImage}

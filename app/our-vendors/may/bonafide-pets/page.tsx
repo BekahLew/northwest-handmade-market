@@ -18,7 +18,7 @@ export default async function Page() {
       <div className={styles.vendor}>
         <div className={styles.vendorInfo}>
           <Image
-            src="/images/vendors/bonafide-pets/bonafide-pets.jpg"
+            src="/images/vendors/bonafide-pets/bonafide-pets-logo.png"
             height={200}
             width={200}
             className={styles.bioImage}
@@ -39,17 +39,17 @@ export default async function Page() {
         <div>
           {/* @ts-expect-error Server Component */}
           <Slider
-            imgSrc1={"/images/vendors/bonafide-pets-1.jpg"}
+            imgSrc1={"/images/vendors/bonafide-pets/bonafide-pets-1.jpg"}
             img1Alt={"homemade dog treats"}
-            imgSrc2={"/images/vendors/bonafide-pets-2.jpg"}
+            imgSrc2={"/images/vendors/bonafide-pets/bonafide-pets-2.jpg"}
             img2Alt={"homemade dog treats"}
-            imgSrc3={"/images/vendors/bonafide-pets-3.jpg"}
+            imgSrc3={"/images/vendors/bonafide-pets/bonafide-pets-3.jpg"}
             img3Alt={"homemade dog treats"}
-            imgSrc4={"/images/vendors/bonafide-pets-4.JPG"}
+            imgSrc4={"/images/vendors/bonafide-pets/bonafide-pets-4.JPG"}
             img4Alt={"homemade dog treats"}
-            imgSrc5={"/images/vendors/bonafide-pets-5.jpg"}
+            imgSrc5={"/images/vendors/bonafide-pets/bonafide-pets-5.jpg"}
             img5Alt={"homemade dog treats"}
-            imgSrc6={"/images/vendors/bonafide-pets-6.jpg"}
+            imgSrc6={"/images/vendors/bonafide-pets/bonafide-pets-6.jpg"}
             img6Alt={"homemade dog treats"}
             imgSrc7={""}
             img7Alt={""}

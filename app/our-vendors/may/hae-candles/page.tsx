@@ -14,15 +14,15 @@ export default async function Page() {
       >
         &larr; Back to May
       </Link>
-      <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center"></h1>
+      <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">HAE Candles</h1>
       <div className={styles.vendor}>
         <div className={styles.vendorInfo}>
           <Image
-            src="/images/vendors/"
+            src="/images/vendors/hae-candles/hae-candles-logo.jpeg"
             height={200}
             width={200}
             className={styles.bioImage}
-            alt=""
+            alt="logo for HAE candles"
           />
           <div className={styles.bio}>
             <p>HAE Candle is a US Navy Veteran owned, crafted and operated small business. We locally source our ingredients and we hand pour each candle and wax melt. My husband and I are both Navy Veterans and we believe the Anchor to represent Hope, Steadfastness, Trust Stability and Consistent Strength. Our logo is sharing that with our customers.</p>
@@ -32,15 +32,7 @@ export default async function Page() {
           <div className="flex justify-center">
             <a
               className="p-[.9rem] hover:scale-125 transition"
-              href="#"
-              target="_blank"
-              rel="noopener"
-            >
-              <Facebook size={35} strokeWidth={1.25} />
-            </a>
-            <a
-              className="p-[.9rem] hover:scale-125 transition"
-              href=""
+              href="https://www.instagram.com/hae_candles?igsh=MWRqemhqZjQ0aXp3aA%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener"
             >
@@ -48,7 +40,7 @@ export default async function Page() {
             </a>
             <a
               className="p-[.9rem] hover:scale-125 transition"
-              href="#"
+              href="www.haecandle.com"
               target="_blank"
               rel="noopener"
             >
@@ -59,26 +51,26 @@ export default async function Page() {
         <div>
           {/* @ts-expect-error Server Component */}
           <Slider
-            imgSrc1={""}
-            img1Alt=""
-            imgSrc2={""}
-            img2Alt=""
-            imgSrc3={""}
-            img3Alt=""
-            imgSrc4={""}
-            img4Alt=""
+            imgSrc1={"/images/vendors/hae-candles/hae-candles-1.jpeg"}
+            img1Alt={"custom candles by HAE candles"}
+            imgSrc2={"/images/vendors/hae-candles/hae-candles-2.jpeg"}
+            img2Alt={"custom candles by HAE candles"}
+            imgSrc3={"/images/vendors/hae-candles/hae-candles-3.jpeg"}
+            img3Alt={"custom candles by HAE candles"}
+            imgSrc4={"/images/vendors/hae-candles/hae-candles-4.jpeg"}
+            img4Alt={"custom candles by HAE candles"}
             imgSrc5={""}
-            img5Alt=""
+            img5Alt={""}
             imgSrc6={""}
-            img6Alt=""
+            img6Alt={""}
             imgSrc7={""}
-            img7Alt=""
+            img7Alt={""}
             imgSrc8={""}
-            img8Alt=""
+            img8Alt={""}
             imgSrc9={""}
-            img9Alt=""
+            img9Alt={""}
             imgSrc10={""}
-            img10Alt=""
+            img10Alt={""}
           />
         </div>
       </div>

@@ -162,8 +162,22 @@ export default async function Page() {
                 alt="logo for hae candles"
               />
             </Link>
-            <Link href="/our-vendors/may/m-and-ms-vintage-crafts" className={styles.vendor + " bg-[#bc5738]"}><p>M&M&apos;s Vintage Crafts and Decor</p></Link>
-            {/* <Link href="/our-vendors/may/2-pouch-people" className={styles.vendor + " bg-[#bc5738]"}><p>2 Pouch People</p></Link> */}
+            <Link href="/our-vendors/may/m-and-ms-vintage-crafts" className={styles.vendor + " bg-[#bc5738]"}>
+              <Image
+                src="/images/vendors/m-and-m/m-and-m-logo.png"
+                height={200}
+                width={200}
+                alt="logo for 2 pouch people"
+              />
+            </Link>
+            <a href="https://www.instagram.com/catnipkickers/?igsh=MTVuZHQ2azR6ZWl3dg%3D%3D&utm_source=qr" className={styles.vendor + " bg-[#bc5738]"}>
+              <Image
+                src="/images/vendors/2-pouch-people/2-pouch-people-logo.png"
+                height={200}
+                width={200}
+                alt="logo for 2 pouch people"
+              />
+            </a>
         </div>
 
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>

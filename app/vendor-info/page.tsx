@@ -76,7 +76,7 @@ export default async function Page() {
           <div className="pl-[1rem] pb-[1rem]">Yes, they have WiFi avaiable. Details will be provided to vendors the day of the show.</div>
 
           <div className="font-bold">Do I need a business license?</div>
-          <div className="pl-[1rem] pb-[1rem]">You can find out more here: <a className="text-[#bc5738]" href="https://www.edmondswa.gov/government/departments/administrative_services/business_licenses" target="_blank">https://www.edmondswa.gov/government/departments/administrative_services/business_licenses</a>. We don't check or police licenses but we expect you to have what you need to sell and collect sales tax.</div>
+          <div className="pl-[1rem] pb-[1rem]">You can find out more here: <a className="text-[#bc5738]" href="https://www.edmondswa.gov/government/departments/administrative_services/business_licenses" target="_blank">https://www.edmondswa.gov/government/departments/administrative_services/business_licenses</a>. We don&apos;t check or police licenses but we expect you to have what you need to sell and collect sales tax.</div>
 
           <div className="font-bold">What are the show dates for 2024?</div>
           <div className="pl-[1rem] pb-[1rem]">

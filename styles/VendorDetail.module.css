@@ -1,0 +1,28 @@
+.vendor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vendorInfo {
+    padding-bottom: 2rem;
+    max-width: 600px;
+}
+
+.bioImage {
+    float: left;
+    shape-outside: ellipse(50% 50%);
+    margin: 1rem;
+    border-radius: 100%;
+}
+
+@media (min-width: 1200px) {
+    .vendor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .vendorInfo {
+        margin-left: auto;
+    }
+}

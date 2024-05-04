@@ -1,0 +1,38 @@
+.vendors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vendor {
+    margin: .5rem;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dark .vendor {
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+.vendor p {
+    font-size: 26px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.vendor img {
+    object-fit: cover;
+    height: 100%;
+}
+
+@media (min-width: 640px) {
+    .vendor {
+        width: 200px;
+        height: 200px;
+    }
+}

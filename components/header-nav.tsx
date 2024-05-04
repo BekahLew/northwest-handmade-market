@@ -148,7 +148,7 @@ export function HeaderNav() {
               <Link href="/" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Home</Link>
               <Link href="/events" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Find a Show</Link>
               <Link href="/our-vendors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Our Vendors</Link>
-              <Link href="/raffle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Monthly Raffle</Link>
+              <Link href="/raffle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Free Raffle</Link>
               {/* <Link href="/about-us" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>About Us</Link> */}
               <Link href="/vendor-info" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>For Vendors</Link>
             </HeaderLinksMobile>
@@ -169,7 +169,7 @@ export function HeaderNav() {
             <Link href="/" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Home</Link>
             <Link href="/events" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Shows</Link>
             <Link href="/our-vendors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Our Vendors</Link>
-            <Link href="/raffle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Raffle</Link>
+            <Link href="/raffle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>Free Raffle</Link>
             {/* <Link href="/about-us" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>About</Link> */}
             <Link href="/vendor-info" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>For Vendors</Link>
           </HeaderLinksDesktop>

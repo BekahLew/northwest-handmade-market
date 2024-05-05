@@ -53,7 +53,6 @@ export default async function Page() {
           </div>
         </div>
         <div>
-          {/* @ts-expect-error Server Component */}
           <Slider
             imgSrc1={"/images/vendors/soha365/soha365-1.jpeg"}
             img1Alt={"Custon designed clothes by SoHa365"}

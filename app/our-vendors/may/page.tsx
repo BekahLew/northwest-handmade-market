@@ -162,22 +162,64 @@ export default async function Page() {
                 alt="logo for hae candles"
               />
             </Link>
-            <Link href="/our-vendors/may/m-and-ms-vintage-crafts" className={styles.vendor + " bg-[#bc5738]"}>
+            <a href="https://www.goblin-spleen.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
               <Image
-                src="/images/vendors/m-and-m/m-and-m-logo.png"
+                src="/images/vendors/logos/goblin-spleen-logo.png"
                 height={200}
                 width={200}
-                alt="logo for 2 pouch people"
-              />
-            </Link>
-            <a href="https://www.instagram.com/catnipkickers/?igsh=MTVuZHQ2azR6ZWl3dg%3D%3D&utm_source=qr" className={styles.vendor + " bg-[#bc5738]"}>
-              <Image
-                src="/images/vendors/2-pouch-people/2-pouch-people-logo.png"
-                height={200}
-                width={200}
-                alt="logo for 2 pouch people"
+                alt="logo for goblin spleen"
               />
             </a>
+            <a href="https://www.etsy.com/shop/TycheHandcrafted" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/logos/tyche-handcrafted-logo.png"
+                height={200}
+                width={200}
+                alt="logo for tyche handcrafted"
+              />
+            </a>
+            <a href="https://megansjohnston.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/logos/megan-johnstons-art-logo.png"
+                height={200}
+                width={200}
+                alt="logo for megan johnstons art"
+              />
+            </a>
+            <a href="https://nuricreations.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/logos/nuri-creations-logo.png"
+                height={200}
+                width={200}
+                alt="logo for nuri creations"
+              />
+            </a>
+            <a href="" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/logos/moore-than-stitches-logo-img.png"
+                height={200}
+                width={200}
+                alt="logo for moore than stitches"
+              />
+            </a>
+            <Link href="/our-vendors/may/m-and-ms-vintage-crafts" className={styles.vendor + " bg-[#bc5738]"}>
+              <p>M&M's Vintage Crafts and Decor</p>
+            </Link>
+            <a href="https://www.instagram.com/catnipkickers/?igsh=MTVuZHQ2azR6ZWl3dg%3D%3D&utm_source=qr" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <p>2 Pouch People <span>Catnip Toys</span></p>
+            </a>
+            <div className={styles.vendor + " bg-[#bc5738]"}>
+              <p>Edmonds Kids Collective <span>Various Crafts</span></p>
+            </div>
+            <div className={styles.vendor + " bg-[#bc5738]"}>
+              <p>ZunZun <span>Bath and Body</span></p>
+            </div>
+            <div className={styles.vendor + " bg-[#bc5738]"}>
+              <p>Cards by Meesh <span>Handmade Cards</span></p>
+            </div>
+            <div className={styles.vendor + " bg-[#bc5738]"}>
+              <p>Created by Qualley <span>Mandala Painted Stones, magnets and coasters</span></p>
+            </div>
         </div>
 
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>

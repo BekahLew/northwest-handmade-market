@@ -16,9 +16,17 @@
 }
 
 .vendor p {
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
     margin: 1rem;
+    color: white;
+    line-height: 1;
+}
+
+.vendor p span {
+    font-size: 22px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 .vendor img {
@@ -31,4 +39,9 @@
         width: 200px;
         height: 200px;
     }
+
+    .vendor p {
+        font-size: 40px;
+    }
+    
 }

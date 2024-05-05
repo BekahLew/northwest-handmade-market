@@ -40,7 +40,7 @@ export default async function Page() {
           <Slider
             imgSrc1={"/images/vendors/bonafide-pets/bonafide-pets-1.jpg"}
             img1Alt={"homemade dog treats"}
-            imgSrc2={"/images/vendors/bonafide-pets/bonafide-pets-2.jpg"}
+            imgSrc2={"/images/vendors/bonafide-pets/bonafide-pets-2.JPG"}
             img2Alt={"homemade dog treats"}
             imgSrc3={"/images/vendors/bonafide-pets/bonafide-pets-3.jpg"}
             img3Alt={"homemade dog treats"}

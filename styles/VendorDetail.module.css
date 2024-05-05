@@ -10,6 +10,7 @@
 }
 
 .bioImage {
+    width: 150px;
     float: left;
     shape-outside: ellipse(50% 50%);
     margin: 1rem;
@@ -24,5 +25,9 @@
 
     .vendorInfo {
         margin-left: auto;
+    }
+
+    .bioImage {
+        width: 200px;
     }
 }

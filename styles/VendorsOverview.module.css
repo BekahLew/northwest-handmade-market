@@ -15,10 +15,6 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.dark .vendor {
-    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
-}
-
 .vendor p {
     font-size: 26px;
     text-align: center;

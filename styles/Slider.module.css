@@ -12,10 +12,33 @@
     overflow: auto;
 }
 
+.thumbnails::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px;
+  }
+.thumbnails::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: #bc5738;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.thumbnails::-webkit-scrollbar {
+    height: 8px;
+}
+
 .thumbnail {
     object-fit: cover;
     width: 150px;
     height: 150px;
+    margin-left: 5px;
+}
+
+.thumbnail:first-child {
+    margin-left: 0;
+}
+
+.thumbnail:last-child {
+    margin-left: 0;
 }
 
 .activeSlide {

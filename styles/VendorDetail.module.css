@@ -13,7 +13,7 @@
     width: 150px;
     float: left;
     shape-outside: ellipse(50% 50%);
-    margin: 1rem;
+    margin: 1rem 2rem 1rem 0;
     border-radius: 100%;
 }
 

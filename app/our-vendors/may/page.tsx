@@ -162,20 +162,20 @@ export default async function Page() {
                 alt="logo for hae candles"
               />
             </Link>
+            <Link href="/our-vendors/may/tyche-handcrafted" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/tyche-handcrafted/tyche-handcrafted-logo-img.png"
+                height={200}
+                width={200}
+                alt="logo for tyche handcrafted"
+              />
+            </Link>
             <a href="https://www.goblin-spleen.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
               <Image
                 src="/images/vendors/logos/goblin-spleen-logo.png"
                 height={200}
                 width={200}
                 alt="logo for goblin spleen"
-              />
-            </a>
-            <a href="https://www.etsy.com/shop/TycheHandcrafted" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
-              <Image
-                src="/images/vendors/logos/tyche-handcrafted-logo.png"
-                height={200}
-                width={200}
-                alt="logo for tyche handcrafted"
               />
             </a>
             <a href="https://megansjohnston.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">

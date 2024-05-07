@@ -225,9 +225,6 @@ export default async function Page() {
               <p>2 Pouch People <span>Catnip Toys</span></p>
             </a>
             <div className={styles.vendor + " bg-[#bc5738]"}>
-              <p>Edmonds Kids Collective <span>Various Crafts</span></p>
-            </div>
-            <div className={styles.vendor + " bg-[#bc5738]"}>
               <p>ZunZun <span>Bath and Body</span></p>
             </div>
             <div className={styles.vendor + " bg-[#bc5738]"}>

@@ -162,6 +162,14 @@ export default async function Page() {
                 alt="logo for hae candles"
               />
             </Link>
+            <Link href="/our-vendors/may/earrings-by-e" className={styles.vendor + " bg-[#bc5738]"}>
+              <Image
+                src="/images/vendors/earrings-by-e/earrings-by-e-logo-img.png"
+                height={200}
+                width={200}
+                alt="logo for Earrings by E"
+              />
+            </Link>
             <Link href="/our-vendors/may/tyche-handcrafted" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
               <Image
                 src="/images/vendors/tyche-handcrafted/tyche-handcrafted-logo-img.png"
@@ -194,12 +202,20 @@ export default async function Page() {
                 alt="logo for nuri creations"
               />
             </a>
-            <a href="" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+            <a href="https://www.etsy.com/shop/moorethanstitches520" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
               <Image
                 src="/images/vendors/logos/moore-than-stitches-logo-img.png"
                 height={200}
                 width={200}
                 alt="logo for moore than stitches"
+              />
+            </a>
+            <a href="https://www.instagram.com/ma_and_pa_prints_3d_toys/?igsh=bXRwZzQ0NjRzM25o" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/logos/ma-and-pa-prints-logo.png"
+                height={200}
+                width={200}
+                alt="logo for ma and pa prints"
               />
             </a>
             <Link href="/our-vendors/may/m-and-ms-vintage-crafts" className={styles.vendor + " bg-[#bc5738]"}>

@@ -178,6 +178,14 @@ export default async function Page() {
                 alt="logo for tyche handcrafted"
               />
             </Link>
+            <Link href="/our-vendors/may/moore-than-stitches" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/moore-than-stitches/moore-than-stitches-logo-img.png"
+                height={200}
+                width={200}
+                alt="logo for moore than stitches"
+              />
+            </Link>
             <a href="https://www.goblin-spleen.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
               <Image
                 src="/images/vendors/logos/goblin-spleen-logo.png"
@@ -200,14 +208,6 @@ export default async function Page() {
                 height={200}
                 width={200}
                 alt="logo for nuri creations"
-              />
-            </a>
-            <a href="https://www.etsy.com/shop/moorethanstitches520" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
-              <Image
-                src="/images/vendors/logos/moore-than-stitches-logo-img.png"
-                height={200}
-                width={200}
-                alt="logo for moore than stitches"
               />
             </a>
             <a href="https://www.instagram.com/ma_and_pa_prints_3d_toys/?igsh=bXRwZzQ0NjRzM25o" className={styles.vendor + " bg-[#bc5738]"} target="_blank">

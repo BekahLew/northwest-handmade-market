@@ -170,7 +170,7 @@ export default async function Page() {
                 alt="logo for Earrings by E"
               />
             </Link>
-            <Link href="/our-vendors/may/tyche-handcrafted" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+            <Link href="/our-vendors/may/tyche-handcrafted" className={styles.vendor + " bg-[#bc5738]"}>
               <Image
                 src="/images/vendors/tyche-handcrafted/tyche-handcrafted-logo-img.png"
                 height={200}
@@ -178,7 +178,7 @@ export default async function Page() {
                 alt="logo for tyche handcrafted"
               />
             </Link>
-            <Link href="/our-vendors/may/moore-than-stitches" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+            <Link href="/our-vendors/may/moore-than-stitches" className={styles.vendor + " bg-[#bc5738]"}>
               <Image
                 src="/images/vendors/moore-than-stitches/moore-than-stitches-logo-img.png"
                 height={200}

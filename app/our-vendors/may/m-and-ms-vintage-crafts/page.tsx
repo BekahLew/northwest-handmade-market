@@ -18,7 +18,7 @@ export default async function Page() {
       <div className={styles.vendor}>
         <div className={styles.vendorInfo}>
           <Image
-            src="/images/vendors/m-and-m/m-and-m-logo-img.png"
+            src="/images/vendors/m-and-m/m-and-m-6.jpeg"
             height={200}
             width={200}
             className={styles.bioImage}

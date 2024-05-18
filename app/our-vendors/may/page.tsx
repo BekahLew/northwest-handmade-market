@@ -219,7 +219,12 @@ export default async function Page() {
               />
             </a>
             <Link href="/our-vendors/may/m-and-ms-vintage-crafts" className={styles.vendor + " bg-[#bc5738]"}>
-              <p>M&M&apos;s Vintage Crafts and Decor</p>
+              <Image
+                src="/images/vendors/m-and-m/m-and-m-6.jpeg"
+                height={200}
+                width={200}
+                alt="logo for ma and pa prints"
+              />
             </Link>
             <a href="https://www.instagram.com/catnipkickers/?igsh=MTVuZHQ2azR6ZWl3dg%3D%3D&utm_source=qr" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
               <p>2 Pouch People <span>Catnip Toys</span></p>

@@ -14,7 +14,7 @@ export default async function Page() {
       >
         &larr; Back to May
       </Link>
-      <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center"></h1>
+      <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">M&M's Vintage Crafts and Decor</h1>
       <div className={styles.vendor}>
         <div className={styles.vendorInfo}>
           <Image

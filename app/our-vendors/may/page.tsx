@@ -226,6 +226,14 @@ export default async function Page() {
                 alt="logo for ma and pa prints"
               />
             </Link>
+            <a href="https://www.instagram.com/createdbyqualley" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+              <Image
+                src="/images/vendors/logos/qualley-logo.png"
+                height={200}
+                width={200}
+                alt="logo for created by qualley"
+              />
+            </a>
             <a href="https://www.instagram.com/catnipkickers/?igsh=MTVuZHQ2azR6ZWl3dg%3D%3D&utm_source=qr" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
               <p>2 Pouch People <span>Catnip Toys</span></p>
             </a>
@@ -234,9 +242,6 @@ export default async function Page() {
             </div>
             <div className={styles.vendor + " bg-[#bc5738]"}>
               <p>Cards by Meesh <span>Handmade Cards</span></p>
-            </div>
-            <div className={styles.vendor + " bg-[#bc5738]"}>
-              <p>Created by Qualley <span>Mandala Painted Stones, magnets and coasters</span></p>
             </div>
         </div>
 

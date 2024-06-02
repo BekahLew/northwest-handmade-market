@@ -36,7 +36,7 @@ export default async function Page() {
             </a>
             <a
               className="p-[.9rem] hover:scale-125 transition"
-              href="https://colorful-discoveries.etsy.com"
+              href="https://www.etsy.com/shop/colorfuldiscoveries/?etsrc=sdt"
               target="_blank"
               rel="noopener"
             >

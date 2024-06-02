@@ -28,7 +28,7 @@ export default async function Page() {
           <div className="flex justify-center">
             <a
               className="p-[.9rem] hover:scale-125 transition"
-              href="www.instagram.com/routeacafe"
+              href="https://www.instagram.com/routeacafe"
               target="_blank"
               rel="noopener"
             >
@@ -36,7 +36,7 @@ export default async function Page() {
             </a>
             <a
               className="p-[.9rem] hover:scale-125 transition"
-              href="www.routeacafe.com"
+              href="https://www.routeacafe.com"
               target="_blank"
               rel="noopener"
             >
@@ -44,7 +44,7 @@ export default async function Page() {
             </a>
             <a
               className="p-[.9rem] hover:scale-125 transition"
-              href="www.facebook.com/routeacafe"
+              href="https://www.facebook.com/routeacafe"
               target="_blank"
               rel="noopener"
             >

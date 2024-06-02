@@ -61,7 +61,7 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/june/oddpetz-emporium" className={styles.vendor + " bg-[#bc5738]"}>
               <Image
-                src="/images/vendors/the-oddpetz-emporium/the-oddpetz-emporium-logo.jpg"
+                src="/images/vendors/oddpetz-emporium/oddpetz-emporium-logo.jpg"
                 height={200}
                 width={200}
                 alt="Logo for OddPetz Emporium"
@@ -240,7 +240,7 @@ export default async function Page() {
                 src="/images/vendors/logos/rebeccas-whimsical-art-logo.png"
                 height={200}
                 width={200}
-                alt="logo for Rebecca's Whimsical Art"
+                alt="logo for Rebeccas Whimsical Art"
               />
             </div>
         </div>

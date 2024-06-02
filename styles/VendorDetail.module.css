@@ -21,6 +21,7 @@
     .vendor {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
     }
 
     .vendorInfo {
@@ -31,3 +32,7 @@
         width: 200px;
     }
 }
+
+/* .pinterestIcon svg {
+    fill: #e1e8ef;
+} */

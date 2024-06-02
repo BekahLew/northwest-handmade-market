@@ -223,7 +223,7 @@ export default async function Page() {
                 src="/images/vendors/m-and-m/m-and-m-6.jpeg"
                 height={200}
                 width={200}
-                alt="logo for ma and pa prints"
+                alt="logo for m and m vintage craft"
               />
             </Link>
             <a href="https://www.instagram.com/createdbyqualley" className={styles.vendor + " bg-[#bc5738]"} target="_blank">

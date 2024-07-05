@@ -134,10 +134,18 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/july/corina-kay-designs" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
-              src="/images/vendors/corina-kay-designs/corina-kay-designs-logo.png"
+              src="/images/vendors/corina-kay-designs/corina-kay-designs-pic-logo.png"
               height={200}
               width={200}
               alt="logo for corina kay designs"
+            />
+          </Link>
+          <Link href="/our-vendors/july/coco-crafts" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/coco-crafts/coco-crafts-logo-pic.png"
+              height={200}
+              width={200}
+              alt="logo for coco crafts"
             />
           </Link>
           <Link href="/our-vendors/july/oddpetz-emporium" className={styles.vendor + " bg-[#bc5738]"}>
@@ -164,9 +172,9 @@ export default async function Page() {
               alt="logo for yuzu makes"
             />
           </a>
-          <a href="https://www.instagram.com/torigami.crafts" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+          <a href="https://www.instagram.com/torigami.crafts?igsh=MXhrZGpkd2ExM2JjaQ%3D%3D&utm_source=qr" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
             <Image
-              src="/images/vendors/logos/torigami-crafts.png"
+              src="/images/vendors/logos/torigami-logo.jpeg"
               height={200}
               width={200}
               alt="logo for torigami crafts"
@@ -194,14 +202,6 @@ export default async function Page() {
               height={200}
               width={200}
               alt="logo for saras little creations"
-            />
-          </a>
-          <a href="https://coco-crafts.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
-            <Image
-              src="/images/vendors/logos/coco-crafts-logo.webp"
-              height={200}
-              width={200}
-              alt="logo for coco crafts"
             />
           </a>
           <div className={styles.vendor + " bg-[#bc5738]"}>

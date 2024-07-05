@@ -25,9 +25,7 @@ export default async function Page() {
             alt="logo for corina kay designs"
           />
           <div className={styles.bio}>
-            <p>Hello! My name is Corina, owner of Corina Kay Designs. I offer graphic apparel, drinkware, stickers and home goods.</p>
-            <p>I&apos;ve spent my years working with children in school settings,  decorating cakes and have always had a creative soul.  I really found my passion a few years ago when I created some custom items for a bachelorette party. This led to more creations for work events, girls&apos; trips, holiday shirts and more.  As my product offerings and skills evolved, Corina Kay Designs was born!</p>
-            <p>I&apos;m excited to share my creations with you.</p>
+            <p>I&apos;m Corina, owner of Corina Kay Designs.  My passion for creativity and design drives me to infuse everyday items with unique and eye-catching designs. My journey in this field has been a fulfilling blend of creative expression and meaningful connections with customers, whether they&apos;re looking to elevate their daily routines or commemorate special occasions. Whether you&apos;re treating yourself or searching for the perfect gift, I&apos;m committed to helping you find something truly special that resonates with your style and personality.</p>
           </div>
           <div className="flex justify-center">
           <a
@@ -58,26 +56,26 @@ export default async function Page() {
         </div>
         <div>
           <Slider
-            imgSrc1={"/images/vendors/corina-kay-designs/corina-kay-designs-1.png"}
+            imgSrc1={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-1.png"}
             img1Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc2={"/images/vendors/corina-kay-designs/corina-kay-designs-2.png"}
+            imgSrc2={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-2.png"}
             img2Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc3={"/images/vendors/corina-kay-designs/corina-kay-designs-3.png"}
+            imgSrc3={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-3.png"}
             img3Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc4={"/images/vendors/corina-kay-designs/corina-kay-designs-4.png"}
+            imgSrc4={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-4.png"}
             img4Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc5={"/images/vendors/corina-kay-designs/corina-kay-designs-5.png"}
+            imgSrc5={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-5.png"}
             img5Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc6={"/images/vendors/corina-kay-designs/corina-kay-designs-6.jpg"}
+            imgSrc6={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-6-new.png"}
             img6Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc7={"/images/vendors/corina-kay-designs/corina-kay-designs-7.png"}
+            imgSrc7={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-7.png"}
             img7Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc8={"/images/vendors/corina-kay-designs/corina-kay-designs-8.png"}
+            imgSrc8={"/images/vendors/corina-kay-designs/corina-kay-designs-pic-8.png"}
             img8Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc9={"/images/vendors/corina-kay-designs/corina-kay-designs-9.png"}
-            img9Alt={"image of graphic apparel and drinkware from corina kay designs"}
-            imgSrc10={"/images/vendors/corina-kay-designs/corina-kay-designs-10.png"}
-            img10Alt={"image of graphic apparel and drinkware from corina kay designs"}
+            imgSrc9={""}
+            img9Alt={""}
+            imgSrc10={""}
+            img10Alt={""}
           />
         </div>
       </div>

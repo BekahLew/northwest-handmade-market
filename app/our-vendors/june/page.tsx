@@ -21,7 +21,7 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/june/corina-kay-designs" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
-              src="/images/vendors/corina-kay-designs/corina-kay-designs-logo.png"
+              src="/images/vendors/corina-kay-designs/corina-kay-designs-pic-logo.png"
               height={200}
               width={200}
               alt="logo for corina kay designs"

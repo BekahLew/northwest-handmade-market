@@ -14,7 +14,7 @@ export default async function Page() {
       >
         &larr; Back to July
       </Link>
-      <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">DW Crafts</h1>
+      <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">Coco Crafts</h1>
       <div className={styles.vendor}>
         <div className={styles.vendorInfo}>
           <Image

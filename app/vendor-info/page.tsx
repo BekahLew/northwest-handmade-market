@@ -23,7 +23,7 @@ export default async function Page() {
           </div>
           <div className="flex justify-between items-center border border-[#bc5738]">
             <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 4</p>
-            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">After purchasing a space we will ask you to send photos that will help represent your business on our website.</span>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">After purchasing a space we will ask you to send photos that will help represent your business on our website. We will also send out an email with show information. This happens about 3 to 4 weeks before the show.</span>
           </div>
         </div>
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
@@ -95,8 +95,8 @@ export default async function Page() {
           <div className="font-bold">Is electricity available?</div>
           <div className="pl-[1rem] pb-[1rem]">There are four outlets toward the center of each wall. If you would like to use electricity you would need to purchase one of the larger booths toward the center of the wall. We want to be sure that no tripping hazards are created so please work carefully not to leave loose chords or impede on another vendor&apos;s area.</div>
           
-          <div className="font-bold">What kind of traffic do you anticipate?</div>
-          <div className="pl-[1rem] pb-[1rem]">Since this is our very first year we aren&apos;t able to know for sure but I can tell you what we will be doing to get people in the door. The lodge is in downtown Edmonds which gets a ton of foot traffic but we are also doing our best to market the event. Here&apos;s what we&apos;re doing:
+          <div className="font-bold">What are you doing to bring people to the show?</div>
+          <div className="pl-[1rem] pb-[1rem]">The lodge is in downtown Edmonds which gets a ton of foot traffic but we are also doing our best to market the event. Here&apos;s what we&apos;re doing:
             <ul>
               <li className="mb-[1rem] ml-[2rem] leading-tight">Adding the event to at least 30 online spots (including local online papers, Nextdoor, Craigslist, and event websites like Edmonds Downtown Alliance, and Best Things WA).</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">I am a part of local groups where I&apos;ll be sharing each show.</li>
@@ -105,9 +105,13 @@ export default async function Page() {
               <li className="mb-[1rem] ml-[2rem] leading-tight">We are posting lawn signs around the area advertising the show.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We&apos;re making flyers and magnets to hand out and post at local establishments.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We have a free raffle with each show. The most entries are given to people who come in and enter. The prize is a $50 gift card to Crow (a shop that sells goods from local artists that is just down the road from our show).</li>
-              <li className="mb-[1rem] ml-[2rem] leading-tight">We plan to have a banner hung at the Masonic Lodge advertising a week in advance as well as a bi-fold outside the day of the show.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We have a banner hung at the Masonic Lodge advertising prior to the show, a bi-fold outside the day of the show, and a stationary poster on the Masonic Lodge during our season.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We provide a webpage for each vendor, showcasing the beautiful works that will be at each show.</li>
             </ul> 
           </div>
+
+          <div className="font-bold">What kind of foot traffic do you get?</div>
+          <div className="pl-[1rem] pb-[1rem]">This is our first year and with the first few shows we have seen an average of about 500 people at each show. Some have had more and some have less. As with any show, there are a ton of factors that affect this. We do as much as we can to keep that number high.</div>
 
           <div className="font-bold">Are you monitoring how much of a particular item is sold at an event?</div>
           <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 (3 if unique enough) of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it on the group page so please check there prior to signing up.</div>

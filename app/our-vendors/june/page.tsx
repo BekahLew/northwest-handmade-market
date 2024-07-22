@@ -101,7 +101,7 @@ export default async function Page() {
             </Link>
             <Link href="/our-vendors/june/crafty-juniper" className={styles.vendor + " bg-[#bc5738]"}>
               <Image
-                src="/images/vendors/crafty-juniper/crafty-juniper-logo.png"
+                src="/images/vendors/crafty-juniper-2/crafty-juniper-logo-pic.jpg"
                 height={200}
                 width={200}
                 alt="Logo for Crafty Juniper"

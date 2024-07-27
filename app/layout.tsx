@@ -7,7 +7,6 @@ import { cn } from "@/lib/utils"
 import { Providers } from "@/components/providers"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
-import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: siteConfig.name,
@@ -25,7 +24,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
-      <GoogleTagManager gtmId="G-G8GZJ2WN1H" />
         <head />
         <body
           className={cn(

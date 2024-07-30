@@ -141,7 +141,7 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/august/coco-crafts" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
-              src="/images/vendors/coco-crafts/coco-crafts-logo-pic.png"
+              src="/images/vendors/coco-crafts/coco-crafts-logo-new-pic.png"
               height={200}
               width={200}
               alt="logo for coco crafts"
@@ -195,12 +195,12 @@ export default async function Page() {
               alt="logo for sweet d'lily"
             />
           </a>
-          <a href="https://nourish-skincare.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+          <a href="https://www.instagram.com/yanayaart?igsh=enR4aHJvdHd6bXZ0&utm_source=qr" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
             <Image
-              src="/images/vendors/logos/nourish-skincare-logo.png"
+              src="/images/vendors/logos/yanaya-jewelry-logo.png"
               height={200}
               width={200}
-              alt="logo for nourish skin care"
+              alt="logo for yanaya jewelry"
             />
           </a>
           <div className={styles.vendor + " bg-[#bc5738]"}>

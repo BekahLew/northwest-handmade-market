@@ -142,7 +142,7 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/july/coco-crafts" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
-              src="/images/vendors/coco-crafts/coco-crafts-logo-pic.png"
+              src="/images/vendors/coco-crafts/coco-crafts-logo-new-pic.png"
               height={200}
               width={200}
               alt="logo for coco crafts"

@@ -83,14 +83,6 @@ export default async function Page() {
               alt="logo for hae candles"
             />
           </Link>
-          <Link href="/our-vendors/august/handslow-pottery" className={styles.vendor + " bg-[#bc5738]"}>
-            <Image
-              src="/images/vendors/handslow-pottery/handslow-pottery-logo.png"
-              height={200}
-              width={200}
-              alt="Sketch of hand holding pottery"
-            />
-          </Link>
           <Link href="/our-vendors/august/dw-crafts" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
               src="/images/vendors/dw-crafts/dw-crafts-logo.png"
@@ -100,13 +92,13 @@ export default async function Page() {
             />
           </Link>
           <Link href="/our-vendors/august/doily-by-pony" className={styles.vendor + " bg-[#bc5738]"}>
-              <Image
-                src="/images/vendors/doily-by-pony/doily-by-pony-logo.jpg"
-                height={200}
-                width={200}
-                alt="Blue and green gradient with logo for doily by pony"
-              />
-            </Link>
+            <Image
+              src="/images/vendors/doily-by-pony/doily-by-pony-logo.jpg"
+              height={200}
+              width={200}
+              alt="Blue and green gradient with logo for doily by pony"
+            />
+          </Link>
           <Link href="/our-vendors/august/linked-with-joy" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
               src="/images/vendors/linked-with-joy/linked-with-joy-logo.png"

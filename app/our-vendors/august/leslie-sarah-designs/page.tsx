@@ -18,7 +18,7 @@ export default async function Page() {
       <div className={styles.vendor}>
         <div className={styles.vendorInfo}>
           <Image
-            src="/images/vendors/leslie-sarah-designs/leslie-sarah-designs-bio.jpg"
+            src="/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-bio.jpg"
             height={200}
             width={200}
             className={styles.bioImage}
@@ -42,25 +42,25 @@ export default async function Page() {
         </div>
         <div>
           <Slider
-            imgSrc1={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-5.jpg"}
+            imgSrc1={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-1.jpg"}
             img1Alt={"custom crafts by leslie sarah designs"}
-            imgSrc2={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-2.jpg"}
+            imgSrc2={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-2.jpg"}
             img2Alt={"custom crafts by leslie sarah designs"}
-            imgSrc3={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-3.jpg"}
+            imgSrc3={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-3.jpg"}
             img3Alt={"custom crafts by leslie sarah designs"}
-            imgSrc4={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-4.jpg"}
+            imgSrc4={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-4.jpg"}
             img4Alt={"custom crafts by leslie sarah designs"}
-            imgSrc5={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-1.jpg"}
+            imgSrc5={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-1.jpg"}
             img5Alt={"custom crafts by leslie sarah designs"}
-            imgSrc6={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-6.jpg"}
+            imgSrc6={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-6.jpg"}
             img6Alt={"custom crafts by leslie sarah designs"}
-            imgSrc7={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-7.jpg"}
+            imgSrc7={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-7.jpg"}
             img7Alt={"custom crafts by leslie sarah designs"}
-            imgSrc8={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-8.jpg"}
+            imgSrc8={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-8.jpg"}
             img8Alt={"custom crafts by leslie sarah designs"}
-            imgSrc9={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-9.jpg"}
+            imgSrc9={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-9.jpg"}
             img9Alt={"custom crafts by leslie sarah designs"}
-            imgSrc10={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-10.jpg"}
+            imgSrc10={"/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-10.jpg"}
             img10Alt={"custom crafts by leslie sarah designs"}
           />
         </div>

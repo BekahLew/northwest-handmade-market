@@ -45,7 +45,7 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/august/leslie-sarah-designs" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
-              src="/images/vendors/leslie-sarah-designs/leslie-sarah-designs-logo.jpg"
+              src="/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-logo.jpg"
               height={200}
               width={200}
               alt="logo for leslie sarah designs"

@@ -123,6 +123,22 @@ export default async function Page() {
               alt="Logo for V&apos;s Treats"
             />
           </Link>
+          <Link href="/our-vendors/august/sand-dollar-style" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/sand-dollar-style/sand-dollar-style-logo.png"
+              height={200}
+              width={200}
+              alt="Logo for Sand Dollar Style"
+            />
+          </Link>
+          <Link href="/our-vendors/august/trinda-magic" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/trinda-magic/trinda-magic-logo.png"
+              height={200}
+              width={200}
+              alt="Logo for Trinda Magic"
+            />
+          </Link>
           <Link href="/our-vendors/august/crafty-juniper" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
               src="/images/vendors/crafty-juniper-2/crafty-juniper-logo-pic.jpg"

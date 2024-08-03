@@ -38,8 +38,8 @@ export default async function Page() {
             img4Alt={"wood crafts by Sand Dollar Style"}
             imgSrc5={"/images/vendors/sand-dollar-style/sand-dollar-style-5.jpeg"}
             img5Alt={"wood crafts by Sand Dollar Style"}
-            imgSrc6={"/images/vendors/sand-dollar-style/sand-dollar-style-6.jpeg"}
-            img6Alt={"wood crafts by Sand Dollar Style"}
+            imgSrc6={""}
+            img6Alt={""}
             imgSrc7={""}
             img7Alt={""}
             imgSrc8={""}

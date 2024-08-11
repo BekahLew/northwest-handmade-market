@@ -91,12 +91,28 @@ export default async function Page() {
               alt="logo for DW Crafts"
             />
           </Link>
+          <Link href="/our-vendors/august/koala-creations" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/koala-creations/koala-creations-logo-pic.png"
+              height={200}
+              width={200}
+              alt="logo for koala creations"
+            />
+          </Link>
           <Link href="/our-vendors/august/doily-by-pony" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
               src="/images/vendors/doily-by-pony/doily-by-pony-logo.jpg"
               height={200}
               width={200}
               alt="Blue and green gradient with logo for doily by pony"
+            />
+          </Link>
+          <Link href="/our-vendors/august/elevar-sundry-company" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/elevar-sundry-company/elevar-sundry-company-logo.png"
+              height={200}
+              width={200}
+              alt="Logo for elevar sundry company"
             />
           </Link>
           <Link href="/our-vendors/august/linked-with-joy" className={styles.vendor + " bg-[#bc5738]"}>
@@ -217,22 +233,6 @@ export default async function Page() {
               height={200}
               width={200}
               alt="logo for homebased mandala and lippan art"
-            />
-          </div>
-          <div className={styles.vendor + " bg-[#bc5738]"}>
-            <Image
-              src="/images/vendors/logos/koala-creations-logo.png"
-              height={200}
-              width={200}
-              alt="logo for koala creations"
-            />
-          </div>
-          <div className={styles.vendor + " bg-[#bc5738]"}>
-            <Image
-              src="/images/vendors/logos/elevar-sundry-company.png"
-              height={200}
-              width={200}
-              alt="logo for Elevar Sundry Company"
             />
           </div>
           <div className={styles.vendor + " bg-[#bc5738]"}>

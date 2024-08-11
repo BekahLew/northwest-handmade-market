@@ -68,6 +68,14 @@ export default async function Page() {
             alt="logo for full bloom and co"
           />
         </Link>
+        <Link href="/our-vendors/july/elevar-sundry-company" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/elevar-sundry-company/elevar-sundry-company-logo.png"
+              height={200}
+              width={200}
+              alt="Logo for elevar sundry company"
+            />
+          </Link>
         <Link href="/our-vendors/july/adrianas-bowtique" className={styles.vendor + " bg-[#bc5738]"}>
           <Image
             src="/images/vendors/adrianas-bowtique/adrianas-bowtique-logo.jpeg"
@@ -226,14 +234,6 @@ export default async function Page() {
               height={200}
               width={200}
               alt="logo for Halo Halo Crochet"
-            />
-          </div>
-          <div className={styles.vendor + " bg-[#bc5738]"}>
-            <Image
-              src="/images/vendors/logos/elevar-sundry-company.png"
-              height={200}
-              width={200}
-              alt="logo for Elevar Sundry Company"
             />
           </div>
         </div>

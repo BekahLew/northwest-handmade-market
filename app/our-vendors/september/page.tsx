@@ -76,7 +76,7 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/september/corina-kay-designs" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
-              src="/images/vendors/corina-kay-designs/corina-kay-designs-logo.png"
+              src="/images/vendors/corina-kay-designs/corina-kay-designs-pic-logo.png"
               height={200}
               width={200}
               alt="Logo for corina kay designs"
@@ -92,7 +92,7 @@ export default async function Page() {
           </Link>
           <Link href="/our-vendors/september/plantern-glass-and-novelty" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
-              src="/images/vendors/plantern-glass-and-novelty/plantern-glass-and-novelty-logo.png"
+              src="/images/vendors/plantern-glass-and-novelty/plantern-glass-and-novelty-logo-img.png"
               height={200}
               width={200}
               alt="Logo for plantern glass and novelty"

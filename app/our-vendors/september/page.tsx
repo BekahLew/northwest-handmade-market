@@ -98,14 +98,6 @@ export default async function Page() {
               alt="Logo for plantern glass and novelty"
             />
           </Link>
-          <Link href="/our-vendors/september/red-sunset-designs" className={styles.vendor + " bg-[#bc5738]"}>
-            <Image
-              src="/images/vendors/red-sunset-designs/red-sunset-designs-logo.jpg"
-              height={200}
-              width={200}
-              alt="Logo for red sunset designs"
-            />
-          </Link>
           <Link href="/our-vendors/september/shiki-clay" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
               src="/images/vendors/shiki-clay/shiki-clay-logo.png"
@@ -138,14 +130,6 @@ export default async function Page() {
               alt="Logo for the forest blues"
             />
           </Link>
-          <a href="https://cafegureum.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
-            <Image
-              src="/images/vendors/logos/cafe-gureum.png"
-              height={200}
-              width={200}
-              alt="logo for Cafe Gureum"
-            />
-          </a>
           <a href="https://www.etsy.com/shop/crabfruitco/?etsrc=sdt" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
             <Image
               src="/images/vendors/logos/crab-fruit-co-logo.webp"
@@ -162,14 +146,6 @@ export default async function Page() {
               alt="logo for happicraft"
             />
           </a>
-          <a href="https://www.instagram.com/thelotuscreations23/?hl=en" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
-            <Image
-              src="/images/vendors/logos/lotus-creations-logo.jpg"
-              height={200}
-              width={200}
-              alt="logo for lotus creations"
-            />
-          </a>
           <a href="https://www.etsy.com/shop/FabledEarthArt" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
             <Image
               src="/images/vendors/logos/fabled-earth-art-logo.png"
@@ -178,12 +154,12 @@ export default async function Page() {
               alt="logo for fabled earth art"
             />
           </a>
-          <a href="https://www.instagram.com/naked.novels" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
+          <a href="https://www.estherlillianandco.com/" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
             <Image
-              src="/images/vendors/logos/naked-novels-logo.jpg"
+              src="/images/vendors/logos/esther-lillian-and-co-logo.png"
               height={200}
               width={200}
-              alt="logo for naked novels"
+              alt="logo for Esther Lillian and Co"
             />
           </a>
           <a href="https://www.instagram.com/goa.col" className={styles.vendor + " bg-[#bc5738]"} target="_blank">
@@ -224,6 +200,22 @@ export default async function Page() {
               height={200}
               width={200}
               alt="logo for house of aromamama"
+            />
+          </div>
+          <div className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/logos/get-your-sparkle-on-logo.png"
+              height={200}
+              width={200}
+              alt="logo for get your sparkle on"
+            />
+          </div>
+          <div className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/logos/griffith-works-logo.png"
+              height={200}
+              width={200}
+              alt="logo for griffith works"
             />
           </div>
           <div className={styles.vendor + " bg-[#bc5738]"}>

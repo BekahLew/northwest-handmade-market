@@ -24,6 +24,30 @@ export default async function Page() {
           </div>
         </div>
 
+        <h2 className="font-Forum text-[2.5rem] md:text-6xl pt-6 text-center">2024 Show Info</h2>
+        <div className="max-w-[95%] md:max-w-[65%] mx-auto">
+          <div className="md:pt-6 pb-[2rem] grid grid-cols-1 md:grid-cols-3 text-center md:text-left">
+            <div>
+              <p>05/25/2024</p>
+              <p>06/15/2024</p>
+              <p>07/06/2024</p>
+              <p>08/03/2024</p>
+            </div>
+            <div>
+              <p>09/07/2024</p>
+              <p>10/05/2024</p>
+              <p>11/02/2024</p>
+              <p>*New* 11/23/2024</p>
+            </div>
+            <div className="md:pt-0 pt-6">
+              <div className="text-2xl">515 Dayton Street</div>
+              <div className="text-2xl">Edmonds, WA 98020</div>
+              <p>10am - 4pm</p>
+            </div>
+          </div>
+            <div className="md:pt-[4rem] pt-[2rem]"><Spacer /></div>
+        </div>
+
         <ParallaxImageRight />
         <div className="flex items-center flex-col">
           <h2 className="text-center md:text-left font-Forum text-[2.5rem] md:text-6xl md:pt-[4rem] pt-[0]">Why Buy Local?</h2>

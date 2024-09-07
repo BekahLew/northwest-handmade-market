@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Spacer } from "@/components/spacer"
 import { ZoomImage } from "@/components/image-zoom"
 
@@ -38,30 +39,42 @@ export default async function Page() {
         </div>
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
         <div className="grid grid-cols-1 md:grid-cols-3 mb-[2rem]">
-          <div className="flex flex-col justify-start items-center">
+          <div className="flex flex-col justify-start items-center my-[1rem] md:my-0 md:mx-[8px]">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Vendor Contract</h2>
             <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://drive.google.com/file/d/1Tto0xRNIQtW5IEb-PZyYgQpKklNO2Vd9/view?usp=drive_link" target="_blank">Download Contract</a>
           </div>
-          <div className="flex flex-col justify-start items-center my-[1rem] md:my-0">
-            <h2 className="text-[2rem] text-center">Booth Fees 2024</h2>
-            <p className="text-center">7&apos; x 5&apos; -- $50</p>
-            <p className="text-center">8&apos; x 8.5&apos; -- $70</p>
-          </div>
-          <div className="flex flex-col justify-start items-center">
+          <div className="flex flex-col justify-start items-center my-[1rem] md:my-0 md:mx-[8px]">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Purchase Space</h2>
             <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://northwest-handmade-market.square.site/" target="_blank">Purchase Booths</a>
           </div>
+          <div className="flex flex-col justify-start items-center my-[1rem] md:my-0 md:mx-[8px]">
+            <h2 className="text-[2rem] md:mb-[1rem] text-center">Current Vendors</h2>
+            <Link className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="/vendor-info/vendor-spots">View Vendor Lists</Link>
+          </div>
+        </div>
+        <div className="flex flex-col justify-start items-center my-[1rem]">
+          <h2 className="text-[2rem] text-center">Booth Fees 2024</h2>
+          <p className="text-center">7&apos; x 5&apos; -- $50</p>
+          <p className="text-center">8&apos; x 8.5&apos; -- $70</p>
         </div>
         <div className="flex justify-center gap-6">
           <div>
             <span>Numbered Map</span>
             <ZoomImage src="/images/upgraded-numbered.png" alt="graphical image of vendor spots and associated numbers" />
+            <span>Click to Zoom</span>
           </div>
           
           <div>
             <span>Booth Measurements</span>
             <ZoomImage src="/images/upgraded-measured.png" alt="graphical image of vendor spots and associated measurements" />
+            <span>Click to Zoom</span>
           </div>
+        </div>
+        <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
+        <h2 className="text-[2rem]">Waitlist Notifications</h2>
+        <p className="pb-[1rem]">Want to be the first to know about spot openings? We will send out an email if we have any cancellations or new shows to announce. Please be mindful of the full categories prior to signing up.</p>
+        <div className="flex flex-col items-center">
+          <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://form.jotform.com/242506185628056" target="_blank">Email Signup Form</a>
         </div>
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
         <h2 className="text-[2rem]">Join the Group!</h2>
@@ -73,7 +86,7 @@ export default async function Page() {
         <h2 className="text-[2rem]">FAQ</h2>
         <div className="text-[1.4rem] text-left">
           <div className="font-bold">Is WiFi available?</div>
-          <div className="pl-[1rem] pb-[1rem]">Yes, they have WiFi avaiable. Details will be provided to vendors the day of the show.</div>
+          <div className="pl-[1rem] pb-[1rem]">Yes, they have WiFi available. Details will be provided to vendors the day of the show.</div>
 
           <div className="font-bold">Do I need a business license?</div>
           <div className="pl-[1rem] pb-[1rem]">You can find out more here: <a className="text-[#bc5738]" href="https://www.edmondswa.gov/government/departments/administrative_services/business_licenses" target="_blank">https://www.edmondswa.gov/government/departments/administrative_services/business_licenses</a>. We don&apos;t check or police licenses but we expect you to have what you need to sell and collect sales tax.</div>
@@ -87,10 +100,13 @@ export default async function Page() {
             <p>09/07/2024</p>
             <p>10/05/2024</p>
             <p>11/02/2024</p>
+            <p>*NEW* 11/23/2024</p>
           </div>
 
-          <div className="font-bold">What can I expect in regards to parking?</div>
-          <div className="pl-[1rem] pb-[1rem]">There is a parking lot right next to the lodge with about 10-15 spots for $2/ hour. In the early morning I imagine there will be ample street parking available as well. If you&apos;re able we would ask that once you are unloaded please move your vehicle a block or two to give customers more parking near the lodge.</div>
+          <div className="font-bold">What can I expect in regard to parking?</div>
+          <div className="pl-[1rem] pb-[1rem]">There is a parking lot right next to the lodge with about 10-15 spots for $2/ hour. In the early morning I imagine there will be ample street parking available as well. <b></b>If you&apos;re physically able we would ask that <b>once you are unloaded please move your vehicle a block or two to give customers more parking near the market.</b> Below is a map outlining areas that should not have 3-hour parking.</div>
+          <ZoomImage src="/images/parking.png" alt="image of indoor craft fair with people shopping at booths" />
+          <span>Click to Zoom</span>
 
           <div className="font-bold">Is electricity available?</div>
           <div className="pl-[1rem] pb-[1rem]">There are four outlets toward the center of each wall. If you would like to use electricity you would need to purchase one of the larger booths toward the center of the wall. We want to be sure that no tripping hazards are created so please work carefully not to leave loose chords or impede on another vendor&apos;s area.</div>
@@ -111,19 +127,23 @@ export default async function Page() {
           </div>
 
           <div className="font-bold">What kind of foot traffic do you get?</div>
-          <div className="pl-[1rem] pb-[1rem]">This is our first year and with the first few shows we have seen an average of about 500 people at each show. Some have had more and some have less. As with any show, there are a ton of factors that affect this. We do as much as we can to keep that number high.</div>
+          <div className="pl-[1rem] pb-[1rem]">
+            This is our first year and so far we have seen an average of about 700 people at each show. Some have had more and some have less. As with any show, there are a ton of factors that affect this. We do as much as we can to keep that number high. Below is an image of what it looks like when we&apos;re busy.
+            <ZoomImage src="/images/busy-show.jpeg" alt="image of indoor craft fair with people shopping at booths" />
+            <span>Click to Zoom</span>
+          </div>
 
           <div className="font-bold">Are you monitoring how much of a particular item is sold at an event?</div>
-          <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 (3 if unique enough) of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it on the group page so please check there prior to signing up.</div>
+          <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 (3 if unique enough) of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it above the categories on our Square page (where you purchase space) so please check there prior to signing up.</div>
 
           <div className="font-bold">How long will it take to get approved?</div>
-          <div className="pl-[1rem] pb-[1rem]">Approvals will typically happen on the same day. Zack and I work Monday - Friday so on those days it will likely be in the afternoons.</div>
+          <div className="pl-[1rem] pb-[1rem]">Approvals will typically happen on the same day but sometimes take us a few days to get to. Zack and I work Monday - Friday so on those days it will likely be in the afternoons.</div>
 
           <div className="font-bold">What is considered handmade?</div>
           <div className="pl-[1rem] pb-[1rem]">Anything you make using your own two hands. It could be beaded jewelry or food or digital art. I love Scentsy, Color Street, and other vendors like that, but we are just going for a handmade vibe for now.</div>
 
           <div className="font-bold">How much time will we have for setup and take-down?</div>
-          <div className="pl-[1rem] pb-[1rem]">We have the space from 8am to 6pm. The show runs from 10am - 4pm. Zack and I need some time to tape off the spots in the morning so we ask that you start setting up at 8:30am. You&apos;re welcome to get a head start and haul your stuff in as long as it&apos;s out of the way of where we are putting tape.</div>
+          <div className="pl-[1rem] pb-[1rem]">We have the space from 8am to 6pm. The show runs from 10am - 4pm. Setup for vendors is 8am - 10am. <b>Please do not setup after the show has begun.</b> Takedown is 4pm - 6pm. <b>Please do not takedown prior to 4pm.</b></div>
 
           <div className="font-bold">Can I sign up for more than one show?</div>
           <div className="pl-[1rem] pb-[1rem]">Yes! You can sign up for one show or every show. You can also purchase multiple spots if you need more room.</div>

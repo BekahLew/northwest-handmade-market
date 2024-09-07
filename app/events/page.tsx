@@ -125,6 +125,21 @@ export default async function Page() {
               <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://drive.google.com/file/d/1QGScmz4_xTJv4zrJGaiXO516Us-vix48/view?usp=drive_link" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />ICS File</a>
             </div>
           </div>
+
+          <div className="bg-orange-100 dark:text-black rounded flex mb-[1.5rem] mx-auto md:max-w-[800px] lg:xl:max-w-[100%] xl:w-[100%]">
+            <div className="w-[6.5rem] flex flex-col justify-center bg-[#BC5738] text-center pt-[.5rem] px-[.5rem] sm:px-[1.5rem] pb-[1rem] rounded-l-sm">
+              <p className="text-[1.5rem] leading-8">Nov</p>
+              <p className="text-[3rem] leading-8">23</p>
+            </div>
+            <div className="flex justify-evenly my-[.5rem] flex-wrap w-[100%] mx-auto">
+              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://www.facebook.com/share/4Ps4ZdFqKthkvZ3V/" target="_blank"><Facebook size={48} strokeWidth={1.25} />RSVP</a>
+              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20241123T170000Z%2F20241123T230000Z&details=Shopping%20at%20the%20Northwest%20Handmade%20Market&location=515%20Dayton%20St%2C%20Edmonds%2C%20WA%2098020&text=Northwest%20Handmade%20Market" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />Google</a>
+              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://outlook.live.com/calendar/0/action/compose?allday=false&body=Shopping%20at%20the%20Northwest%20Handmade%20Market&enddt=2024-11-23T15%3A00%3A00&location=515%20Dayton%20St%2C%20Edmonds%2C%20WA%2098020&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-11-23T09%3A00%3A00&subject=Northwest%20Handmade%20Market" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />Outlook</a>
+              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://outlook.live.com/calendar/0/action/compose?allday=false&body=Shopping%20at%20the%20Northwest%20Handmade%20Market&enddt=2024-11-23T15%3A00%3A00&location=515%20Dayton%20St%2C%20Edmonds%2C%20WA%2098020&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-11-23T09%3A00%3A00&subject=Northwest%20Handmade%20Market" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />Office</a>
+              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://calendar.yahoo.com/?desc=Shopping%20at%20the%20Northwest%20Handmade%20Market&dur=false&et=20241123T230000Z&in_loc=515%20Dayton%20St%2C%20Edmonds%2C%20WA%2098020&st=20241123T170000Z&title=Northwest%20Handmade%20Market&v=60" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />Yahoo</a>
+              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://stripo.email/storage/ics/2024/9/ics_northwest-handmade-market-2024-09-06-182653.ics" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />ICS File</a>
+            </div>
+          </div>
         </div>
       </div>
     )

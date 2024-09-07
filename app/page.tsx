@@ -37,7 +37,7 @@ export default async function Page() {
               <p>09/07/2024</p>
               <p>10/05/2024</p>
               <p>11/02/2024</p>
-              <p>*New* 11/23/2024</p>
+              <p>11/23/2024 *New*</p>
             </div>
             <div className="md:pt-0 pt-6">
               <div className="text-2xl">515 Dayton Street</div>

@@ -10,7 +10,7 @@ export default async function Page() {
         <Link href="/our-vendors" className="mb-[2rem] max-w-[1000px] mx-auto">&larr; Back to Our Vendors</Link>
         <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">September Vendors</h1>
         <div className={styles.vendors}>
-        <Link href="/our-vendors/september/loving-home-crochet" className={styles.vendor + " bg-[#bc5738]"}>
+          <Link href="/our-vendors/september/loving-home-crochet" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
               src="/images/vendors/loving-home-crochet/loving-home-crochet-logo.png"
               height={200}
@@ -27,20 +27,20 @@ export default async function Page() {
             />
           </Link>
           <Link href="/our-vendors/september/loopsalooza" className={styles.vendor + " bg-[#bc5738]"}>
-          <Image
-            src="/images/vendors/loopsalooza/loopsalooza-logo-pic.png"
-            height={200}
-            width={200}
-            alt="Logo for loopsalooza"
-          />
-        </Link>
-        <Link href="/our-vendors/september/elevar-sundry-company" className={styles.vendor + " bg-[#bc5738]"}>
-          <Image
-            src="/images/vendors/elevar-sundry-company/elevar-sundry-company-logo.png"
-            height={200}
-            width={200}
-            alt="Logo for elevar sundry company"
-          />
+            <Image
+              src="/images/vendors/loopsalooza/loopsalooza-logo-pic.png"
+              height={200}
+              width={200}
+              alt="Logo for loopsalooza"
+            />
+          </Link>
+          <Link href="/our-vendors/september/elevar-sundry-company" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/elevar-sundry-company/elevar-sundry-company-logo.png"
+              height={200}
+              width={200}
+              alt="Logo for elevar sundry company"
+            />
           </Link>
           <Link href="/our-vendors/september/my-wandering-muse" className={styles.vendor + " bg-[#bc5738]"}>
             <Image

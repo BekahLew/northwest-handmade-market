@@ -48,7 +48,7 @@ export default async function Page() {
             img3Alt={"hand sewn goods in Edmonds by mieps stitches"}
             imgSrc4={"/images/vendors/mieps-stitches/mieps-stitches-4.jpg"}
             img4Alt={"hand sewn goods in Edmonds by mieps stitches"}
-            imgSrc5={"/images/vendors/mieps-stitches/mieps-stitches-5.jpg"}
+            imgSrc5={"/images/vendors/mieps-stitches/mieps-stitches-5.JPG"}
             img5Alt={"hand sewn goods in Edmonds by mieps stitches"}
             imgSrc6={"/images/vendors/mieps-stitches/mieps-stitches-6.jpg"}
             img6Alt={"hand sewn goods in Edmonds by mieps stitches"}

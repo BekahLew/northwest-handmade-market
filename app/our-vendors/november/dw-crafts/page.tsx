@@ -9,10 +9,10 @@ export default async function Page() {
   return (
     <div className="pr-[1rem] pl-[1rem] sm:pr-20 sm:pl-20 max-w-[2000px] mx-auto mt-[2rem]">
       <Link
-        href="/our-vendors/july"
+        href="/our-vendors/november"
         className="mb-[2rem] max-w-[1000px] mx-auto"
       >
-        &larr; Back to July
+        &larr; Back to November
       </Link>
       <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">DW Crafts</h1>
       <div className={styles.vendor}>

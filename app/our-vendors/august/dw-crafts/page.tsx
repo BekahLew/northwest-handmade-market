@@ -24,7 +24,7 @@ export default async function Page() {
             className={styles.bioImage}
             alt="bio pic for dw crafts"
           />
-          <div className={styles.bio}><p>We make wood crafts in the shop at our home in Woodinville, WA. We work with pine, fir, cedar, and a variety of hardwoods. Using only stains and dyes allows the grain and the beauty of the wood to shine through in our creations. Our home decor items work well for everyday use, and we create holiday/seasonal items as well.</p></div>
+          <div className={styles.bio}><p>We are DW Crafts and we make wood-crafted home decor in our shop at our home in Woodinville, WA. We work with cedar, fir, pine, various hardwoods and reclaimed wood when we can get it. We use stains and dyes instead of paints so the beauty of the grain of the wood shines through in our creations. </p></div>
           <div className="flex justify-center">
             <a
               className="p-[.9rem] hover:scale-125 transition"
@@ -46,23 +46,23 @@ export default async function Page() {
         </div>
         <div>
           <Slider
-            imgSrc1={"/images/vendors/dw-crafts/dw-crafts-1.jpg"}
+            imgSrc1={"/images/vendors/dw-crafts/dw-crafts-1-new.jpg"}
             img1Alt={"wood crafts by DW Crafts"}
-            imgSrc2={"/images/vendors/dw-crafts/dw-crafts-2.jpg"}
+            imgSrc2={"/images/vendors/dw-crafts/dw-crafts-2-new.jpg"}
             img2Alt={"wood crafts by DW Crafts"}
-            imgSrc3={"/images/vendors/dw-crafts/dw-crafts-3.jpg"}
+            imgSrc3={"/images/vendors/dw-crafts/dw-crafts-3-new.jpg"}
             img3Alt={"wood crafts by DW Crafts"}
-            imgSrc4={"/images/vendors/dw-crafts/dw-crafts-4.jpg"}
+            imgSrc4={"/images/vendors/dw-crafts/dw-crafts-4-new.jpg"}
             img4Alt={"wood crafts by DW Crafts"}
-            imgSrc5={"/images/vendors/dw-crafts/dw-crafts-5.jpg"}
+            imgSrc5={"/images/vendors/dw-crafts/dw-crafts-5-new.jpg"}
             img5Alt={"wood crafts by DW Crafts"}
-            imgSrc6={"/images/vendors/dw-crafts/dw-crafts-6.jpg"}
+            imgSrc6={"/images/vendors/dw-crafts/dw-crafts-6-new.jpg"}
             img6Alt={"wood crafts by DW Crafts"}
-            imgSrc7={""}
-            img7Alt={""}
-            imgSrc8={""}
-            img8Alt={""}
-            imgSrc9={""}
+            imgSrc7={"/images/vendors/dw-crafts/dw-crafts-7-new.jpg"}
+            img7Alt={"wood crafts by DW Crafts"}
+            imgSrc8={"/images/vendors/dw-crafts/dw-crafts-8-new.jpg"}
+            img8Alt={"wood crafts by DW Crafts"}
+            imgSrc9={"/images/vendors/dw-crafts/dw-crafts-9-new.jpg"}
             img9Alt={""}
             imgSrc10={""}
             img10Alt={""}

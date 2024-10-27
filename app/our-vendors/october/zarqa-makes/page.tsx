@@ -54,7 +54,7 @@ export default async function Page() {
             img7Alt={"handmade pottery"}
             imgSrc8={"/images/vendors/zarqa-makes/zarqa-makes-8.jpeg"}
             img8Alt={"handmade pottery"}
-            imgSrc9={"/images/vendors/zarqa-makes/zarqa-makes-9.jpeg"}
+            imgSrc9={"/images/vendors/zarqa-makes/zarqa-makes-9.JPEG"}
             img9Alt={"handmade pottery"}
             imgSrc10={"/images/vendors/zarqa-makes/zarqa-makes-10.jpeg"}
             img10Alt={"handmade pottery"}

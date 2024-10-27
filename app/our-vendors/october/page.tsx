@@ -51,13 +51,21 @@ export default async function Page() {
             />
           </Link>
           <Link href="/our-vendors/october/babaubles" className={styles.vendor + " bg-[#bc5738]"}>
-              <Image
-                src="/images/vendors/babaubles/babaubles-logo.png"
-                height={200}
-                width={200}
-                alt="logo for babaubles"
-              />
-            </Link>
+            <Image
+              src="/images/vendors/babaubles/babaubles-logo.png"
+              height={200}
+              width={200}
+              alt="logo for babaubles"
+            />
+          </Link>
+          <Link href="/our-vendors/october/doily-by-pony" className={styles.vendor + " bg-[#bc5738]"}>
+            <Image
+              src="/images/vendors/doily-by-pony/doily-by-pony-logo.jpg"
+              height={200}
+              width={200}
+              alt="Blue and green gradient with logo for doily by pony"
+            />
+          </Link>
           <Link href="/our-vendors/october/taylors-creative-nook" className={styles.vendor + " bg-[#bc5738]"}>
             <Image
               src="/images/vendors/taylors-creative-nook/taylors-creative-nook-logo.webp"

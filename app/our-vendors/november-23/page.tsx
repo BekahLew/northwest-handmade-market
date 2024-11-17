@@ -220,6 +220,14 @@ export default async function Page() {
                 alt="logo for wilder and jean"
               />
             </a>
+            <a href="https://www.instagram.com/yanayaart?igsh=enR4aHJvdHd6bXZ0&utm_source=qr" className={styles.vendor + " bg-[#fff]"} target="_blank">
+              <Image
+                src="/images/vendors/logos/yanaya-jewelry-logo.png"
+                height={200}
+                width={200}
+                alt="logo for yanaya jewelry"
+              />
+            </a>
             <a href="https://www.facebook.com/profile.php?id=61562329045892" className={styles.vendor + " bg-[#fff]"} target="_blank">
               <Image
                 src="/images/vendors/logos/glaciers-edge-stained-glass-logo.jpg"

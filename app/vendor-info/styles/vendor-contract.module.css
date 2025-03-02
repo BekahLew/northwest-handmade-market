@@ -1,0 +1,11 @@
+.contractIframe #es-underlay .terms-of-use {
+    position: absolute !important;
+    top: 0 !important;
+    height: 6rem !important;
+}
+
+#es-underlay .terms-of-use {
+    position: absolute !important;
+    top: 0 !important;
+    height: 6rem !important;
+}

@@ -16,7 +16,7 @@ export default async function Page() {
           </div>
           <div className="flex justify-between items-center border border-[#bc5738] mt-[-1px] mb-[-1px]">
             <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 2</p>
-            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Download the vendor contract. Review, initial and sign it and send it back to <a href="mailto:northwesthandmademarket@gmail.com">northwesthandmademarket@gmail.com</a>. It doesn&apos;t need to be scanned if you don&apos;t have a scanner. A photo works just fine.</span>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Visit the Vendor Contract page, fill out and sign the digital form. Make sure to confirm your email after you complete the form. Reach out to <a href="mailto:northwesthandmademarket@gmail.com">northwesthandmademarket@gmail.com</a> with any questions.</span>
           </div>
           <div className="flex justify-between items-center border border-[#bc5738] mb-[-1px]">
             <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 3</p>
@@ -41,7 +41,7 @@ export default async function Page() {
         <div className="grid grid-cols-1 md:grid-cols-3 mb-[2rem]">
           <div className="flex flex-col justify-start items-center my-[1rem] md:my-0 md:mx-[8px]">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Vendor Contract</h2>
-            <a className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="https://drive.google.com/file/d/1Tto0xRNIQtW5IEb-PZyYgQpKklNO2Vd9/view?usp=drive_link" target="_blank">Download Contract</a>
+            <Link className="border border-[#ff8f6d] text-[1.3rem] p-[.5rem]" href="/vendor-info/vendor-contract">Vendor Contract</Link>
           </div>
           <div className="flex flex-col justify-start items-center my-[1rem] md:my-0 md:mx-[8px]">
             <h2 className="text-[2rem] md:mb-[1rem] text-center">Purchase Space</h2>
@@ -53,9 +53,9 @@ export default async function Page() {
           </div>
         </div>
         <div className="flex flex-col justify-start items-center my-[1rem]">
-          <h2 className="text-[2rem] text-center">Booth Fees 2024</h2>
-          <p className="text-center">7&apos; x 5&apos; -- $50</p>
-          <p className="text-center">8&apos; x 8.5&apos; -- $70</p>
+          <h2 className="text-[2rem] text-center">Booth Fees 2025</h2>
+          <p className="text-center">7&apos; x 5&apos; -- $55</p>
+          <p className="text-center">8&apos; x 8.5&apos; -- $75</p>
         </div>
         <div className="flex justify-center gap-6">
           <div>
@@ -91,16 +91,15 @@ export default async function Page() {
           <div className="font-bold">Do I need a business license?</div>
           <div className="pl-[1rem] pb-[1rem]">You can find out more here: <a className="text-[#bc5738]" href="https://www.edmondswa.gov/government/departments/administrative_services/business_licenses" target="_blank">https://www.edmondswa.gov/government/departments/administrative_services/business_licenses</a>. We don&apos;t check or police licenses but we expect you to have what you need to sell and collect sales tax.</div>
 
-          <div className="font-bold">What are the show dates for 2024?</div>
+          <div className="font-bold">What are the show dates for 2025?</div>
           <div className="pl-[1rem] pb-[1rem]">
-            <p>05/25/2024</p>
-            <p>06/15/2024</p>
-            <p>07/06/2024</p>
-            <p>08/03/2024</p>
-            <p>09/07/2024</p>
-            <p>10/05/2024</p>
-            <p>11/02/2024</p>
-            <p>*NEW* 11/23/2024</p>
+            <p>05/31/2025</p>
+            <p>06/28/2025</p>
+            <p>07/26/2025</p>
+            <p>08/23/2025</p>
+            <p>09/27/2025</p>
+            <p>10/25/2025</p>
+            <p>11/08/2025</p>
           </div>
 
           <div className="font-bold">What can I expect in regard to parking?</div>
@@ -120,10 +119,11 @@ export default async function Page() {
               <li className="mb-[1rem] ml-[2rem] leading-tight">The Edmonds Masonic Lodge has offered to also feature our show on their website.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We are posting lawn signs around the area advertising the show.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We&apos;re making flyers and magnets to hand out and post at local establishments.</li>
-              <li className="mb-[1rem] ml-[2rem] leading-tight">We have a free raffle with each show. The most entries are given to people who come in and enter. The prize is a $50 gift card to Crow (a shop that sells goods from local artists that is just down the road from our show).</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We have a free raffle with each show. The most entries are given to people who come in and enter. The prize is a $50 gift card to Crow (a shop that sells goods from local artists that is just down the road from our show) and a gift basket with items from the vendors.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We have a banner hung at the Masonic Lodge advertising prior to the show, a bi-fold outside the day of the show, and a stationary poster on the Masonic Lodge during our season.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">Paid advertising with the Edmonds Driftwood Players.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We provide a webpage for each vendor, showcasing the beautiful works that will be at each show.</li>
-            </ul> 
+            </ul>
           </div>
 
           <div className="font-bold">What kind of foot traffic do you get?</div>

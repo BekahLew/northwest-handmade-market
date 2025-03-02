@@ -4,7 +4,7 @@ import { ParallaxImageBottomRight } from "@/components/ParallaxImageBottomRight"
 import { Spacer } from "@/components/spacer"
 import { CustomButton } from "@/components/Button"
 import { BannerImage } from "@/components/banner-image"
-import Contact from "@/components/contact"
+// import Contact from "@/components/contact"
 // import { seedSanityData } from "@/lib/seed"
 
 export default async function Page() {
@@ -24,20 +24,19 @@ export default async function Page() {
           </div>
         </div>
 
-        <h2 className="font-Forum text-[2.5rem] md:text-6xl pt-6 text-center">2024 Show Info</h2>
+        <h2 className="font-Forum text-[2.5rem] md:text-6xl pt-6 text-center">2025 Show Info</h2>
         <div className="max-w-[95%] md:max-w-[65%] mx-auto">
           <div className="md:pt-6 pb-[2rem] grid grid-cols-1 md:grid-cols-3 text-center md:text-left">
             <div>
-              <p>05/25/2024</p>
-              <p>06/15/2024</p>
-              <p>07/06/2024</p>
-              <p>08/03/2024</p>
+              <p>05/31/2025</p>
+              <p>06/28/2025</p>
+              <p>07/26/2025</p>
+              <p>08/23/2025</p>
             </div>
             <div>
-              <p>09/07/2024</p>
-              <p>10/05/2024</p>
-              <p>11/02/2024</p>
-              <p>11/23/2024 *New*</p>
+              <p>09/27/2025</p>
+              <p>10/25/2025</p>
+              <p>11/08/2025</p>
             </div>
             <div className="md:pt-0 pt-6">
               <div className="text-2xl">515 Dayton Street</div>

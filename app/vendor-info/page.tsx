@@ -16,11 +16,11 @@ export default async function Page() {
           </div>
           <div className="flex justify-between items-center border border-[#bc5738] mt-[-1px] mb-[-1px]">
             <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 2</p>
-            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Visit the Vendor Contract page, fill out and sign the digital form. Make sure to confirm your email after you complete the form. Reach out to <a href="mailto:northwesthandmademarket@gmail.com">northwesthandmademarket@gmail.com</a> with any questions.</span>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Visit the <Link href="/vendor-info/vendor-contract" target="_blank">Vendor Contract</Link> page, fill out and sign the digital form. Make sure to confirm your email after you complete the form. Reach out to <a href="mailto:northwesthandmademarket@gmail.com">northwesthandmademarket@gmail.com</a> with any questions.</span>
           </div>
           <div className="flex justify-between items-center border border-[#bc5738] mb-[-1px]">
             <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 3</p>
-            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">You&apos;ll receive the go-ahead from either Becky or Zack letting you know you&apos;ve been approved. We don&apos;t charge for applications and this is not a juried show. We just want to make sure you will be a good fit for the market we are trying to create.</span>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">You&apos;ll receive the go-ahead from either Becky or Zack letting you know you&apos;ve been approved. You may purchase space prior to approval just keep in mind we may need to refund your spot if you are not approved. We don&apos;t charge for applications and this is not a juried show. We just want to make sure you will be a good fit for the market we are trying to create.</span>
           </div>
           <div className="flex justify-between items-center border border-[#bc5738]">
             <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 4</p>

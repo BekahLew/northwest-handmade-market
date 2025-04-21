@@ -246,19 +246,6 @@ export default async function Page() {
               />
             </div>          
           </div>
-
-          <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
-          <div className="bg-orange-100 dark:text-black rounded flex mx-auto xl:w-[40%] mt-[1rem] mb-[1rem] max-w-[800px]">
-            <div className="w-[6.5rem] flex flex-col justify-center bg-[#BC5738] text-center pt-[.5rem] px-[.5rem] sm:px-[1.5rem] pb-[1rem] rounded-l-sm">
-              <p className="text-[1.5rem] leading-8">Nov</p>
-              <p className="text-[3rem] leading-8">23</p>
-            </div>
-            <div className="flex justify-evenly my-[.5rem] flex-wrap w-[100%] mx-auto">
-              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://www.facebook.com/share/8bBhmGgnFdvjRzcn/" target="_blank"><Facebook size={48} strokeWidth={1.25} />RSVP</a>
-              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://calendar.google.com/calendar/u/0/r/eventedit?dates=20241123T180000Z/20241124T000000Z&details=Shopping+at+Northwest+Handmade+Market&location=515+Dayton+Street+Edmonds,+WA+98020&text=Northwest+Handmade+Market" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />Google</a>
-              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://stripo.email/storage/ics/2024/10/ics_northwest-handmade-market-2024-10-24-033807.ics" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />ICS</a>
-            </div>
-          </div>
         </div>
       </div>
     )

@@ -18,7 +18,7 @@ export default async function Page() {
             </div>
             <div className="flex justify-evenly my-[.5rem] flex-wrap w-[100%] mx-auto">
               <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://www.facebook.com/share/14ud4bhBLz/" target="_blank"><Facebook size={48} strokeWidth={1.25} />RSVP</a>
-              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://drive.google.com/file/d/1GBbXGHFt23sfKo0VK45MNs9qbBX8QRly/view?usp=sharing" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />ICS File</a>
+              <a className="flex justify-center flex-col text-center flex-wrap content-center min-w-[5rem]" href="https://drive.google.com/file/d/165IN6haBwC_LQHttBNXA94fvrBf7-XUf/view?usp=sharing" target="_blank" rel="noopener"><CalendarHeart size={48} strokeWidth={1.25} />ICS File</a>
             </div>
           </div>
         </div>

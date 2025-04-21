@@ -9,7 +9,7 @@ export default async function Page() {
   return (
     <div className="pr-[1rem] pl-[1rem] sm:pr-20 sm:pl-20 max-w-[2000px] mx-auto mt-[2rem]">
       <Link
-        href="/our-vendors/july"
+        href="/our-vendors/2024/july"
         className="mb-[2rem] max-w-[1000px] mx-auto"
       >
         &larr; Back to July

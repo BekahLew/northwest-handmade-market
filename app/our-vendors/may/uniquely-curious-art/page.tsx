@@ -25,7 +25,7 @@ export default async function Page() {
             alt="logo for uniquely curious art"
           />
           <div className={styles.bio}>
-            <p>I create each piece using the grain in a piece of wood and a lot of creativity to help define what the painting will look like.  No two pieces will ever be the same.  While I have a preference for using reclaimed wood scraps (generally from a friend renovating their home, or a local lumber yard's scrap pile), I have created several pieces using wood circles because they make such great faces with fun expressions.  I'm a women-owned business located near UW in Seattle.</p>
+            <p>I create each piece using the grain in a piece of wood and a lot of creativity to help define what the painting will look like.  No two pieces will ever be the same.  While I have a preference for using reclaimed wood scraps (generally from a friend renovating their home, or a local lumber yard&apos;s scrap pile), I have created several pieces using wood circles because they make such great faces with fun expressions.  I&apos;m a women-owned business located near UW in Seattle.</p>
           </div>
           <div className="flex justify-center">
             <a

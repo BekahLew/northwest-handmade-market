@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Instagram, Pinterest, Facebook } from "lucide-react"
+import { Instagram, Facebook } from "lucide-react"
 import styles from "styles/VendorDetail.module.css"
 
 import Slider from "@/components/slider"

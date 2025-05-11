@@ -25,11 +25,11 @@ export default async function Page() {
             alt="logo for m and ms vintage crafts and decor"
           />
           <div className={styles.bio}>
-            <p>Hello, my name is Mandy. I am the creator of M&M's Vintage Crafts and Decor. I live in Mountlake Terrace with my family. My creative journey started when I was making Mother's Day gifts for friends and family.</p>
+            <p>Hello, my name is Mandy. I am the creator of M&M&apos;s Vintage Crafts and Decor. I live in Mountlake Terrace with my family. My creative journey started when I was making Mother&apos;s Day gifts for friends and family.</p>
             <p>A few little hens and chicks in a teacup is all it took, I was hooked.</p>
             <p>Since then I have been doing local craft shows for over 7 years.</p>
             <p>My company name, as with my style, is very eclectic. From mason jar lights to succulents, l just love to repurpose items in a new and unique way.</p>
-            <p>It's vintage inspiration with a boho vibe!</p>
+            <p>It&apos;s vintage inspiration with a boho vibe!</p>
           </div>
           <div className="flex justify-center">
             <a

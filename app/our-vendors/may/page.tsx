@@ -26,20 +26,20 @@ export default async function Page() {
                 alt="solea logo"
               />
             </Link>
+            <Link href="/our-vendors/may/shiki-clay" className={styles.vendor + " bg-[#fff]"}>
+              <Image
+                src="/images/vendors/shiki-clay/shiki-clay-logo.png"
+                height={200}
+                width={200}
+                alt="Logo for Shiki Clay"
+              />
+            </Link>
             <Link href="/our-vendors/may/from-my-art" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/from-my-art-2025/from-my-art-2025-logo.jpg"
                 height={200}
                 width={200}
                 alt="from my art logo"
-              />
-            </Link>
-            <Link href="/our-vendors/may/m-and-ms-vintage-decor" className={styles.vendor + " bg-[#fff]"}>
-              <Image
-                src="/images/vendors/m-ms-vintage-2025/m-ms-vintage-2025-logo.jpeg"
-                height={200}
-                width={200}
-                alt="m and ms vintage decor"
               />
             </Link>
             <Link href="/our-vendors/may/the-tipsy-toadstool" className={styles.vendor + " bg-[#fff]"}>
@@ -56,14 +56,6 @@ export default async function Page() {
                 height={200}
                 width={200}
                 alt="unique art from kathie ceramics"
-              />
-            </Link>
-            <Link href="/our-vendors/may/uniquely-curious-art" className={styles.vendor + " bg-[#fff]"}>
-              <Image
-                src="/images/vendors/uniquely-curious-art/uniquely-curious-art-logo.png"
-                height={200}
-                width={200}
-                alt="unique art from uniquely curious art"
               />
             </Link>
             <Link href="/our-vendors/may/koala-creations" className={styles.vendor + " bg-[#fff]"}>
@@ -98,6 +90,14 @@ export default async function Page() {
                 alt="unique wood art from dw-crafts"
               />
             </Link>
+            <Link href="/our-vendors/may/uniquely-curious-art" className={styles.vendor + " bg-[#fff]"}>
+              <Image
+                src="/images/vendors/uniquely-curious-art/uniquely-curious-art-logo.png"
+                height={200}
+                width={200}
+                alt="unique art from uniquely curious art"
+              />
+            </Link>
             <Link href="/our-vendors/may/aromatic-creations" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/aromatic-creations/aromatic-creations-logo.png"
@@ -114,12 +114,12 @@ export default async function Page() {
                 alt="Logo for Trinda Magic"
               />
             </Link>
-            <Link href="/our-vendors/may/shiki-clay" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/may/m-and-ms-vintage-decor" className={styles.vendor + " bg-[#fff]"}>
               <Image
-                src="/images/vendors/shiki-clay/shiki-clay-logo.png"
+                src="/images/vendors/m-ms-vintage-2025/m-ms-vintage-2025-logo.jpeg"
                 height={200}
                 width={200}
-                alt="Logo for Shiki Clay"
+                alt="m and ms vintage decor"
               />
             </Link>
             <Link href="/our-vendors/may/gemini-gems-ak" className={styles.vendor + " bg-[#fff]"}>

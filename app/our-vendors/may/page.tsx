@@ -130,20 +130,28 @@ export default async function Page() {
                 alt="Starry logo for gemini gems ak"
               />
             </Link>
+            <Link href="/our-vendors/may/bris-blooms" className={styles.vendor + " bg-[#fff]"}>
+              <Image
+                src="/images/vendors/bris-blooms/bris-blooms-logo.png"
+                height={200}
+                width={200}
+                alt="logo for bris blooms"
+              />
+            </Link>
+            <Link href="/our-vendors/may/yarrow-and-the-sea" className={styles.vendor + " bg-[#fff]"}>
+              <Image
+                src="/images/vendors/logos/yarrow-and-the-sea.webp"
+                height={200}
+                width={200}
+                alt="logo for yarrow and the sea"
+              />
+            </Link>
       
 
 
             <a href="https://www.tealandflow.com" className={styles.vendor + " bg-[#fff]"} target="_blank">
               <Image
                 src="/images/vendors/logos/teal-and-flow-logo.png"
-                height={200}
-                width={200}
-                alt="logo for teal and flow"
-              />
-            </a>
-            <a href="https://instagram.com/katiemasoncalligraphy" className={styles.vendor + " bg-[#fff]"} target="_blank">
-              <Image
-                src="/images/vendors/logos/katie-mason-calligraphy-logo.jpeg"
                 height={200}
                 width={200}
                 alt="logo for teal and flow"
@@ -195,14 +203,6 @@ export default async function Page() {
                   height={200}
                   width={200}
                   alt="candles from cielo y amor candle co"
-                />
-            </a>
-            <a href="https://www.etsy.com/shop/YARROWANDTHESEA" className={styles.vendor + " bg-[#b45537]"} target="_blank">
-              <Image
-                  src="/images/vendors/logos/yarrow-and-the-sea.webp"
-                  height={200}
-                  width={200}
-                  alt="art by yarrow and the sea"
                 />
             </a>
             <a href="https://www.instagram.com/mola_shoppe?igsh=MWhvYnpjMzFnM2ZvZw%3D%3D&utm_source=qr%3F" className={styles.vendor + " bg-[#b45537]"} target="_blank">

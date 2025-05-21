@@ -50,6 +50,14 @@ export default async function Page() {
                 alt="unique art from the tipsy toadstool"
               />
             </Link>
+            <Link href="/our-vendors/may/foxtilt" className={styles.vendor + " bg-[#fff]"}>
+              <Image
+                src="/images/vendors/foxtilt/foxtilt-logo.jpg"
+                height={200}
+                width={200}
+                alt="logo for foxtilt"
+              />
+            </Link>
             <Link href="/our-vendors/may/kathie-ceramics" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/kathie-ceramics/kathie-ceramics-logo-new.jpeg"
@@ -157,6 +165,14 @@ export default async function Page() {
                 alt="logo for teal and flow"
               />
             </a>
+            <a href="https://www.instagram.com/mola_shoppe?igsh=MWhvYnpjMzFnM2ZvZw%3D%3D&utm_source=qr%3F" className={styles.vendor + " bg-[#b45537]"} target="_blank">
+              <Image
+                  src="/images/vendors/logos/mola-shoppe-logo.jpeg"
+                  height={200}
+                  width={200}
+                  alt="pressed flower art by mola shoppe"
+                />
+            </a>
             <a href="https://rebloomdesigns.com" className={styles.vendor + " bg-[#fff]"} target="_blank">
               <Image
                 src="/images/vendors/logos/rebloom-designs-logo.png"
@@ -164,6 +180,14 @@ export default async function Page() {
                 width={200}
                 alt="logo for rebloom designs"
               />
+            </a>
+            <a href="https://www.bmacphersonstudio.com/" className={styles.vendor + " bg-[#b45537]"} target="_blank">
+              <Image
+                  src="/images/vendors/logos/b-macpherson-studio.webp"
+                  height={200}
+                  width={200}
+                  alt="logo for b macpherson studio"
+                />
             </a>
             <a href="https://wellrooted.net/" className={styles.vendor + " bg-[#fff]"} target="_blank">
               <Image
@@ -205,22 +229,8 @@ export default async function Page() {
                   alt="candles from cielo y amor candle co"
                 />
             </a>
-            <a href="https://www.instagram.com/mola_shoppe?igsh=MWhvYnpjMzFnM2ZvZw%3D%3D&utm_source=qr%3F" className={styles.vendor + " bg-[#b45537]"} target="_blank">
-              <Image
-                  src="/images/vendors/logos/mola-shoppe.png"
-                  height={200}
-                  width={200}
-                  alt="pressed flower art by mola shoppe"
-                />
-            </a>
-            <a href="https://www.bmacphersonstudio.com/" className={styles.vendor + " bg-[#b45537]"} target="_blank">
-              <Image
-                  src="/images/vendors/logos/b-macpherson-studio.webp"
-                  height={200}
-                  width={200}
-                  alt="logo for b macpherson studio"
-                />
-            </a>
+
+
 
             <div className={styles.vendor + " bg-[#b45537]"}>
               <Image

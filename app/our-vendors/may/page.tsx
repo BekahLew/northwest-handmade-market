@@ -50,12 +50,12 @@ export default async function Page() {
                 alt="unique art from the tipsy toadstool"
               />
             </Link>
-            <Link href="/our-vendors/may/foxtilt" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/may/foxhilt" className={styles.vendor + " bg-[#fff]"}>
               <Image
-                src="/images/vendors/foxtilt/foxtilt-logo.jpg"
+                src="/images/vendors/foxhilt/foxhilt-logo.jpg"
                 height={200}
                 width={200}
-                alt="logo for foxtilt"
+                alt="logo for foxhilt"
               />
             </Link>
             <Link href="/our-vendors/may/kathie-ceramics" className={styles.vendor + " bg-[#fff]"}>

@@ -36,7 +36,7 @@ export default async function Page() {
             </Link>
             <Link href="/our-vendors/may/from-my-art" className={styles.vendor + " bg-[#fff]"}>
               <Image
-                src="/images/vendors/from-my-art-2025/from-my-art-2025-logo.jpg"
+                src="/images/vendors/from-my-art-2025/from-my-art-logo-new.png"
                 height={200}
                 width={200}
                 alt="from my art logo"

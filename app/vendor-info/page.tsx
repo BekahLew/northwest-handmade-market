@@ -120,7 +120,7 @@ export default async function Page() {
               <li className="mb-[1rem] ml-[2rem] leading-tight">We are posting lawn signs around the area advertising the show.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We&apos;re making flyers and magnets to hand out and post at local establishments.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We have a free raffle with each show. The most entries are given to people who come in and enter. The prize is a $50 gift card to Crow (a shop that sells goods from local artists that is just down the road from our show) and a gift basket with items from the vendors.</li>
-              <li className="mb-[1rem] ml-[2rem] leading-tight">We have a banner hung at the Masonic Lodge advertising prior to the show, a bi-fold outside the day of the show, and a stationary poster on the Masonic Lodge during our season.</li>
+              <li className="mb-[1rem] ml-[2rem] leading-tight">We have a banners hung and a bi-fold outside the day of the show, and a stationary poster on the Masonic Lodge during our season. We also have a small sign at the end of the street (this is all we can get away with due to city regulations).</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">Paid advertising with the Edmonds Driftwood Players.</li>
               <li className="mb-[1rem] ml-[2rem] leading-tight">We provide a webpage for each vendor, showcasing the beautiful works that will be at each show.</li>
             </ul>

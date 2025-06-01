@@ -26,6 +26,10 @@ export default async function Page() {
             <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 4</p>
             <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">After purchasing a space we will ask you to send photos that will help represent your business on our website. We will also send out an email with show information. This happens about 3 to 4 weeks before the show.</span>
           </div>
+          <div className="flex justify-between items-center border border-[#bc5738]">
+            <p className="p-[.5rem] min-w-[10%] text-center"><span className="hidden sm:block">Step</span> 5</p>
+            <span className="min-w-[90%] text-[1.1rem] sm:text-[1.5rem] p-[.5rem] border-l border-[#bc5738]">Watch this video about the floors: <a href="https://drive.google.com/file/d/1dO8pzuBNYkZzMtVU8aXKDK-9fnqjCTfk/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1dO8pzuBNYkZzMtVU8aXKDK-9fnqjCTfk/view?usp=sharing</a></span>
+          </div>
         </div>
         <div className="md:pt-[4rem] pt-[2rem] md:pb-[4rem] pb-[2rem]"><Spacer /></div>
         <div>
@@ -128,7 +132,7 @@ export default async function Page() {
 
           <div className="font-bold">What kind of foot traffic do you get?</div>
           <div className="pl-[1rem] pb-[1rem]">
-            This is our first year and so far we have seen an average of about 700 people at each show. Some have had more and some have less. As with any show, there are a ton of factors that affect this. We do as much as we can to keep that number high. Below is an image of what it looks like when we&apos;re busy.
+            This is our first year and so far we have seen an average of about 500 people at each show. Some have had more and some have less and some much more (close to 900). As with any show, there are a ton of factors that affect this. We do as much as we can to keep that number high. Below is an image of what it looks like when we&apos;re busy.
             <ZoomImage src="/images/busy-show.jpeg" alt="image of indoor craft fair with people shopping at booths" />
             <span>Click to Zoom</span>
           </div>

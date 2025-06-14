@@ -10,7 +10,7 @@ export default async function Page() {
         <Link href="/our-vendors/2024" className="mb-[2rem] max-w-[1000px] mx-auto">&larr; Back to Our Vendors</Link>
         <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">October Vendors</h1>
         <div className={styles.vendors}>
-        <Link href="/our-vendors/2024/october/mieps-stitches" className={styles.vendor + " bg-[#fff]"}>
+        <Link href="/our-vendors/mieps-stitches" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/mieps-stitches/mieps-stitches-logo.png"
               height={200}
@@ -18,7 +18,7 @@ export default async function Page() {
               alt="logo for mieps stitches"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/sundrop-workshop" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/sundrop-workshop" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/sundrop-workshop/sundrop-workshop-logo.jpg"
               height={200}
@@ -26,7 +26,7 @@ export default async function Page() {
               alt="logo for sundrop workshop"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/naterade-creates" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/naterade-creates" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/naterade-creates/naterade-creates-logo.jpeg"
               height={200}
@@ -34,7 +34,7 @@ export default async function Page() {
               alt="logo for naterade creates"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/corina-kay-designs" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/corina-kay-designs" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/corina-kay-designs/corina-kay-designs-pic-logo.png"
               height={200}
@@ -42,7 +42,7 @@ export default async function Page() {
               alt="logo for corina kay designs"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/zarqa-makes" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/zarqa-makes" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/zarqa-makes/zarqa-makes-logo.png"
               height={200}
@@ -50,7 +50,7 @@ export default async function Page() {
               alt="logo for zarqa makes"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/babaubles" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/babaubles" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/babaubles/babaubles-logo.png"
               height={200}
@@ -58,7 +58,7 @@ export default async function Page() {
               alt="logo for babaubles"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/doily-by-pony" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/doily-by-pony" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/doily-by-pony/doily-by-pony-logo.jpg"
               height={200}
@@ -66,7 +66,7 @@ export default async function Page() {
               alt="Blue and green gradient with logo for doily by pony"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/taylors-creative-nook" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/taylors-creative-nook" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/taylors-creative-nook/taylors-creative-nook-logo.webp"
               height={200}
@@ -74,7 +74,7 @@ export default async function Page() {
               alt="Logo for Taylor&apos;s Creative Nook"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/leslie-sarah-designs" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/leslie-sarah-designs" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/leslie-sarah-designs/leslie-sarah-designs-pic-logo.jpg"
               height={200}
@@ -82,7 +82,7 @@ export default async function Page() {
               alt="logo for leslie sarah designs"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/aromatic-creations" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/aromatic-creations" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/aromatic-creations/aromatic-creations-logo.png"
               height={200}
@@ -90,15 +90,15 @@ export default async function Page() {
               alt="Logo for Aromatic Creations"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/from-my-art" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/from-my-art" className={styles.vendor + " bg-[#fff]"}>
             <Image
-              src="/images/vendors/from-my-art/from-my-art-logo-new.png"
+              src="/images/vendors/from-my-art-2025/from-my-art-logo-new.png"
               height={200}
               width={200}
               alt="logo for from my art"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/loving-home-crochet" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/loving-home-crochet" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/loving-home-crochet/loving-home-crochet-logo.png"
               height={200}
@@ -106,7 +106,7 @@ export default async function Page() {
               alt="Logo for loving home crochet"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/elevar-sundry-company" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/elevar-sundry-company" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/elevar-sundry-company/elevar-sundry-company-logo.png"
               height={200}
@@ -114,7 +114,7 @@ export default async function Page() {
               alt="Logo for elevar sundry company"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/marisi-ceramics" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/marisi-ceramics" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/marisi-ceramics/marisi-ceramics-logo.png"
               height={200}
@@ -122,7 +122,7 @@ export default async function Page() {
               alt="Logo for Marisi Ceramics"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/koala-creations" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/koala-creations" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/koala-creations/koala-creations-logo-pic.png"
               height={200}
@@ -130,7 +130,7 @@ export default async function Page() {
               alt="logo for koala creations"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/red-sunset-designs" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/red-sunset-designs" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/red-sunset-designs/red-sunset-designs-logo.jpg"
               height={200}
@@ -138,7 +138,7 @@ export default async function Page() {
               alt="Logo for Red Sunset Designs"
             />
           </Link>
-          <Link href="/our-vendors/2024/october/pilchuck-soap-company" className={styles.vendor + " bg-[#fff]"}>
+          <Link href="/our-vendors/pilchuck-soap-company" className={styles.vendor + " bg-[#fff]"}>
             <Image
               src="/images/vendors/pilchuck-soap-company/pilchuck-soap-company-logo.png"
               height={200}
@@ -154,14 +154,14 @@ export default async function Page() {
               alt="logo for rainemaker creatives"
             />
           </a>
-          <a href="https://wilderandjean.etsy.com" className={styles.vendor + " bg-[#fff]"} target="_blank">
-            <Image
-              src="/images/vendors/wilder-and-jean/wilder-and-jean.png"
-              height={200}
-              width={200}
-              alt="logo for wilder and jean"
-            />
-          </a>
+          <Link href="/our-vendors/wilder-and-jean-co" className={styles.vendor + " bg-[#fff]"}>
+              <Image
+                src="/images/vendors/wilder-and-jean-new-2025/wilder-and-jean-new-2025-logo.png"
+                height={200}
+                width={200}
+                alt="logo for wilder and jean"
+              />
+            </Link>
           <a href="https://cmjewelry.shop/" className={styles.vendor + " bg-[#fff]"} target="_blank">
             <Image
               src="/images/vendors/logos/cm-jewelry-logo.png"

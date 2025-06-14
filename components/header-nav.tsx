@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
-// import { usePathname, useRouter } from "next/navigation"
-import { Edit, Facebook, Image, Instagram, ShoppingBag } from "lucide-react"
+import { Facebook, Instagram } from "lucide-react"
 import styled from "styled-components"
 import styles from "styles/Header.module.css"
-import { useShoppingCart } from "use-shopping-cart"
 
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
@@ -76,24 +74,22 @@ const HeaderIconsDesktop = styled.div`
 export function HeaderNav() {
   // const pathname = usePathname()
   // const router = useRouter()
-  const { cartCount } = useShoppingCart()
 
   // if (pathname.startsWith("/studio")) return null
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [width, setWidth] = useState<number>(window.innerWidth)
+  const [isMobile, setIsMobile] = useState(false)
 
-  function handleWindowSizeChange() {
-    setWidth(window.innerWidth)
-  }
   useEffect(() => {
-    window.addEventListener("resize", handleWindowSizeChange)
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange)
+    function updateSize() {
+      setIsMobile(window.innerWidth <= 640)
     }
+  
+    updateSize()
+    window.addEventListener("resize", updateSize)
+    return () => window.removeEventListener("resize", updateSize)
   }, [])
-
-  const isMobile = width <= 640
+  
 
   return (
     //   <HeaderMenu className="flex">

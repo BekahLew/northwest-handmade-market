@@ -4,8 +4,6 @@ import { ParallaxImageBottomRight } from "@/components/ParallaxImageBottomRight"
 import { Spacer } from "@/components/spacer"
 import { CustomButton } from "@/components/Button"
 import { BannerImage } from "@/components/banner-image"
-// import Contact from "@/components/contact"
-// import { seedSanityData } from "@/lib/seed"
 
 export default async function Page() {
   // const homepages = await getPages();
@@ -62,7 +60,6 @@ export default async function Page() {
         <ParallaxImageLeft />
         <ParallaxImageBottomRight />
       </div>
-      {/* <Contact /> */}
     </>
   )
 }

@@ -92,6 +92,9 @@ export default async function Page() {
           <div className="font-bold">Is WiFi available?</div>
           <div className="pl-[1rem] pb-[1rem]">Yes, they have WiFi available. Details will be provided to vendors the day of the show.</div>
 
+          <div className="font-bold">What is the refund policy?</div>
+          <div className="pl-[1rem] pb-[1rem]">With the purchase of a booth space, there is a $10 non-refundable deposit. This covers our time and Square fees. If you cancel within two weeks of the market, no refund is given.</div>
+
           <div className="font-bold">Do I need a business license?</div>
           <div className="pl-[1rem] pb-[1rem]">You can find out more here: <a className="text-[#bc5738]" href="https://www.edmondswa.gov/cms/one.aspx?pageId=17241646" target="_blank">https://www.edmondswa.gov/cms/one.aspx?pageId=17241646</a>. We don&apos;t check or police licenses but we expect you to have what you need to sell and collect sales tax.</div>
 
@@ -141,7 +144,7 @@ export default async function Page() {
           <div className="pl-[1rem] pb-[1rem]">We&apos;re allowing 2 (3 if unique enough) of each category and a max of 4 jewelry vendors with an attempt to make sure they are of varying styles. When we are full for a particular item I will post it above the categories on our Square page (where you purchase space) so please check there prior to signing up.</div>
 
           <div className="font-bold">How long will it take to get approved?</div>
-          <div className="pl-[1rem] pb-[1rem]">Approvals will typically happen on the same day but sometimes take us a few days to get to. Zack and I work Monday - Friday so on those days it will likely be in the afternoons.</div>
+          <div className="pl-[1rem] pb-[1rem]">Approvals will typically take 1-2 weeks. Zack and I work fulltime and I own a online sticker shop so timing fluctuates.</div>
 
           <div className="font-bold">What is considered handmade?</div>
           <div className="pl-[1rem] pb-[1rem]">Anything you make using your own two hands. It could be beaded jewelry or food or digital art. I love Scentsy, Color Street, and other vendors like that, but we are just going for a handmade vibe for now.</div>

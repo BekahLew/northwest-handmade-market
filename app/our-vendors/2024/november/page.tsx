@@ -11,7 +11,7 @@ export default async function Page() {
         <h1 className="font-Forum text-[2.5rem] md:text-6xl pb-[2rem] text-center">November 2nd Vendors</h1>
         <div className="text-center">
           <div className={styles.vendors}>
-            <Link href="/our-vendors/2024/november/dw-crafts" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/dw-crafts" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/dw-crafts/dw-crafts-logo.png"
                 height={200}
@@ -19,7 +19,7 @@ export default async function Page() {
                 alt="logo for DW Crafts"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/way-cool-stuff" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/way-cool-stuff" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/way-cool-stuff/way-cool-stuff-logo-pic.jpeg"
                 height={200}
@@ -27,7 +27,7 @@ export default async function Page() {
                 alt="Logo for way cool stuff"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/the-forest-blues" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/the-forest-blues" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/the-forest-blues/the-forest-blues-logo.jpg"
                 height={200}
@@ -35,15 +35,15 @@ export default async function Page() {
                 alt="logo for The Forest Blues"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/from-my-art" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/from-my-art" className={styles.vendor + " bg-[#fff]"}>
               <Image
-                src="/images/vendors/from-my-art/from-my-art-logo-new.png"
+                src="/images/vendors/from-my-art-2025/from-my-art-logo-new.png"
                 height={200}
                 width={200}
                 alt="logo for from my art"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/gemini-gems-ak" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/gemini-gems-ak" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/gemini-gems-ak/gemini-gems-ak-logo.png"
                 height={200}
@@ -51,7 +51,7 @@ export default async function Page() {
                 alt="Starry logo for gemini gems ak"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/hae-candles" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/hae-candles" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/hae-candles/hae-candles-logo.jpeg"
                 height={200}
@@ -59,7 +59,7 @@ export default async function Page() {
                 alt="logo for hae candles"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/little-okie-studio" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/little-okie-studio" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/little-okie-studio/little-okie-studio-logo.jpeg"
                 height={200}
@@ -67,7 +67,7 @@ export default async function Page() {
                 alt="logo for little okie studio"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/elevar-sundry-company" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/elevar-sundry-company" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/elevar-sundry-company/elevar-sundry-company-logo.png"
                 height={200}
@@ -75,7 +75,7 @@ export default async function Page() {
                 alt="Logo for elevar sundry company"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/sunny-sasha-pottery" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/sunny-sasha-pottery" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/sunny-sasha-pottery/sunny-sasha-pottery-logo.jpeg"
                 height={200}
@@ -83,7 +83,7 @@ export default async function Page() {
                 alt="logo for Sunny Sasha Pottery"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/mieps-stitches" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/mieps-stitches" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/mieps-stitches/mieps-stitches-logo.png"
                 height={200}
@@ -91,7 +91,7 @@ export default async function Page() {
                 alt="logo for mieps stitches"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/casi-g-designs" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/casi-g-designs" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/casi-g-designs/casi-g-designs-logo.jpg"
                 height={200}
@@ -99,7 +99,7 @@ export default async function Page() {
                 alt="logo for casi g designs"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/koala-creations" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/koala-creations" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/koala-creations/koala-creations-logo-pic.png"
                 height={200}
@@ -107,7 +107,7 @@ export default async function Page() {
                 alt="logo for koala creations"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/jm-stained-glass-design" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/jm-stained-glass-design" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/jm-stained-glass-design/jm-stained-glass-design-logo.png"
                 height={200}
@@ -115,15 +115,15 @@ export default async function Page() {
                 alt="Blue to yellow gradient for JM stained glass design logo"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/sweet-dlily-shop" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/sweet-dlily-shop" className={styles.vendor + " bg-[#fff]"}>
               <Image
-                src="/images/vendors/sweet-dlily-shop/sweet-dlily-shop-logo.png"
+                src="/images/vendors/sweet-d-lily-shop-new-2025/sweet-d-lily-shop-new-2025-logo.png"
                 height={200}
                 width={200}
                 alt="sweet d lily shop logo"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/brownie-n-blondie" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/brownie-n-blondie" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/brownie-n-blondie/brownie-n-blondie-logo.PNG"
                 height={200}
@@ -131,7 +131,7 @@ export default async function Page() {
                 alt="logo for brownie n blondie"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/linked-with-joy" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/linked-with-joy" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/linked-with-joy/linked-with-joy-logo.png"
                 height={200}
@@ -139,7 +139,7 @@ export default async function Page() {
                 alt="Logo for Linked with Joy"
               />
             </Link>
-            <Link href="/our-vendors/2024/november/trinda-magic" className={styles.vendor + " bg-[#fff]"}>
+            <Link href="/our-vendors/trinda-magic" className={styles.vendor + " bg-[#fff]"}>
               <Image
                 src="/images/vendors/trinda-magic/trinda-magic-logo.png"
                 height={200}
@@ -212,14 +212,14 @@ export default async function Page() {
                 alt="logo for mingled whimsy"
               />
             </a>
-            <a href="https://wilderandjean.etsy.com" className={styles.vendor + " bg-[#fff]"} target="_blank">
+            <Link href="/our-vendors/wilder-and-jean-co" className={styles.vendor + " bg-[#fff]"}>
               <Image
-                src="/images/vendors/wilder-and-jean/wilder-and-jean.png"
+                src="/images/vendors/wilder-and-jean-new-2025/wilder-and-jean-new-2025-logo.png"
                 height={200}
                 width={200}
                 alt="logo for wilder and jean"
               />
-            </a>
+            </Link>
             <a href="https://www.facebook.com/Happicraft.shop" className={styles.vendor + " bg-[#fff]"} target="_blank">
               <Image
                 src="/images/vendors/logos/happicraft-logo.jpg"

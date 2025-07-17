@@ -22,19 +22,20 @@ export default async function Page() {
           </div>
         </div>
 
-        <h2 className="font-Forum text-[2.5rem] md:text-6xl pt-6 text-center">2025 Show Info</h2>
+        <h2 className="font-Forum text-[2.5rem] md:text-6xl pt-6 text-center">2025 Markets Are Cancelled</h2>
+        <p className="font-Forum text-center max-w-[600px] mx-auto mt-3">Due to some unforseen issues we needed to cancel the remaining 2025 markets. We hope to restart the markets in the future but at this point we are not sure when. Thank you for all of you support!</p>
         <div className="max-w-[95%] md:max-w-[65%] mx-auto">
           <div className="md:pt-6 pb-[2rem] grid grid-cols-1 md:grid-cols-3 text-center md:text-left">
             <div>
               <p>05/31/2025</p>
               <p>06/28/2025</p>
-              <p>07/26/2025</p>
-              <p>08/23/2025</p>
+              <p><s>07/26/2025</s></p>
+              <p><s>08/23/2025</s></p>
             </div>
             <div>
-              <p>09/27/2025</p>
-              <p>10/25/2025</p>
-              <p>11/08/2025</p>
+              <p><s>09/27/2025</s></p>
+              <p><s>10/25/2025</s></p>
+              <p><s>11/08/2025</s></p>
             </div>
             <div className="md:pt-0 pt-6">
               <div className="text-2xl">515 Dayton Street</div>
